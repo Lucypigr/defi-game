@@ -45,3 +45,17 @@ jobs:
           git commit -m "chore: 更新空投資料 $(date -u '+%Y-%m-%d %H:%M') UTC"
           for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push && exit 0; sleep 5; done
           exit 1
+
+      - name: 發佈網頁到 GitHub Pages（gh-pages 分支）
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd docs
+          rm -rf .git
+          git init -q -b gh-pages
+          git config user.name "airdrop-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "deploy: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+          rm -rf .git

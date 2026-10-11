@@ -51,8 +51,9 @@
 
 ## 🚀 部署到 GitHub（自動更新，不需要自己的電腦）
 
-1. **開啟 GitHub Pages**：Repo → Settings → Pages → Source 選「Deploy from a branch」→ Branch 選 `main`、資料夾選 `/docs` → Save。
-   幾分鐘後網址會是 `https://<你的帳號>.github.io/<repo 名稱>/`。
+1. **GitHub Pages**：每次自動更新後，網頁會發佈到 `gh-pages` 分支。若網站沒有自動上線，到 Repo → Settings → Pages →
+   Source 選「Deploy from a branch」→ Branch 選 `gh-pages`、資料夾 `/ (root)` → Save。
+   網址：`https://<你的帳號>.github.io/<repo 名稱>/`（本 repo：<https://lucypigr.github.io/defi-game/>）。
 2. **（建議）加入 Claude API key**：Settings → Secrets and variables → Actions → New repository secret
    - `ANTHROPIC_API_KEY`：到 <https://console.anthropic.com> 申請
 3. **（選用）其他設定**（同一個頁面）：
