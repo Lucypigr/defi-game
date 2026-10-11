@@ -1,0 +1,94 @@
+# 空投 / P2E 自動搜尋器 — 資料來源設定
+# 想新增或移除來源，直接修改這個檔案即可。
+
+# 輸出語言：zh-TW（繁體中文）或 zh-CN（簡體中文）
+language: zh-TW
+
+# 多少天沒在任何來源再看到某個項目，就標記為「可能已結束」
+stale_after_days: 21
+
+# AI 分析（需要 ANTHROPIC_API_KEY；沒有時會改用關鍵字規則 + 免費翻譯）
+ai:
+  model: claude-opus-5-5
+  effort: low              # 抽取/翻譯任務用 low 就夠，想要更細緻的分析可改 medium / high
+  web_search: true         # 讓 AI 上網查證投資方、代幣、官方連結（更準確但較花費）
+  max_web_searches: 2      # 每個項目最多搜尋次數
+  max_projects_per_run: 15 # 每次執行最多分析幾個「新的或有變動」的項目（控制費用）
+  max_posts_per_run: 60    # 每次最多用 AI 從幾則社群貼文中抽取項目
+
+# ── 結構化空投網站 ───────────────────────────────────────────
+airdrops_io:
+  enabled: true
+  pages:                   # latest = 最新、hot = 熱門、speculative = 潛在（尚未確認）
+    - latest
+    - hot
+    - speculative
+  fetch_details: true      # 進入詳細頁抓取步驟說明（較慢但資訊完整）
+  max_details: 40
+
+dropstab:
+  enabled: true            # 附帶投資機構（VC）與募資金額，判斷「是否有大公司支撐」很有用
+
+defillama:
+  enabled: true            # 尚未發幣、但鎖倉量 (TVL) 很高的 DeFi 協議 → 潛在空投
+  min_tvl_usd: 30000000
+  listed_within_days: 900
+  max_items: 40
+
+coingecko_p2e:
+  enabled: true            # 已有代幣的熱門 P2E / GameFi 遊戲（市值、價格）
+  categories: [play-to-earn, gaming]
+  max_items: 40
+
+# ── Telegram 公開頻道（透過 t.me/s/ 網頁預覽抓取，免帳號）────
+telegram:
+  enabled: true
+  channels:
+    - airdrops_io
+    - AirdropDetective
+    - airdropinspector
+    - airdrop
+    - airdropfind
+    - ICODrops
+    - binance_announcements
+  max_age_days: 7
+
+# ── X (Twitter) ────────────────────────────────────────────
+# 方法 1：設定環境變數 X_BEARER_TOKEN（X API v2）→ 使用下方 queries 搜尋
+# 方法 2：自架 RSSHub / 其他 RSS 橋接，把網址填到 rss_feeds
+x:
+  enabled: true
+  queries:
+    - '(airdrop OR "points program" OR testnet) (confirmed OR live OR snapshot) -is:retweet -is:reply lang:en'
+    - '("play to earn" OR p2e OR gamefi) (airdrop OR launch OR beta) -is:retweet -is:reply lang:en'
+  max_results: 50
+  accounts_to_watch: [airdropsio, DropsTab, cryptorank_io, DefiLlama, PlayToEarnNet]
+  rss_feeds: []
+  # 例：- https://你的-rsshub/twitter/user/airdropsio
+
+# ── Reddit ─────────────────────────────────────────────────
+reddit:
+  enabled: true
+  subreddits: [airdrops, CryptoAirdrop, playtoearn]
+  max_age_days: 7
+
+# ── 大型新聞網站 RSS（只保留與空投 / P2E 有關的文章）──────────
+news:
+  enabled: true
+  max_age_days: 10
+  feeds:
+    - {name: CoinTelegraph, url: "https://cointelegraph.com/rss"}
+    - {name: CoinTelegraph GameFi, url: "https://cointelegraph.com/rss/tag/gamefi"}
+    - {name: The Block, url: "https://www.theblock.co/rss.xml"}
+    - {name: Decrypt, url: "https://decrypt.co/feed"}
+    - {name: Blockworks, url: "https://blockworks.co/feed"}
+    - {name: CoinDesk, url: "https://www.coindesk.com/arc/outboundfeeds/rss/"}
+    - {name: Google News 空投, url: "https://news.google.com/rss/search?q=crypto+airdrop+when:7d&hl=en-US&gl=US&ceid=US:en"}
+    - {name: Google News P2E, url: "https://news.google.com/rss/search?q=%22play-to-earn%22+OR+gamefi+game+when:7d&hl=en-US&gl=US&ceid=US:en"}
+  keywords: [airdrop, testnet, points, "play-to-earn", "play to earn", p2e, gamefi, "web3 game", tge, retroactive, snapshot, claim]
+
+# ── 推播（選用）──────────────────────────────────────────────
+# 設定 TELEGRAM_BOT_TOKEN 與 TELEGRAM_CHAT_ID 環境變數後，新項目會推播到你的 Telegram
+notify:
+  telegram_enabled: true
+  max_messages_per_run: 10
