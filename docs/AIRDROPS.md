@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-10-17T20:38:32+00:00（自動產生，請勿手動修改）
+最後更新：2026-10-17T23:09:28+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -45,8 +45,8 @@
 | [BitRobot](https://app.youform.com/forms/omzetnvh) | 進行中 | 頂級機構支持 | ★ | 免費 | 低 | BitRobot 的建立是為了利用加密貨幣激勵來推進嵌入式人工智慧研究。加入 TeleArms 候補名單，幫助教導機器人如何移動、抓取物體以及與物體互動，並獲得獎勵。 |
 | [Valantis](https://dropstab.com/coins/valantis) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Valantis is LST-specific DEX around its own native LST, stHYPE. All stHYPE activity and Va |
 | [Nexus](https://app.nexus.xyz/trade) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Nexus 是可驗證金融的第一層。加入搶先體驗全新 Nexus DEX Alpha 的行列。 |
-| [Nonce Capital](https://nonce-capital.xyz/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | DeFi 風險管理者，管理第三方金庫的資產分配和策略，包括 ether.fi Liquid 金庫和 Midas 代幣化基金。 |
 | [Fables](https://www.fables.fi/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 基於 Uniswap v4 建構的動態費用 ve(3,3) DEX。每個池都會收取根據其資產調整的費用——代幣化股票基於日曆，加密貨幣基於波動性——因此當交易更有可能對他們不利時， |
+| [Nonce Capital](https://nonce-capital.xyz/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | DeFi 風險管理者，管理第三方金庫的資產分配和策略，包括 ether.fi Liquid 金庫和 Midas 代幣化基金。 |
 | [Cycles](https://beta.cycles.money/auth/login) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Cycles (https://beta.cycles.money/auth/login) 是一個專為多邊債務清理和流動性最佳化而設計的開放協議。該團隊目前正在執行測試版，讓早期使 |
 | [Perle Labs](https://app.perle.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Perle Labs is building the human-verified data infrastructure for high-stakes AI systems.  |
 | [Bittensor dTAO](https://bittensor.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bittensor's native dTAO AMM pools, which price each subnet's alpha token against TAO and h |
@@ -141,9 +141,9 @@
 | [Axie Infinity](https://www.coingecko.com/en/coins/axie-infinity) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Decentraland](https://www.coingecko.com/en/coins/decentraland) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [The Sandbox](https://www.coingecko.com/en/coins/the-sandbox) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [GoMining Token](https://www.coingecko.com/en/coins/gmt-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [ApeCoin](https://www.coingecko.com/en/coins/apecoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Beam](https://www.coingecko.com/en/coins/beam-2) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [GoMining Token](https://www.coingecko.com/en/coins/gmt-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Immutable](https://www.coingecko.com/en/coins/immutable-x) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [SuperVerse](https://www.coingecko.com/en/coins/superfarm) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Geodnet](https://www.coingecko.com/en/coins/geodnet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
@@ -177,7 +177,7 @@
 | [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Verse World](https://www.coingecko.com/en/coins/verse-world) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Yield Guild Games](https://www.coingecko.com/en/coins/yield-guild-games) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fusionist](https://www.coingecko.com/en/coins/endurance) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Yield Guild Games](https://www.coingecko.com/en/coins/yield-guild-games) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Big Time](https://www.coingecko.com/en/coins/big-time) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [OVERTAKE](https://www.coingecko.com/en/coins/overtake) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
