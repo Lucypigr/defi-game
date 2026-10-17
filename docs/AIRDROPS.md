@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-10-17T04:28:43+00:00（自動產生，請勿手動修改）
+最後更新：2026-10-17T10:46:07+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -49,10 +49,11 @@
 | [Fables](https://www.fables.fi/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 基於 Uniswap v4 建構的動態費用 ve(3,3) DEX。每個池都會收取根據其資產調整的費用——代幣化股票基於日曆，加密貨幣基於波動性——因此當交易更有可能對他們不利時， |
 | [Cycles](https://beta.cycles.money/auth/login) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Cycles (https://beta.cycles.money/auth/login) 是一個專為多邊債務清理和流動性最佳化而設計的開放協議。該團隊目前正在執行測試版，讓早期使 |
 | [Bittensor dTAO](https://bittensor.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bittensor's native dTAO AMM pools, which price each subnet's alpha token against TAO and h |
+| [Perle Labs](https://app.perle.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Perle Labs is building the human-verified data infrastructure for high-stakes AI systems.  |
 | [Tydro](https://tydro.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Tydro 是一種針對鏈上資本市場的非託管借貸協議。由 Aave 提供支援並基於 Ink 構建 |
 | [Current](https://www.current.finance/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Current 是 Sui 上所有未來資產的資本效率層。一鍵倍增收益，隔離借貸市場，你的資金從未如此辛苦。 |
-| [PERPTools](https://discord.gg/perptools) | 進行中 | 頂級機構支持 | ★★★★ | 需投入資金 | 中 | PERPTools 是由 DEXTools 背後團隊開發的自我託管永續期貨 DEX。它在 Orderly Network 的共享訂單簿上執行，因此訂單可以根據每個 Orderly  |
 | [Symbiotic](https://symbiotic.fi) | 潛在空投（未確認） | 頂級機構支持 | ★★★ | 需投入資金 | 中 | 共生為抵押品市場提供動力，資本承諾履行財務義務並透過程式碼執行。資本在投入的同時仍然保持生產力，消除了鎖定和盈利之間的權衡。它支援信貸、保險、穩定幣和 RWA 等產品。 Symbi |
+| [PERPTools](https://discord.gg/perptools) | 進行中 | 頂級機構支持 | ★★★★ | 需投入資金 | 中 | PERPTools 是由 DEXTools 背後團隊開發的自我託管永續期貨 DEX。它在 Orderly Network 的共享訂單簿上執行，因此訂單可以根據每個 Orderly  |
 | [infiniFi](https://infinifi.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | infiniFi 正在透過在鏈上重建現代銀行基礎設施來建立去中心化金融的未來。透過將流動性和非流動性資產合併到具有透明部分準備金的資本效率高的系統中，infiniFi 可以在不增加 |
 | [RocketSwap Anubis](https://x.com/Rocket_Swap_) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | RocketSwap是部署在Anubis上的Uniswap V2分叉DEX。 |
 | [GTBTC](https://www.gate.com/staking/BTC) | 潛在空投（未確認） | 知名機構支持 | ★★★ | 需投入資金 | 中 | Gate BTC Stake 讓使用者將 BTC 質押在 Gate 平臺上以換取 GTBTC（1:1 比例），GTBTC 透過 Gate 的內部質押/賺取機制獲得收益；使用者可以隨 |
@@ -100,7 +101,6 @@
 | [Dow Protocol](https://app.dowprotocol.com/points) | 進行中 | 頂級機構支持 | ★ | 免費 | 低 | DowProtocol 是一個用於支付和現實世界資產的鏈上平臺。 |
 | [ArenaDAO](https://arenadao.live/en/?utm_source=dropstab&utm_medium=display&utm_campaign=paid_media_jul&utm_content=article) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | ArenaDAO (https://arenadao.live/) 是 BNB 鏈上的遊戲化 DeFi 協議，其中兩個 Meme 代幣在 Arenas 中進行正面競爭。使用者可以加 |
 | [Strata](https://dropstab.com/coins/strata) | 進行中 | 知名機構支持 | ★★ | 未知 | 低 | Strata is a protocol that brings structured yield products to any on-chain or off-chain yi |
-| [Perle Labs](https://app.perle.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Perle Labs is building the human-verified data infrastructure for high-stakes AI systems.  |
 | [June](https://askjune.ai/app/chat) | 進行中 | 未知 / 無公開投資方 | ★★★ | 免費 | 中 | June 是 Blockchain.com 團隊打造的一款強大的人工智慧助理。與六月平臺互動，每日聊天，賺取積分。 |
 | [TastyCo](https://discord.gg/mUMe36t7a) | 進行中 | 未知 / 無公開投資方 | ★★ | 免費 | 中 | TastyCo 是一個現實世界資產 (RWA) 平臺，可將食品和餐廳品牌轉化為 BNB 鏈上的可交易代幣。 TastyCo 空投將平臺的實用程式和治理代幣 $TASTY 分發給在啟 |
 | [junk.fun](https://dropstab.com/coins/junk-fun) | 進行中 | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Junk.Fun is a Solana-based platform where you can burn worthless tokens and NFTs. Clean yo |
@@ -136,13 +136,14 @@
 | [Cambria](https://lobby.cambria.gg) | 進行中 | 頂級機構支持 | ★★★★ | 需投入資金 | 中 | Cambria 是一款基於瀏覽器的風險收益 MMO，玩家可以在基於技能的戰利品執行、決鬥和季節性提取活動中投入真實資產。遊戲結合了三種核心模式：《地下城》，一款暗黑破壞神風格的地下 |
 | [Pudgy Penguins](https://www.pudgyworld.com/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Pudgy World is a brand new game from the Pudgy Penguins team. Customize your look, dive in |
 | [Ronin](https://creators.roninchain.com/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Ronin 是一個基於 EVM 的區塊鏈，專為想要建立遊戲的開發人員而設計。製作有關您最喜歡的 Ronin 遊戲和應用程式的內容 - 並在執行過程中獲得獎勵。 |
+| [Pixie Chess](https://www.pixiechess.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Pixie Chess is a new version of chess backed by Paradigm. Collect unique chess pieces and  |
 | [FLOKI](https://www.coingecko.com/en/coins/floki) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Axie Infinity](https://www.coingecko.com/en/coins/axie-infinity) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Decentraland](https://www.coingecko.com/en/coins/decentraland) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [The Sandbox](https://www.coingecko.com/en/coins/the-sandbox) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Beam](https://www.coingecko.com/en/coins/beam-2) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [ApeCoin](https://www.coingecko.com/en/coins/apecoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GoMining Token](https://www.coingecko.com/en/coins/gmt-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [ApeCoin](https://www.coingecko.com/en/coins/apecoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Immutable](https://www.coingecko.com/en/coins/immutable-x) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [SuperVerse](https://www.coingecko.com/en/coins/superfarm) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Geodnet](https://www.coingecko.com/en/coins/geodnet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
@@ -150,15 +151,15 @@
 | [GALA](https://www.coingecko.com/en/coins/gala) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Four](https://www.coingecko.com/en/coins/four) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [WEMIX](https://www.coingecko.com/en/coins/wemix-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Unipoly](https://www.coingecko.com/en/coins/unipoly) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [ECOMI](https://www.coingecko.com/en/coins/ecomi) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Unipoly](https://www.coingecko.com/en/coins/unipoly) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Baby Doge Coin](https://www.coingecko.com/en/coins/baby-doge-coin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Enjin Coin](https://www.coingecko.com/en/coins/enjincoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [ONEchain](https://www.coingecko.com/en/coins/cross-2) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Nexpace](https://www.coingecko.com/en/coins/nexpace) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Pentagon Chain](https://www.coingecko.com/en/coins/pentagon-chain) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Notcoin](https://www.coingecko.com/en/coins/notcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Infinity Gaming](https://www.coingecko.com/en/coins/infinity-gaming) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Notcoin](https://www.coingecko.com/en/coins/notcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fren Pet](https://www.coingecko.com/en/coins/frenpet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Loaded Lions](https://www.coingecko.com/en/coins/loaded-lions) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Moca Network](https://www.coingecko.com/en/coins/mocaverse) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
@@ -172,11 +173,10 @@
 | [CARV](https://www.coingecko.com/en/coins/carv) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Capybobo](https://www.coingecko.com/en/coins/capybobo) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GMT](https://www.coingecko.com/en/coins/stepn) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Yield Guild Games](https://www.coingecko.com/en/coins/yield-guild-games) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Metaplex](https://www.coingecko.com/en/coins/metaplex) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Yield Guild Games](https://www.coingecko.com/en/coins/yield-guild-games) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fusionist](https://www.coingecko.com/en/coins/endurance) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Big Time](https://www.coingecko.com/en/coins/big-time) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [OVERTAKE](https://www.coingecko.com/en/coins/overtake) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Pixie Chess](https://www.pixiechess.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Pixie Chess is a new version of chess backed by Paradigm. Collect unique chess pieces and  |
