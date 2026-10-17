@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-10-16T23:37:47+00:00（自動產生，請勿手動修改）
+最後更新：2026-10-17T04:28:43+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -27,9 +27,9 @@
 | [Bullpen](https://dropstab.com/coins/bullpen) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bullpen is a non-custodial trading terminal for onchain markets. Interact with the platfor |
 | [DoubleZero](https://doublezero.xyz/ecosystem#ambassadors) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | DoubleZero is a global fiber network designed for high-performance blockchains. Support Do |
 | [Ventuals](https://app.ventuals.com/markets) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Ventuals is built on top of Hyperliquid's proven perps orderbook infrastructure. Earn poin |
+| [N1 Chain (ex. Layer N)](https://app.n1.xyz/rewards?page=points) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | N1Chain 是專為快速且可擴充套件的鏈上應用程式而建立的第 1 層區塊鏈。 N1 積分是一項獎勵計劃，每週發放 7,500 萬積分，持續 26 週。 |
 | [Steakhouse Financial](https://www.steakhouse.financial/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 我們建立透明、高效且易於存取的金融原語，為公共區塊鏈上的下一代資本市場提供動力 |
 | [Nado](https://app.nado.xyz/perpetuals) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Nado is a decentralized exchange that integrates spot trading, perpetual futures, and mone |
-| [N1 Chain (ex. Layer N)](https://app.n1.xyz/rewards?page=points) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | N1Chain 是專為快速且可擴充套件的鏈上應用程式而建立的第 1 層區塊鏈。 N1 積分是一項獎勵計劃，每週發放 7,500 萬積分，持續 26 週。 |
 | [Hyperliquid](https://app.hyperliquid.xyz) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Hyperliquid 是專為高效能 DeFi 打造的第 1 層區塊鏈。其核心是 Hyperliquid DEX：一個完全鏈上的訂單簿永久交換，每秒處理約 200,000 個訂單， |
 | [DualMint](https://uptime.dualmint.com) | 進行中 | 未知 / 無公開投資方 | ★★ | 免費 | 中 | DualMint 為實體的創收機器提供資金，並將其營運收入以 USDC 的形式傳送給持有者。此產品組合涵蓋自助洗衣店、暖通空調裝置、街機櫃、自動販賣機網路和垂直農場。 DualMi |
 | [Solayer](https://forms.gle/uZLcUpiveckkExsZ7) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Solayer is building the restaking network natively on Solana. Join the Basement - a collec |
@@ -107,9 +107,9 @@
 | [CZR](https://airdrop.czrex.com) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | CZR Exchange 是一家中心化加密貨幣交易所，總部位於開曼群島。它將現貨和期貨交易、跟單交易、自動化策略、質押和掉期交易以及非託管 CZR 錢包整合在一個平臺上。其原生代幣 |
 | [MindGames](https://minds.games) | 進行中 | 頂級機構支持 | ★★★★ | 需投入資金 | 中 | MindGames 是一個人工智慧代理商的幻想聯盟。使用者建立名為「Minds」的持久人工智慧代理，為它們配備技能和策略，並讓它們進入涵蓋國際象棋、撲克、交易、辯論和預測的競爭季節 |
 | [RWAPerp](https://rwaperp.xyz) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | RWAPerp 是 OKX 建構的以太坊第 2 層 X Layer 上現實世界資產的去中心化永續期貨交易所。交易者使用 USDC 作為抵押品，透過自我託管錢包做多或做空股票、指數、 |
+| [Ammora](https://ammora.org) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Ammora 是 GIWA 上鍊上市場的流動性基礎設施，GIWA 是由 Upbit 交易所背後的韓國公司 Dunamu 建造的以太坊第 2 層。 Ammora 並沒有停留在代幣發行 |
 | [BULK](https://x.com/bulktrade/status/2061445961621086244?s=20) | 進行中 | 頂級機構支持 | ★★★★★ | 需投入資金 | 中 | Bulk Trade (https://early.bulk.trade/deposit?ref=dropstab) 是一個基於 Solana 的永久 DEX，目前正在進行早期存款 |
 | [Synthra](https://discord.gg/eesEKPRDtd) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需投入資金 | 高 | Synthra 是一種鏈抽象的 DEX 和交易層，它將現貨互換、流動性提供、永續期貨和跨鏈路由整合到一個應用程式中。使用者存款、交易和提款無需自行處理橋接或鏈切換，同時結算保持在鏈 |
-| [Ammora](https://ammora.org) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Ammora 是 GIWA 上鍊上市場的流動性基礎設施，GIWA 是由 Upbit 交易所背後的韓國公司 Dunamu 建造的以太坊第 2 層。 Ammora 並沒有停留在代幣發行 |
 | [Blackboard](https://blackboard.fi) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Blackboard 是一種自我託管的鏈上交易終端，只需一次登入即可將永續期貨、預測市場、選擇權和代幣化收藏納入其中。訂單路由至現有場所：加密貨幣 Perps 路由至 Aster， |
 | [Nous Research](https://discord.gg/nousresearch) | 進行中 | 頂級機構支持 | ★★★ | 免費 | 中 | Nous Research 是一家成立於 2023 年的開源人工智慧實驗室。它建構了 Hermes 模型系列和 Hermes Agent（一種獲得 MIT 許可的可從使用中學習的  |
 | [PlutonAI](https://www.plutonai.net/waitlist) | 進行中 | 有投資方 | ★ | 免費 | 低 | PlutonAI 正在建構 DeFAI 的對話層。第 1 波訪問現已開放。加入候補名單以確保您的席位。 |
@@ -154,8 +154,8 @@
 | [ECOMI](https://www.coingecko.com/en/coins/ecomi) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Baby Doge Coin](https://www.coingecko.com/en/coins/baby-doge-coin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Enjin Coin](https://www.coingecko.com/en/coins/enjincoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Nexpace](https://www.coingecko.com/en/coins/nexpace) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [ONEchain](https://www.coingecko.com/en/coins/cross-2) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Nexpace](https://www.coingecko.com/en/coins/nexpace) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Pentagon Chain](https://www.coingecko.com/en/coins/pentagon-chain) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Notcoin](https://www.coingecko.com/en/coins/notcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Infinity Gaming](https://www.coingecko.com/en/coins/infinity-gaming) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
@@ -172,10 +172,10 @@
 | [CARV](https://www.coingecko.com/en/coins/carv) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Capybobo](https://www.coingecko.com/en/coins/capybobo) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GMT](https://www.coingecko.com/en/coins/stepn) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Yield Guild Games](https://www.coingecko.com/en/coins/yield-guild-games) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Metaplex](https://www.coingecko.com/en/coins/metaplex) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fusionist](https://www.coingecko.com/en/coins/endurance) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Big Time](https://www.coingecko.com/en/coins/big-time) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [OVERTAKE](https://www.coingecko.com/en/coins/overtake) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
