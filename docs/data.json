@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-10-19T04:43:09+00:00",
+ "updated_at": "2026-10-19T13:19:05+00:00",
  "last_run": {
-  "at": "2026-10-19T04:41:44+00:00",
+  "at": "2026-10-19T13:17:18+00:00",
   "mode": "rules",
   "collected_projects": 130,
-  "collected_posts": 128,
-  "new_projects": 0,
-  "new_posts": 14,
+  "collected_posts": 117,
+  "new_projects": 1,
+  "new_posts": 23,
   "ai_calls": 0
  },
  "projects": [
@@ -550,6 +550,7 @@
    "last_seen": "2026-10-13T10:37:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
+    "telegram:airdropfind/128577",
     "telegram:airdrops_io/7953",
     "telegram:airdrops_io/7949",
     "telegram:airdropfind/128444",
@@ -625,7 +626,7 @@
    "market": {},
    "score": 95.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/128537",
@@ -793,7 +794,7 @@
    "market": {},
    "score": 95.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/128450",
@@ -883,7 +884,7 @@
    "market": {},
    "score": 93.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7953",
@@ -963,7 +964,7 @@
    "market": {},
    "score": 93.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7948",
@@ -1123,7 +1124,7 @@
    "market": {},
    "score": 91.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7948",
@@ -1205,13 +1206,13 @@
    "social_only": false,
    "market": {
     "symbol": "RON",
-    "price_usd": 0.058658,
-    "market_cap_usd": 45307125,
-    "change_24h_pct": -2.12325
+    "price_usd": 0.058519,
+    "market_cap_usd": 45203140,
+    "change_24h_pct": -0.69438
    },
    "score": 90.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1348,11 +1349,71 @@
    "market": {},
    "score": 88.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7931",
     "telegram:airdrops_io/7914"
+   ]
+  },
+  {
+   "key": "predict-fun",
+   "name": "predict.fun",
+   "kind": "defi",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "speculative",
+   "confirmed_zh": "推測",
+   "summary": "Predict.fun is a platform focused on prediction markets. Start earning Prediction Points (PP) by interacting with the platform (placing bids, holding positions).",
+   "backing_level": "top",
+   "backing_zh": "頂級機構支持",
+   "backers": [
+    "YZi Labs (prev Binance Labs)",
+    "Susquehanna Crypto"
+   ],
+   "backing_note": "",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "unknown",
+   "cost_zh": "未知",
+   "cost_note": "資訊不足，請以官方說明為準。",
+   "steps": [
+    "$3d"
+   ],
+   "reward": "未公布",
+   "distribution": "先累積積分 (Points)，預計在代幣發行 (TGE) 時依積分比例換成代幣空投。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "TBA",
+   "risk_level": "low",
+   "risk_zh": "低",
+   "risks": [],
+   "tips": "",
+   "chains": [
+    "Predictions"
+   ],
+   "tags": [
+    "Point Farming"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "DropsTab",
+     "url": "https://dropstab.com/coins/predict-fun"
+    }
+   ],
+   "social_only": false,
+   "market": {},
+   "score": 87.0,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": [
+    "telegram:airdrops_io/7941"
    ]
   },
   {
@@ -1428,7 +1489,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1512,7 +1573,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1571,7 +1632,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1641,7 +1702,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1705,7 +1766,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1787,7 +1848,7 @@
    "market": {},
    "score": 84.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1858,11 +1919,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 2526853420
+    "tvl_usd": 2555404028
    },
-   "score": 80.5,
+   "score": 81.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -1929,7 +1990,7 @@
    "market": {},
    "score": 79.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7941",
@@ -2030,6 +2091,82 @@
     "telegram:airdrops_io/7942",
     "telegram:airdrops_io/7931"
    ]
+  },
+  {
+   "key": "superform",
+   "name": "Superform",
+   "kind": "defi",
+   "status": "claimable",
+   "status_zh": "可領取",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "Superform 是一個跨鏈收益路由器，其構建使您不必擔心橋樑或網路。 $UP 代幣現已上線，您可以領取空投。",
+   "backing_level": "top",
+   "backing_zh": "頂級機構支持",
+   "backers": [
+    "Polychain Capital",
+    "CMT Digital",
+    "Strobe (Prev. BlockTower Capital)",
+    "Hypersphere Ventures",
+    "MetaCartel Ventures",
+    "Amber Group",
+    "Arthur Hayes",
+    "Bryan Pellegrino",
+    "Maven 11",
+    "Dialectic Capital",
+    "AngelDAO",
+    "Avi Felman"
+   ],
+   "backing_note": "已募資約 $12.9M。",
+   "funds_raised_usd": 12920000,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "unknown",
+   "cost_zh": "未知",
+   "cost_note": "資訊不足，請以官方說明為準。",
+   "steps": [
+    "前往 Superform ($UP) 索賠頁面 (https://claim.superformfoundation.org/)",
+    "連線你的錢包。",
+    "檢查您的分配並領取您的空投。",
+    "注意：要索取代幣而不歸屬，請選擇第二個選項。"
+   ],
+   "reward": "未公布",
+   "distribution": "已開放領取：到官方網站連接錢包後手動 Claim。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "TBA",
+   "risk_level": "low",
+   "risk_zh": "低",
+   "risks": [],
+   "tips": "",
+   "chains": [
+    "DeFi"
+   ],
+   "tags": [
+    "AirDrop"
+   ],
+   "links": [
+    {
+     "label": "參與連結",
+     "url": "https://claim.superformfoundation.org/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "DropsTab",
+     "url": "https://dropstab.com/coins/superform"
+    }
+   ],
+   "social_only": false,
+   "market": {},
+   "score": 75.8,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
   },
   {
    "key": "dualmint",
@@ -2182,7 +2319,7 @@
    "market": {},
    "score": 74.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -2258,69 +2395,9 @@
    "market": {},
    "score": 73.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
-  },
-  {
-   "key": "predict-fun",
-   "name": "predict.fun",
-   "kind": "defi",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "speculative",
-   "confirmed_zh": "推測",
-   "summary": "Predict.fun is a platform focused on prediction markets. Start earning Prediction Points (PP) by interacting with the platform (placing bids, holding positions).",
-   "backing_level": "top",
-   "backing_zh": "頂級機構支持",
-   "backers": [
-    "YZi Labs (prev Binance Labs)",
-    "Susquehanna Crypto"
-   ],
-   "backing_note": "",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "unknown",
-   "cost_zh": "未知",
-   "cost_note": "資訊不足，請以官方說明為準。",
-   "steps": [
-    "$3d"
-   ],
-   "reward": "未公布",
-   "distribution": "先累積積分 (Points)，預計在代幣發行 (TGE) 時依積分比例換成代幣空投。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "TBA",
-   "risk_level": "low",
-   "risk_zh": "低",
-   "risks": [],
-   "tips": "",
-   "chains": [
-    "Predictions"
-   ],
-   "tags": [
-    "Point Farming"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "DropsTab",
-     "url": "https://dropstab.com/coins/predict-fun"
-    }
-   ],
-   "social_only": false,
-   "market": {},
-   "score": 70.2,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": [
-    "telegram:airdrops_io/7941"
-   ]
   },
   {
    "key": "gte",
@@ -2452,83 +2529,7 @@
    "market": {},
    "score": 64.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "superform",
-   "name": "Superform",
-   "kind": "defi",
-   "status": "claimable",
-   "status_zh": "可領取",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "Superform 是一個跨鏈收益路由器，其構建使您不必擔心橋樑或網路。 $UP 代幣現已上線，您可以領取空投。",
-   "backing_level": "top",
-   "backing_zh": "頂級機構支持",
-   "backers": [
-    "Polychain Capital",
-    "CMT Digital",
-    "Strobe (Prev. BlockTower Capital)",
-    "Hypersphere Ventures",
-    "MetaCartel Ventures",
-    "Amber Group",
-    "Arthur Hayes",
-    "Bryan Pellegrino",
-    "Maven 11",
-    "Dialectic Capital",
-    "AngelDAO",
-    "Avi Felman"
-   ],
-   "backing_note": "已募資約 $12.9M。",
-   "funds_raised_usd": 12920000,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "unknown",
-   "cost_zh": "未知",
-   "cost_note": "資訊不足，請以官方說明為準。",
-   "steps": [
-    "前往 Superform ($UP) 索賠頁面 (https://claim.superformfoundation.org/)",
-    "連線你的錢包。",
-    "檢查您的分配並領取您的空投。",
-    "注意：要索取代幣而不歸屬，請選擇第二個選項。"
-   ],
-   "reward": "未公布",
-   "distribution": "已開放領取：到官方網站連接錢包後手動 Claim。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "TBA",
-   "risk_level": "low",
-   "risk_zh": "低",
-   "risks": [],
-   "tips": "",
-   "chains": [
-    "DeFi"
-   ],
-   "tags": [
-    "AirDrop"
-   ],
-   "links": [
-    {
-     "label": "參與連結",
-     "url": "https://claim.superformfoundation.org/"
-    }
-   ],
-   "sources": [
-    {
-     "name": "DropsTab",
-     "url": "https://dropstab.com/coins/superform"
-    }
-   ],
-   "social_only": false,
-   "market": {},
-   "score": 63.7,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -2600,11 +2601,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 1601947176
+    "tvl_usd": 1604741177
    },
-   "score": 62.0,
+   "score": 62.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -2674,7 +2675,7 @@
    "market": {},
    "score": 61.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -2907,11 +2908,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 1249711904
+    "tvl_usd": 1222074784
    },
-   "score": 55.0,
+   "score": 54.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -2967,13 +2968,13 @@
    "social_only": false,
    "market": {
     "symbol": "FLOKI",
-    "price_usd": 2.33e-05,
-    "market_cap_usd": 224571937,
-    "change_24h_pct": -1.18412
+    "price_usd": 2.355e-05,
+    "market_cap_usd": 227127816,
+    "change_24h_pct": 0.69171
    },
    "score": 53.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "news:CBMijAFBVV95cUxPYXJKUDV2ZGgxMFBJZ2k0WUdBUG9PQUcwZVBJWTd5VElQT0xXT0VONHJkTWZrMkpRamczNEJ3MFVCV0VYWTN6S2tzVmFHc2Z4NlRyMmhGV3ZIcWRDeFRmWGN4akxXUVcxYnBqdGl1eDdvSFBTdkFxZ2cyQmtDaVlfdXZrYWl0NVhtRk5qVg"
@@ -3052,7 +3053,7 @@
    "market": {},
    "score": 52.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3108,13 +3109,13 @@
    "social_only": false,
    "market": {
     "symbol": "AXS",
-    "price_usd": 0.999961,
-    "market_cap_usd": 175571423,
-    "change_24h_pct": -2.59433
+    "price_usd": 0.998896,
+    "market_cap_usd": 175343733,
+    "change_24h_pct": -1.12435
    },
    "score": 52.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "news:CBMipwFBVV95cUxQYUh2bVRYS3dRY0hjMjIwcUZ1T1JiemlzaFlNNHNnekEwdTgzUkVrUFo2LXpoSFJ3Z1czS2NIZUV3aU9jTjlMVlVRRWxiSVJCbUs5UUtsc21nZmhVY1BSZ0hCNnZvRVhGZm9kdXVaSm5jZXJlQ1Z5UWd0ZGdaaW5KYVFwckVVbXIwSmYtY216NVBnb0piR2FhOHctTlFxUC15RUg0UzZiQQ"
@@ -3172,13 +3173,13 @@
    "social_only": false,
    "market": {
     "symbol": "SAND",
-    "price_usd": 0.062664,
-    "market_cap_usd": 184018056,
-    "change_24h_pct": -3.80295
+    "price_usd": 0.05987,
+    "market_cap_usd": 175873935,
+    "change_24h_pct": -5.48378
    },
-   "score": 50.4,
+   "score": 50.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3234,13 +3235,13 @@
    "social_only": false,
    "market": {
     "symbol": "MANA",
-    "price_usd": 0.084003,
-    "market_cap_usd": 164514616,
-    "change_24h_pct": -4.0129
+    "price_usd": 0.083842,
+    "market_cap_usd": 164272444,
+    "change_24h_pct": -0.68617
    },
-   "score": 49.8,
+   "score": 49.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3296,13 +3297,13 @@
    "social_only": false,
    "market": {
     "symbol": "GOMINING",
-    "price_usd": 0.377919,
-    "market_cap_usd": 152208308,
-    "change_24h_pct": 0.97231
+    "price_usd": 0.379385,
+    "market_cap_usd": 152796327,
+    "change_24h_pct": 0.41517
    },
-   "score": 49.2,
+   "score": 49.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3371,7 +3372,7 @@
    "market": {},
    "score": 49.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3427,13 +3428,13 @@
    "social_only": false,
    "market": {
     "symbol": "APE",
-    "price_usd": 0.141691,
-    "market_cap_usd": 141712911,
-    "change_24h_pct": -1.68257
+    "price_usd": 0.14656,
+    "market_cap_usd": 146560887,
+    "change_24h_pct": 3.92128
    },
-   "score": 48.9,
+   "score": 49.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3489,13 +3490,13 @@
    "social_only": false,
    "market": {
     "symbol": "BEAM",
-    "price_usd": 0.00276111,
-    "market_cap_usd": 141644907,
-    "change_24h_pct": -3.18648
+    "price_usd": 0.00283651,
+    "market_cap_usd": 145494537,
+    "change_24h_pct": -1.84038
    },
-   "score": 48.8,
+   "score": 48.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3551,13 +3552,13 @@
    "social_only": false,
    "market": {
     "symbol": "IMX",
-    "price_usd": 0.151377,
-    "market_cap_usd": 136884492,
-    "change_24h_pct": -2.80072
+    "price_usd": 0.152294,
+    "market_cap_usd": 137755604,
+    "change_24h_pct": -1.41598
    },
    "score": 48.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3613,13 +3614,13 @@
    "social_only": false,
    "market": {
     "symbol": "SUPER",
-    "price_usd": 0.18282,
-    "market_cap_usd": 119392212,
-    "change_24h_pct": -5.00208
+    "price_usd": 0.185367,
+    "market_cap_usd": 121092237,
+    "change_24h_pct": -1.90266
    },
    "score": 47.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3675,13 +3676,13 @@
    "social_only": false,
    "market": {
     "symbol": "GEOD",
-    "price_usd": 0.252822,
-    "market_cap_usd": 116952099,
-    "change_24h_pct": 0.13296
+    "price_usd": 0.259824,
+    "market_cap_usd": 120194537,
+    "change_24h_pct": 2.81388
    },
-   "score": 47.4,
+   "score": 47.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3737,13 +3738,13 @@
    "social_only": false,
    "market": {
     "symbol": "RLB",
-    "price_usd": 0.072757,
-    "market_cap_usd": 112977881,
-    "change_24h_pct": -1.60093
+    "price_usd": 0.073131,
+    "market_cap_usd": 113534273,
+    "change_24h_pct": 3.07556
    },
    "score": 47.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3799,13 +3800,13 @@
    "social_only": false,
    "market": {
     "symbol": "GALA",
-    "price_usd": 0.0018964,
-    "market_cap_usd": 96172497,
-    "change_24h_pct": -3.22451
+    "price_usd": 0.00189105,
+    "market_cap_usd": 95901034,
+    "change_24h_pct": -1.64655
    },
    "score": 45.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3861,13 +3862,13 @@
    "social_only": false,
    "market": {
     "symbol": "FORM",
-    "price_usd": 0.241187,
-    "market_cap_usd": 92105290,
-    "change_24h_pct": -3.78243
+    "price_usd": 0.243723,
+    "market_cap_usd": 93058867,
+    "change_24h_pct": -1.41817
    },
    "score": 45.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3941,7 +3942,7 @@
    "market": {},
    "score": 45.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -3997,13 +3998,13 @@
    "social_only": false,
    "market": {
     "symbol": "WEMIX",
-    "price_usd": 0.180778,
-    "market_cap_usd": 90383327,
-    "change_24h_pct": -0.19561
+    "price_usd": 0.180047,
+    "market_cap_usd": 90009510,
+    "change_24h_pct": -0.19074
    },
-   "score": 45.0,
+   "score": 45.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4059,13 +4060,13 @@
    "social_only": false,
    "market": {
     "symbol": "OMI",
-    "price_usd": 0.00028287,
-    "market_cap_usd": 76646747,
-    "change_24h_pct": 1.52788
+    "price_usd": 0.0002828,
+    "market_cap_usd": 76610053,
+    "change_24h_pct": 0.56118
    },
    "score": 43.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4121,13 +4122,13 @@
    "social_only": false,
    "market": {
     "symbol": "UNP",
-    "price_usd": 0.255933,
-    "market_cap_usd": 71451728,
-    "change_24h_pct": 0.03977
+    "price_usd": 0.255896,
+    "market_cap_usd": 71453640,
+    "change_24h_pct": 0.0066
    },
    "score": 42.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4195,11 +4196,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 594119035
+    "tvl_usd": 595463959
    },
    "score": 41.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4283,6 +4284,68 @@
    ]
   },
   {
+   "key": "baby-doge-coin",
+   "name": "Baby Doge Coin",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "gaming",
+    "$BABYDOGE"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/baby-doge-coin"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "BABYDOGE",
+    "price_usd": 3.58452e-10,
+    "market_cap_usd": 65996151,
+    "change_24h_pct": 0.86854
+   },
+   "score": 41.5,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
    "key": "cycles",
    "name": "Cycles",
    "kind": "defi",
@@ -4346,69 +4409,7 @@
    "market": {},
    "score": 41.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "baby-doge-coin",
-   "name": "Baby Doge Coin",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "gaming",
-    "$BABYDOGE"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/baby-doge-coin"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "BABYDOGE",
-    "price_usd": 3.55481e-10,
-    "market_cap_usd": 65457308,
-    "change_24h_pct": -0.16079
-   },
-   "score": 41.3,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4475,11 +4476,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 58063598
+    "tvl_usd": 57977556
    },
    "score": 41.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/128551",
@@ -4556,7 +4557,7 @@
    "market": {},
    "score": 39.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4623,11 +4624,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 485927560
+    "tvl_usd": 486350707
    },
    "score": 39.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4698,77 +4699,15 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 130485428
+    "tvl_usd": 129816442
    },
    "score": 39.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7941"
    ]
-  },
-  {
-   "key": "onechain",
-   "name": "ONEchain",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "gaming",
-    "$ONE"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/cross-2"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "ONE",
-    "price_usd": 0.10327,
-    "market_cap_usd": 55659932,
-    "change_24h_pct": 1.60527
-   },
-   "score": 39.5,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
   },
   {
    "key": "enjin-coin",
@@ -4822,13 +4761,75 @@
    "social_only": false,
    "market": {
     "symbol": "ENJ",
-    "price_usd": 0.02722619,
-    "market_cap_usd": 54685772,
-    "change_24h_pct": -3.86096
+    "price_usd": 0.02724682,
+    "market_cap_usd": 54756533,
+    "change_24h_pct": -1.47888
    },
-   "score": 39.4,
+   "score": 39.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "onechain",
+   "name": "ONEchain",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "gaming",
+    "$ONE"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/cross-2"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "ONE",
+    "price_usd": 0.101205,
+    "market_cap_usd": 54569536,
+    "change_24h_pct": 0.23645
+   },
+   "score": 39.2,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -4898,11 +4899,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 456101887
+    "tvl_usd": 454009403
    },
    "score": 39.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5004,6 +5005,79 @@
    ]
   },
   {
+   "key": "d3",
+   "name": "D3",
+   "kind": "defi",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "speculative",
+   "confirmed_zh": "推測",
+   "summary": "D3's mission is to revolutionize the domain name industry by seamlessly connecting Web 1-3. Doma season 0 is live. Interact with the mainnet and earn points.",
+   "backing_level": "top",
+   "backing_zh": "頂級機構支持",
+   "backers": [
+    "Paradigm",
+    "Coinbase Ventures",
+    "Maelstrom",
+    "Shima Capital",
+    "Infinite Capital",
+    "C2Ventures (Csquared)",
+    "VentureSouq",
+    "Lightshift Capital",
+    "Dispersion Capital",
+    "Kestrel 0x1",
+    "MZ Web3 Fund",
+    "Paul Stahura"
+   ],
+   "backing_note": "已募資約 $30.0M。",
+   "funds_raised_usd": 30000000,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "unknown",
+   "cost_zh": "未知",
+   "cost_note": "資訊不足，請以官方說明為準。",
+   "steps": [
+    "$3e"
+   ],
+   "reward": "未公布",
+   "distribution": "先累積積分 (Points)，預計在代幣發行 (TGE) 時依積分比例換成代幣空投。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "TBA",
+   "risk_level": "low",
+   "risk_zh": "低",
+   "risks": [],
+   "tips": "",
+   "chains": [
+    "Blockchain Service"
+   ],
+   "tags": [
+    "Point Farming"
+   ],
+   "links": [
+    {
+     "label": "參與連結",
+     "url": "https://app.doma.xyz/"
+    }
+   ],
+   "sources": [
+    {
+     "name": "DropsTab",
+     "url": "https://dropstab.com/coins/d3-2"
+    }
+   ],
+   "social_only": false,
+   "market": {},
+   "score": 38.8,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
    "key": "nexpace",
    "name": "Nexpace",
    "kind": "p2e",
@@ -5055,13 +5129,13 @@
    "social_only": false,
    "market": {
     "symbol": "NXPC",
-    "price_usd": 0.159317,
-    "market_cap_usd": 49629413,
-    "change_24h_pct": -5.5552
+    "price_usd": 0.159288,
+    "market_cap_usd": 49619203,
+    "change_24h_pct": -3.75783
    },
-   "score": 37.5,
+   "score": 37.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5130,11 +5204,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 66533946
+    "tvl_usd": 66569531
    },
    "score": 37.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7953",
@@ -5200,11 +5274,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 346324788
+    "tvl_usd": 342131184
    },
-   "score": 36.9,
+   "score": 36.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5272,11 +5346,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 285871998
+    "tvl_usd": 285708303
    },
    "score": 35.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5348,11 +5422,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 284050260
+    "tvl_usd": 273849842
    },
-   "score": 35.7,
+   "score": 35.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5421,73 +5495,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 265128783
+    "tvl_usd": 264835757
    },
    "score": 35.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "pentagon-chain",
-   "name": "Pentagon Chain",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "gaming",
-    "$PC"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/pentagon-chain"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "PC",
-    "price_usd": 45.19,
-    "market_cap_usd": 44440013,
-    "change_24h_pct": 0.50737
-   },
-   "score": 35.3,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5559,11 +5571,73 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 258150693
+    "tvl_usd": 256669672
    },
-   "score": 35.2,
+   "score": 35.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "pentagon-chain",
+   "name": "Pentagon Chain",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "gaming",
+    "$PC"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/pentagon-chain"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "PC",
+    "price_usd": 45.2,
+    "market_cap_usd": 44444511,
+    "change_24h_pct": 0.83235
+   },
+   "score": 35.1,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5634,73 +5708,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 230552965
+    "tvl_usd": 230730306
    },
    "score": 34.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "infinity-gaming",
-   "name": "Infinity Gaming",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "gaming",
-    "$$INF8"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/infinity-gaming"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "$INF8",
-    "price_usd": 0.213559,
-    "market_cap_usd": 42691562,
-    "change_24h_pct": -0.34813
-   },
-   "score": 34.5,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -5761,86 +5773,13 @@
    "market": {},
    "score": 34.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7953",
     "telegram:airdrops_io/7948",
     "telegram:airdrops_io/7947",
     "news:CBMipwFBVV95cUxOUldiazdkd3ItcVpjZ1hOSWd1ckxSNXBIdGJjbmQ3M0lwN3J0a2dPMVJxbWxlZm5KbF8xdXFCUUVRb3lTZERxcHd1N0tGNG1meDdDcXJsQTh4RUE0VDRHNVJSQjdPbmtkN1BJc1lJXzkxbjBNNXhGRE1EZVprMS1qU0lEUWJXbklPYlZBX3JqQTh6ZzFYaC1XNDZ5ZUFJc091VDhxLUtlVQ"
-   ]
-  },
-  {
-   "key": "doppler",
-   "name": "Doppler Finance",
-   "kind": "defi",
-   "status": "potential",
-   "status_zh": "潛在空投（未確認）",
-   "confirmed": "unconfirmed",
-   "confirmed_zh": "官方未確認",
-   "summary": "XRPL 上的第一個 XRPfi 協議",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "unknown",
-   "cost_zh": "未知",
-   "cost_note": "資訊不足，請以官方說明為準。",
-   "steps": [
-    "使用協議（CeDeFi）— 尚無代幣，可能回溯空投"
-   ],
-   "reward": "未公布",
-   "distribution": "官方尚未公布，通常是代幣發行時空投到錢包或開放 Claim。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "官方尚未確認會空投，可能白做工。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [
-    "Ripple",
-    "Ethereum"
-   ],
-   "tags": [
-    "CeDeFi",
-    "no-token"
-   ],
-   "links": [
-    {
-     "label": "官網",
-     "url": "https://app.doppler.finance"
-    },
-    {
-     "label": "X (Twitter)",
-     "url": "https://x.com/doppler_fi"
-    }
-   ],
-   "sources": [
-    {
-     "name": "DefiLlama",
-     "url": "https://defillama.com/protocol/doppler-finance"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "tvl_usd": 119888335
-   },
-   "score": 34.4,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": [
-    "telegram:airdrops_io/7953"
    ]
   },
   {
@@ -5910,11 +5849,146 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 212301336
+    "tvl_usd": 219623922
    },
-   "score": 34.2,
+   "score": 34.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "doppler",
+   "name": "Doppler Finance",
+   "kind": "defi",
+   "status": "potential",
+   "status_zh": "潛在空投（未確認）",
+   "confirmed": "unconfirmed",
+   "confirmed_zh": "官方未確認",
+   "summary": "XRPL 上的第一個 XRPfi 協議",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "unknown",
+   "cost_zh": "未知",
+   "cost_note": "資訊不足，請以官方說明為準。",
+   "steps": [
+    "使用協議（CeDeFi）— 尚無代幣，可能回溯空投"
+   ],
+   "reward": "未公布",
+   "distribution": "官方尚未公布，通常是代幣發行時空投到錢包或開放 Claim。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "官方尚未確認會空投，可能白做工。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [
+    "Ripple",
+    "Ethereum"
+   ],
+   "tags": [
+    "CeDeFi",
+    "no-token"
+   ],
+   "links": [
+    {
+     "label": "官網",
+     "url": "https://app.doppler.finance"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/doppler_fi"
+    }
+   ],
+   "sources": [
+    {
+     "name": "DefiLlama",
+     "url": "https://defillama.com/protocol/doppler-finance"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "tvl_usd": 119375528
+   },
+   "score": 34.4,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": [
+    "telegram:airdrops_io/7953"
+   ]
+  },
+  {
+   "key": "infinity-gaming",
+   "name": "Infinity Gaming",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "gaming",
+    "$$INF8"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/infinity-gaming"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "$INF8",
+    "price_usd": 0.21586,
+    "market_cap_usd": 43170267,
+    "change_24h_pct": 1.43975
+   },
+   "score": 34.4,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6000,9 +6074,10 @@
    "market": {},
    "score": 34.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
+    "news:CBMidEFVX3lxTE43MzU0djBqaHNjRGJMb1ZMc2hwZWx1ZHpFZnZ5dUV6Q2Y0OFB6Yk1NUTlrOE1FMkQ2dzZld2laZkx4YV83eTQzdF9sVTBCdGJRbzQwS3FrNklMMFk2MjAzX0p4VEVwejh6OXJjRVhTcVIyTWEw",
     "news:CBMikwFBVV95cUxNbWF1UjZKNzdWOXJyTmpZSlNEeWw0U05uOUhuYnJKR2dmdzVmUlNEVnBDNkc5c0ZXdW8telRza08zNjhKdWRobEdnTHF3cU96TDV2a2M2X2RaX1ZsSXU5ckdSVkd0X2NaTEhLeGFyZGpwSV9lelNhRmVkQ2FIbEhfdDJwaXcxUU1rRkdWZkhZOVRKcGM",
     "telegram:airdrops_io/7937",
     "news:CBMihwFBVV95cUxNLTFfRmZIRW1fWF8zeTNEbkNtMGFaU3cxRXBpQldHSnMxQWJIVTZ1ZlBvaVRTeV94aERsTG4wR05UN0xVVDlSVVllRjB2a0ZZNTYxYlZFZFBrbVd5M3p3YTR5eFQ1dU45LUZZVDVWNU1FUHROSnpvR25jempxdDEzNFBZV3I2WkE",
@@ -6138,11 +6213,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 55319987
+    "tvl_usd": 54686559
    },
    "score": 33.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7953"
@@ -6210,73 +6285,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 153033563
+    "tvl_usd": 152640120
    },
    "score": 33.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "loaded-lions",
-   "name": "Loaded Lions",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "gaming",
-    "$LION"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/loaded-lions"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "LION",
-    "price_usd": 0.00124107,
-    "market_cap_usd": 38272586,
-    "change_24h_pct": 0.87695
-   },
-   "score": 32.8,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6344,11 +6357,73 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 137308394
+    "tvl_usd": 136891482
    },
    "score": 32.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "loaded-lions",
+   "name": "Loaded Lions",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "gaming",
+    "$LION"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/loaded-lions"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "LION",
+    "price_usd": 0.00125958,
+    "market_cap_usd": 38644928,
+    "change_24h_pct": 2.81469
+   },
+   "score": 32.7,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6414,11 +6489,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 35203539
+    "tvl_usd": 34944249
    },
    "score": 32.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/128405"
@@ -6502,75 +6577,65 @@
    ]
   },
   {
-   "key": "d3",
-   "name": "D3",
+   "key": "dango",
+   "name": "Dango",
    "kind": "defi",
    "status": "ongoing",
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "D3's mission is to revolutionize the domain name industry by seamlessly connecting Web 1-3. Doma season 0 is live. Interact with the mainnet and earn points.",
-   "backing_level": "top",
-   "backing_zh": "頂級機構支持",
-   "backers": [
-    "Paradigm",
-    "Coinbase Ventures",
-    "Maelstrom",
-    "Shima Capital",
-    "Infinite Capital",
-    "C2Ventures (Csquared)",
-    "VentureSouq",
-    "Lightshift Capital",
-    "Dispersion Capital",
-    "Kestrel 0x1",
-    "MZ Web3 Fund",
-    "Paul Stahura"
-   ],
-   "backing_note": "已募資約 $30.0M。",
-   "funds_raised_usd": 30000000,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
+   "summary": "Dango is a DeFi trading platform built on its own blockchain for fast, fair, and seamless crypto trading. Trade perps on Dango and earn points.",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 3,
+   "difficulty_zh": "中等",
    "difficulty_note": "",
    "time_commitment": "一次性完成即可",
-   "cost_type": "unknown",
-   "cost_zh": "未知",
-   "cost_note": "資訊不足，請以官方說明為準。",
+   "cost_type": "deposit",
+   "cost_zh": "需投入資金",
+   "cost_note": "需要存入 / 交易資金才能累積資格。",
    "steps": [
-    "$3e"
+    "$2c"
    ],
    "reward": "未公布",
-   "distribution": "先累積積分 (Points)，預計在代幣發行 (TGE) 時依積分比例換成代幣空投。",
+   "distribution": "官方尚未公布，通常是代幣發行時空投到錢包或開放 Claim。",
    "requirements": [
     "錢包 (Wallet)"
    ],
    "deadline": "TBA",
-   "risk_level": "low",
-   "risk_zh": "低",
-   "risks": [],
+   "risk_level": "high",
+   "risk_zh": "高",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
    "tips": "",
    "chains": [
-    "Blockchain Service"
+    "Perpetual"
    ],
    "tags": [
-    "Point Farming"
+    "Trading"
    ],
    "links": [
     {
      "label": "參與連結",
-     "url": "https://app.doma.xyz/"
+     "url": "https://dango.exchange/trade"
     }
    ],
    "sources": [
     {
      "name": "DropsTab",
-     "url": "https://dropstab.com/coins/d3-2"
+     "url": "https://dropstab.com/coins/dango-exchange"
     }
    ],
    "social_only": false,
    "market": {},
    "score": 32.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6640,11 +6705,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 124660845
+    "tvl_usd": 124684855
    },
    "score": 32.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6700,13 +6765,13 @@
    "social_only": false,
    "market": {
     "symbol": "NOT",
-    "price_usd": 0.00037876,
-    "market_cap_usd": 37665902,
-    "change_24h_pct": -2.91052
+    "price_usd": 0.00038408,
+    "market_cap_usd": 38214043,
+    "change_24h_pct": 0.18713
    },
-   "score": 32.4,
+   "score": 32.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6762,13 +6827,13 @@
    "social_only": false,
    "market": {
     "symbol": "FP",
-    "price_usd": 5.21,
-    "market_cap_usd": 36987462,
-    "change_24h_pct": 0.59415
+    "price_usd": 5.28,
+    "market_cap_usd": 37433987,
+    "change_24h_pct": -5.63596
    },
-   "score": 32.1,
+   "score": 32.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6838,7 +6903,7 @@
    "market": {},
    "score": 32.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6905,11 +6970,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 102121224
+    "tvl_usd": 101719806
    },
    "score": 32.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -6977,11 +7042,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 83349985
+    "tvl_usd": 83357311
    },
    "score": 31.7,
    "first_seen": "2026-10-14T14:31:29+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7050,11 +7115,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 80118251
+    "tvl_usd": 80123486
    },
    "score": 31.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7117,7 +7182,7 @@
    "market": {},
    "score": 31.5,
    "first_seen": "2026-10-15T11:30:37+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7184,11 +7249,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 67135869
+    "tvl_usd": 66900950
    },
    "score": 31.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7255,11 +7320,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 66030380
+    "tvl_usd": 66188716
    },
    "score": 31.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7326,11 +7391,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 60816835
+    "tvl_usd": 60782181
    },
    "score": 31.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7401,11 +7466,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 59510621
+    "tvl_usd": 59741173
    },
    "score": 31.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7476,73 +7541,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 56118029
+    "tvl_usd": 56056841
    },
    "score": 31.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "moca",
-   "name": "Moca Network",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "gaming",
-    "$MOCA"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/mocaverse"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "MOCA",
-    "price_usd": 0.00838171,
-    "market_cap_usd": 35436447,
-    "change_24h_pct": -2.18548
-   },
-   "score": 31.1,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7609,11 +7612,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 54953275
+    "tvl_usd": 54901050
    },
    "score": 31.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7682,11 +7685,73 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 43930309
+    "tvl_usd": 43253334
    },
    "score": 30.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "moca",
+   "name": "Moca Network",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "gaming",
+    "$MOCA"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/mocaverse"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "MOCA",
+    "price_usd": 0.00836574,
+    "market_cap_usd": 35456243,
+    "change_24h_pct": -1.25839
+   },
+   "score": 30.9,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7753,11 +7818,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 39744442
+    "tvl_usd": 39937610
    },
    "score": 30.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7823,11 +7888,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 38936759
+    "tvl_usd": 39025044
    },
    "score": 30.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7898,11 +7963,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 41823174
+    "tvl_usd": 41625850
    },
    "score": 30.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -7970,11 +8035,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 33114089
+    "tvl_usd": 33082802
    },
    "score": 30.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8041,11 +8106,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 37007218
+    "tvl_usd": 36852171
    },
    "score": 30.7,
    "first_seen": "2026-10-16T16:40:29+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8114,11 +8179,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 35979530
+    "tvl_usd": 35982510
    },
    "score": 30.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8184,11 +8249,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 34816763
+    "tvl_usd": 34825253
    },
    "score": 30.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8256,11 +8321,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 34655632
+    "tvl_usd": 34663490
    },
    "score": 30.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8491,7 +8556,7 @@
    "market": {},
    "score": 30.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8548,7 +8613,7 @@
    "market": {},
    "score": 29.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7953",
@@ -8607,76 +8672,13 @@
    "social_only": false,
    "market": {
     "symbol": "CATI",
-    "price_usd": 0.050224,
-    "market_cap_usd": 33380733,
-    "change_24h_pct": -1.98024
+    "price_usd": 0.050116,
+    "market_cap_usd": 33308414,
+    "change_24h_pct": -0.53496
    },
-   "score": 29.6,
+   "score": 29.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "dango",
-   "name": "Dango",
-   "kind": "defi",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "speculative",
-   "confirmed_zh": "推測",
-   "summary": "Dango is a DeFi trading platform built on its own blockchain for fast, fair, and seamless crypto trading. Trade perps on Dango and earn points.",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 3,
-   "difficulty_zh": "中等",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "deposit",
-   "cost_zh": "需投入資金",
-   "cost_note": "需要存入 / 交易資金才能累積資格。",
-   "steps": [
-    "$2c"
-   ],
-   "reward": "未公布",
-   "distribution": "官方尚未公布，通常是代幣發行時空投到錢包或開放 Claim。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "TBA",
-   "risk_level": "high",
-   "risk_zh": "高",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [
-    "Perpetual"
-   ],
-   "tags": [
-    "Trading"
-   ],
-   "links": [
-    {
-     "label": "參與連結",
-     "url": "https://dango.exchange/trade"
-    }
-   ],
-   "sources": [
-    {
-     "name": "DropsTab",
-     "url": "https://dropstab.com/coins/dango-exchange"
-    }
-   ],
-   "social_only": false,
-   "market": {},
-   "score": 27.6,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8732,13 +8734,13 @@
    "social_only": false,
    "market": {
     "symbol": "BORA",
-    "price_usd": 0.0257491,
-    "market_cap_usd": 29682302,
-    "change_24h_pct": -0.26849
+    "price_usd": 0.02587084,
+    "market_cap_usd": 29823581,
+    "change_24h_pct": 1.22757
    },
-   "score": 27.4,
+   "score": 27.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8794,13 +8796,13 @@
    "social_only": false,
    "market": {
     "symbol": "DEP",
-    "price_usd": 0.00098302,
-    "market_cap_usd": 29346021,
-    "change_24h_pct": -0.05987
+    "price_usd": 0.00098264,
+    "market_cap_usd": 29333849,
+    "change_24h_pct": 0.53415
    },
    "score": 27.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8857,12 +8859,12 @@
    "market": {
     "symbol": "ILV",
     "price_usd": 3.29,
-    "market_cap_usd": 27297226,
-    "change_24h_pct": -1.06029
+    "market_cap_usd": 27210954,
+    "change_24h_pct": -2.07988
    },
-   "score": 25.7,
+   "score": 25.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8918,13 +8920,13 @@
    "social_only": false,
    "market": {
     "symbol": "SKL",
-    "price_usd": 0.00440843,
-    "market_cap_usd": 26852512,
-    "change_24h_pct": -5.31746
+    "price_usd": 0.00431716,
+    "market_cap_usd": 26307256,
+    "change_24h_pct": -5.25644
    },
-   "score": 25.3,
+   "score": 24.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -8980,75 +8982,13 @@
    "social_only": false,
    "market": {
     "symbol": "BEAT",
-    "price_usd": 0.072919,
-    "market_cap_usd": 25745346,
-    "change_24h_pct": -1.63172
+    "price_usd": 0.073258,
+    "market_cap_usd": 25857491,
+    "change_24h_pct": 0.30409
    },
-   "score": 24.0,
+   "score": 24.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "carv",
-   "name": "CARV",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "gaming",
-    "$CARV"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/carv"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "CARV",
-    "price_usd": 0.03414424,
-    "market_cap_usd": 24870518,
-    "change_24h_pct": -3.87396
-   },
-   "score": 23.0,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9104,13 +9044,75 @@
    "social_only": false,
    "market": {
     "symbol": "PYBOBO",
-    "price_usd": 0.00067839,
-    "market_cap_usd": 23968578,
-    "change_24h_pct": -3.17803
+    "price_usd": 0.00071303,
+    "market_cap_usd": 25192919,
+    "change_24h_pct": 4.86903
    },
-   "score": 22.4,
+   "score": 23.4,
    "first_seen": "2026-10-11T10:01:16+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "carv",
+   "name": "CARV",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "gaming",
+    "$CARV"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/carv"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "CARV",
+    "price_usd": 0.03381161,
+    "market_cap_usd": 24623214,
+    "change_24h_pct": -0.54207
+   },
+   "score": 23.0,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9166,13 +9168,12 @@
    "social_only": false,
    "market": {
     "symbol": "$JPT",
-    "price_usd": 0.02300359,
-    "market_cap_usd": 22986334,
-    "change_24h_pct": -0.44996
+    "price_usd": 0.02309929,
+    "market_cap_usd": 23084463
    },
    "score": 21.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9228,75 +9229,13 @@
    "social_only": false,
    "market": {
     "symbol": "MPLX",
-    "price_usd": 0.04889421,
-    "market_cap_usd": 22921746,
-    "change_24h_pct": -0.27223
+    "price_usd": 0.04900912,
+    "market_cap_usd": 22972821,
+    "change_24h_pct": 0.06135
    },
    "score": 21.6,
    "first_seen": "2026-10-14T08:44:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
-   "key": "gmt",
-   "name": "GMT",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "play-to-earn",
-    "$GMT"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/stepn"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "GMT",
-    "price_usd": 0.00728681,
-    "market_cap_usd": 22671766,
-    "change_24h_pct": -2.63494
-   },
-   "score": 21.5,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9363,8 +9302,8 @@
    "related_posts": []
   },
   {
-   "key": "wax",
-   "name": "WAX",
+   "key": "gmt",
+   "name": "GMT",
    "kind": "p2e",
    "status": "ongoing",
    "status_zh": "進行中",
@@ -9402,25 +9341,25 @@
    "chains": [],
    "tags": [
     "play-to-earn",
-    "$WAXP"
+    "$GMT"
    ],
    "links": [],
    "sources": [
     {
      "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/wax"
+     "url": "https://www.coingecko.com/en/coins/stepn"
     }
    ],
    "social_only": false,
    "market": {
-    "symbol": "WAXP",
-    "price_usd": 0.00471496,
-    "market_cap_usd": 22173280,
-    "change_24h_pct": -1.65608
+    "symbol": "GMT",
+    "price_usd": 0.00725531,
+    "market_cap_usd": 22573789,
+    "change_24h_pct": -1.78544
    },
-   "score": 21.1,
+   "score": 21.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9483,6 +9422,68 @@
    "score": 20.7,
    "first_seen": "2026-10-13T19:18:27+00:00",
    "last_seen": "2026-10-13T19:18:27+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "wax",
+   "name": "WAX",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "play-to-earn",
+    "$WAXP"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/wax"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "WAXP",
+    "price_usd": 0.00465646,
+    "market_cap_usd": 21858881,
+    "change_24h_pct": -1.35953
+   },
+   "score": 20.6,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9559,7 +9560,7 @@
    "market": {},
    "score": 20.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/7953",
@@ -9693,68 +9694,6 @@
    "related_posts": []
   },
   {
-   "key": "yield-guild-games",
-   "name": "Yield Guild Games",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
-   ],
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "play-to-earn",
-    "$YGG"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/yield-guild-games"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "YGG",
-    "price_usd": 0.02369218,
-    "market_cap_usd": 21313395,
-    "change_24h_pct": -3.56145
-   },
-   "score": 20.0,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
-   "analysis_by": "rules",
-   "related_posts": []
-  },
-  {
    "key": "dow",
    "name": "Dow Protocol",
    "kind": "defi",
@@ -9827,7 +9766,69 @@
    "market": {},
    "score": 19.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
+  },
+  {
+   "key": "yield-guild-games",
+   "name": "Yield Guild Games",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "paid",
+   "cost_zh": "需付費 / 購買",
+   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
+   "steps": [
+    "遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT）"
+   ],
+   "reward": "未公布",
+   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "未公布",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。",
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [],
+   "tags": [
+    "play-to-earn",
+    "$YGG"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/yield-guild-games"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "YGG",
+    "price_usd": 0.02352773,
+    "market_cap_usd": 21162371,
+    "change_24h_pct": -3.25666
+   },
+   "score": 19.9,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9897,7 +9898,7 @@
    "market": {},
    "score": 18.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -9961,7 +9962,7 @@
    "market": {},
    "score": 18.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -10034,7 +10035,7 @@
    "market": {},
    "score": 13.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "news:0be7a174-8f1b-5223-9775-38dbf1f1ad01",
@@ -10184,7 +10185,7 @@
    "market": {},
    "score": 12.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -10268,6 +10269,81 @@
     "telegram:airdropfind/128382",
     "news:CBMijAFBVV95cUxNOVJjbTBQcVBPSmJJRzA3ZkFqS1VmY3YyS1JJeG5PMlg3QnBVc1AxX1lrV2pKbWw3M1JFdVJvUl8ySXZMYi1MaHpQazRWZmNmTGFadnhzUWtKVEx4Q09DOWw0NTV3U2xpakRvbzZNQmVXRkg2cHBnNEVfRVYzZnlJQjM0SWpxRGY3bmFVaQ"
    ]
+  },
+  {
+   "key": "solarious",
+   "name": "Solarious",
+   "kind": "defi",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "speculative",
+   "confirmed_zh": "推測",
+   "summary": "Solarious 正在進行 SOLAR 的持續銷售，SOLAR 是 Solarious Layer-1 區塊鏈的原生代幣。此次發售提供 20,000,000 SOLAR，佔 10 億 SOLAR 最大供應量的 2%，每 SOLAR 價格為 0.10 美元。全額撥款募集目標為200萬美元。",
+   "backing_level": "none_known",
+   "backing_zh": "未知 / 無公開投資方",
+   "backers": [],
+   "backing_note": "未找到公開的投資方資料。",
+   "funds_raised_usd": null,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "free",
+   "cost_zh": "免費",
+   "cost_note": "只需錢包或社群帳號，不用花錢。",
+   "steps": [
+    "造訪銷售頁面（https://solarious.us/）並開啟銷售介面。",
+    "檢視銷售條款、代幣經濟學、分配條件和風險揭露。",
+    "請按照官方銷售介面上顯示的錢包連線和付款說明進行操作。",
+    "使用相同的參與錢包檢查您的分配。",
+    "代幣：太陽能",
+    "銷售供應：20,000,000 代幣",
+    "代幣價格：0.1 美元",
+    "隱含 FDV：100,000,000 美元",
+    "全額分配目標籌集資金：2,000,000 美元"
+   ],
+   "reward": "未公布",
+   "distribution": "官方尚未公布，通常是代幣發行時空投到錢包或開放 Claim。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "2027-03-01T00:00:00+00:00",
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "查無知名投資方，請自行查證團隊背景。"
+   ],
+   "tips": "",
+   "chains": [
+    "Blockchain"
+   ],
+   "tags": [
+    "IDO and Launchpool",
+    "Public Sale"
+   ],
+   "links": [
+    {
+     "label": "參與連結",
+     "url": "https://solarious.us/"
+    },
+    {
+     "label": "文件",
+     "url": "https://solarious.us/docs/whitepaper.pdf"
+    }
+   ],
+   "sources": [
+    {
+     "name": "DropsTab",
+     "url": "https://dropstab.com/coins/solarious"
+    }
+   ],
+   "social_only": false,
+   "market": {},
+   "score": 9.7,
+   "first_seen": "2026-10-19T13:17:18+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
+   "analysis_by": "rules",
+   "related_posts": []
   },
   {
    "key": "mindgames",
@@ -10525,7 +10601,7 @@
    "market": {},
    "score": 7.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/128534"
@@ -10751,7 +10827,7 @@
    "market": {},
    "score": 4.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -10982,7 +11058,7 @@
    "market": {},
    "score": 4.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -11627,7 +11703,7 @@
    "market": {},
    "score": 0.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -11702,7 +11778,7 @@
    "market": {},
    "score": 0.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -11766,7 +11842,7 @@
    "market": {},
    "score": 0.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -11834,7 +11910,7 @@
    "market": {},
    "score": 0.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -11969,7 +12045,7 @@
    "market": {},
    "score": 0.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-10-19T04:41:44+00:00",
+   "last_seen": "2026-10-19T13:17:18+00:00",
    "analysis_by": "rules",
    "related_posts": []
   },
@@ -12132,6 +12208,208 @@
   }
  ],
  "posts": [
+  {
+   "id": "telegram:airdrops_io/7954",
+   "source": "telegram",
+   "channel": "airdrops_io",
+   "url": "https://t.me/airdrops_io/7954",
+   "published": "2026-10-19T13:06:27+00:00",
+   "title": "👀 在 FlopLabs 上傳送垃圾郵件代理聊天不會再給你帶來空投",
+   "summary": "👀 在 FlopLabs 上傳送垃圾郵件代理聊天不會再給你帶來空投\n翻牌是 Arthur Hayes 押注於 AI 代理，以 FLOP 美元支付模型計算費用。\n9 月的網路主要是 Technocore：代理商建立 DID、開設房間並相互交談。幾週內，總計增加了約 57,000 個房間和 230 萬條註釋，其中一名客服人員在 95 分鐘內回覆了 155 條幾乎相同的回應。農業聊天很容易，但還沒有地方可以購買計算裝置。\nBadFriend 打破了新的獎勵規則，這對農民來說是個壞訊息：\n➖ 房間聊天不會掉落。該專案不需要該活動",
+   "original": "👀 Spamming agent chats on FlopLabs won't get you an airdrop anymore \nFlop is Arthur Hayes bet on AI agents that pay for model compute in $FLOP.\nIn September the network was mostly Technocore: agents created DIDs, opened rooms and talked to each other. In a couple of weeks that added up to ~57K rooms and 2.3M notes, including one agent with 155 near-identical replies in 95 minutes. Farming chats was easy, but there was nowhere to buy compute yet.\nBadFriend has since broken down the new reward rules, and they're bad news for farmers:\n➖ No drop for room chatter. The project doesn't need that acti",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128585",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128585",
+   "published": "2026-10-19T12:46:46+00:00",
+   "title": "sekarang garap testnet udah gak kaya dulu, percuma ada new chain tp ec",
+   "summary": "sekarang garap testnet udah gak kaya dulu, percuma ada new chain tp ecosystem nya sama semua. kalian daripada garap testnet, lebih baik cari whitelist / ngedegen nft di beberapa ecosystem giwa / elysium",
+   "original": "sekarang garap testnet udah gak kaya dulu, percuma ada new chain tp ecosystem nya sama semua. kalian daripada garap testnet, lebih baik cari whitelist / ngedegen nft di beberapa ecosystem giwa / elysium",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128584",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128584",
+   "published": "2026-10-19T12:37:24+00:00",
+   "title": "sekarang garap testnet udah gak kaya dulu, percuma ada new chain tp ec",
+   "summary": "sekarang garap testnet udah gak kaya dulu, percuma ada new chain tp ecosystem nya sama semua. kalian daripada garap testnet, lebih baik cari whitelist / ngedegen nft di beberapa ecosystem giwa / elysium",
+   "original": "sekarang garap testnet udah gak kaya dulu, percuma ada new chain tp ecosystem nya sama semua. kalian daripada garap testnet, lebih baik cari whitelist / ngedegen nft di beberapa ecosystem giwa / elysium",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128583",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128583",
+   "published": "2026-10-19T12:35:34+00:00",
+   "title": "現在測試網路上的工作不再像以前那麼豐富，新鏈也沒用，但生態系統都是一樣的。",
+   "summary": "現在測試網路上的工作不再像以前那麼豐富，新鏈也沒用，但生態系統都是一樣的。\n與其在測試網上工作，不如在幾個 Giwa / Elysium 生態系統中尋找白名單/開發 NFT",
+   "original": "sekarang garap testnet udah gak kaya dulu, percuma ada new chain tp ecosystem nya sama semua.\nkalian daripada garap testnet, lebih baik cari whitelist / ngedegen nft di beberapa ecosystem giwa / elysium",
+   "projects": []
+  },
+  {
+   "id": "telegram:binance_announcements/9066",
+   "source": "telegram",
+   "channel": "binance_announcements",
+   "url": "https://t.me/binance_announcements/9066",
+   "published": "2026-10-19T12:04:36+00:00",
+   "title": "幣安 AI Pro 簡介",
+   "summary": "幣安 AI Pro 簡介\n幣安很高興宣佈正式推出 Binance AI Pro，這是一款專注於金融的人工智慧代理，可透過簡單的對話將您的交易想法轉化為經過測試的自動化策略，其引數完全由您決定。自 2026 年 10 月 19 日起，Binance AI Pro 將在網站和幣安應用程式上向全球所有使用者推出。\n👉🏻在這裡瞭解更多",
+   "original": "Introducing Binance AI Pro\nBinance is excited to announce the official launch of Binance AI Pro, a finance-focused AI agent that turns your trading ideas into tested, automated strategies through a simple conversation, the parameters of which are fully decided by you. From 2026-10-19, Binance AI Pro will roll out to all users globally on the website and the Binance app.\n👉🏻 Learn more here",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128577",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128577",
+   "published": "2026-10-19T12:02:03+00:00",
+   "title": "Trezor Model T - 70000 10 級合格 Jumper 使用者➡️ 索賠：https://jumper.xyz/perks",
+   "summary": "Trezor Model T - 70000 10 級合格 Jumper 使用者➡️ 索賠：https://jumper.xyz/perks",
+   "original": "Trezor Model T - 70000 Eligible Jumper Users Level 10 ➡️ Claim : https://jumper.xyz/perks",
+   "projects": [
+    "jumper-exchange"
+   ]
+  },
+  {
+   "id": "telegram:icodrops/25237",
+   "source": "telegram",
+   "channel": "ICODrops",
+   "url": "https://t.me/icodrops/25237",
+   "published": "2026-10-19T11:14:04+00:00",
+   "title": "$1WIN 公開發售：8 分鐘內認領 1.3 億代幣",
+   "summary": "$1WIN 公開發售：8 分鐘內認領 1.3 億代幣\n拍賣於 10 月 15 日 15:00 UTC 開始。截至 15:08，捐款額已超過 390 萬美元，即 1.3 億枚代幣的總價值，每個代幣價值 0.03 美元。\n該價格估計 1B 代幣供應總量為 3,000 萬美元，而 Shuffle 約為 4 億美元，Rollbit 約為 1 億美元。\n1win 自 2016 年以來一直經營著世界上最大的 iGaming 平臺之一，無需代幣即可產生收入。其代幣進入市場的估值大約比同業低 3-13 倍。\n$1WIN 的背後是什麼？\n• 平臺收入的一部分用於資助公開市場回購。\n• 花費的每個代幣的 10%",
+   "original": "$1WIN public sale: 130M tokens claimed in 8 minutes\nThe sale opened October 15 at 15:00 UTC. By 15:08, contributions had topped $3.9M — the full value of the 130M tokens on offer at $0.03 each.\nThat price values the total 1B token supply at $30M, compared with around $400M for Shuffle and $100M for Rollbit.\n1win has operated one of the world’s largest iGaming platforms since 2016, generating revenue without a token. Its token enters the market at a valuation roughly 3–13x below those peers.\nWhat backs $1WIN?\n• A share of platform revenue funds open-market buybacks.\n• 10% of every token spent i",
+   "projects": []
+  },
+  {
+   "id": "news:CBMipAFBVV95cUxPdFNaRnVEZTBwZGxmMlR3Q3dlbTl5VFk1UU45bUZSX05YMF9GVm1Ba1BWSG0xVGtuc29PV2JQZl9EeDJPdzNJTnF0RThWQXYzV2ZOcU9YYVFsWFpydzdUTElkYk9YVlZPR3ZNZFVwNVVfcEpZbC1HUzRxRnJmTGVha21QMFpKM1pFWkxuOHlhTElVd0J6Vy1wRnAtUk5KVmhHb3ZyZg",
+   "source": "news",
+   "channel": "Google News 空投",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdFNaRnVEZTBwZGxmMlR3Q3dlbTl5VFk1UU45bUZSX05YMF9GVm1Ba1BWSG0xVGtuc29PV2JQZl9EeDJPdzNJTnF0RThWQXYzV2ZOcU9YYVFsWFpydzdUTElkYk9YVlZPR3ZNZFVwNVVfcEpZbC1HUzRxRnJmTGVha21QMFpKM1pFWkxuOHlhTElVd0J6Vy1wRnAtUk5KVmhHb3ZyZg?oc=5",
+   "published": "2026-10-19T10:09:12+00:00",
+   "title": "伊隆馬斯克 (Elon Musk) 價值 100 億美元以上的 SpaceX「空投」：為 7300 萬美國兒童提供免費股票 - 加密時報",
+   "summary": "Elon Musk’s $10B+ SpaceX ‘Airdrop’: Free Shares for 73M American Kids    The Crypto Times",
+   "original": "Elon Musk’s $10B+ SpaceX ‘Airdrop’: Free Shares for 73M American Kids - The Crypto Times\nElon Musk’s $10B+ SpaceX ‘Airdrop’: Free Shares for 73M American Kids    The Crypto Times",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128574",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128574",
+   "published": "2026-10-19T09:20:12+00:00",
+   "title": "新空投：JBTClabs（第 2 輪）🏷 獎勵：6 JBTC（~$12），隨機 400 名獲獎者🪂 註冊：https://t.me/JBTC",
+   "summary": "新空投：JBTClabs（第 2 輪）🏷 獎勵：6 JBTC（~$12），隨機 400 名獲獎者🪂 註冊：https://t.me/JBTClabsNewRoundAirdropBot?start=515933843 ➖ 加入 Telegram ➖ 關注 Twitter ➖ 完成另一項任務 ➖ 提交 BSC 地址 ➖完成📌 JBTC 實驗室...",
+   "original": "New Airdrops : JBTClabs ( Round 2 ) 🏷 Reward : 6 JBTC (~$12) For 400 Random Winners 🪂 Register : https://t.me/JBTClabsNewRoundAirdropBot?start=515933843 ➖ Join Telegram ➖ Follow Twitter ➖ Complete Another Task ➖ Submit BSC Address ➖ Done 📌 JBTClabs…",
+   "projects": []
+  },
+  {
+   "id": "news:CBMiYEFVX3lxTFA0Sm10WkpNb2Z6QjNBeVZSUHBCN3Yxc3BDcWsxWTM2WG5vcEJBTVZFR1VUcGhMQkJ3VXVwWjJpdW5sM3JYb1VrbjRTakIxVXlxR0FhT0s1bkNDTF9naWNXWg",
+   "source": "news",
+   "channel": "Google News 空投",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0Sm10WkpNb2Z6QjNBeVZSUHBCN3Yxc3BDcWsxWTM2WG5vcEJBTVZFR1VUcGhMQkJ3VXVwWjJpdW5sM3JYb1VrbjRTakIxVXlxR0FhT0s1bkNDTF9naWNXWg?oc=5",
+   "published": "2026-10-19T08:54:00+00:00",
+   "title": "Dola AI 代幣即將上市：如何領取 75 萬空投 - Coin Gabbar",
+   "summary": "Dola AI 代幣上市即將啟動：如何領取 750K 空投 ​​Coin Gabbar",
+   "original": "Dola AI Token Listing Set for Launch: How to Claim the 750K Airdrop - Coin Gabbar\nDola AI Token Listing Set for Launch: How to Claim the 750K Airdrop    Coin Gabbar",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128572",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128572",
+   "published": "2026-10-19T08:05:08+00:00",
+   "title": "新候補名單：Thetimecard 🪂 註冊：https://www.thetimecard.xyz/quest ➖ 完成所有任務 ➖ 提交",
+   "summary": "新候補名單：Thetimecard 🪂 註冊：https://www.thetimecard.xyz/quest ➖ 完成所有任務 ➖ 提交 EVM 地址 ➖ 完成供應：7,777 鑄幣價格：Freemint 鑄幣日期：10 月 27 日 鏈：INK 📖 來源： https://x.com/thetimecard/status/2110962911955009979",
+   "original": "New Waitlist: Thetimecard 🪂 Register : https://www.thetimecard.xyz/quest ➖ Complete All Task ➖ Submit EVM Address ➖ Done Supply : 7,777 Mint Price : Freemint Mint Date : 27 Oktober Chain : INK 📖Source: https://x.com/thetimecard/status/2110962911955009979",
+   "projects": []
+  },
+  {
+   "id": "telegram:binance_announcements/9065",
+   "source": "telegram",
+   "channel": "binance_announcements",
+   "url": "https://t.me/binance_announcements/9065",
+   "published": "2026-10-19T08:02:05+00:00",
+   "title": "隆重介紹 Binance Pick：預測並攀登排行榜瓜分 1,000,000 USDC！",
+   "summary": "隆重介紹 Binance Pick：預測並攀登排行榜瓜分 1,000,000 USDC！\n幣安很高興推出 Binance Pick，這是一項獎勵您交易活動的旗艦活動。早鳥預訂將於2026年10月19日開放，活動將於2026年10月21日（UTC）正式啟動。早鳥期預約的使用者越多，解鎖的獎金池就越大，最高可達 1,000,000 USDC。符合資格的使用者可以開始完成任務並預測獎金池份額。\n👉🏻在這裡瞭解更多\n免責宣告：這不適用於歐洲經濟區的使用者。",
+   "original": "Introducing Binance Pick: Predict and Climb the Leaderboards to Share 1,000,000 USDC!\nBinance is excited to introduce Binance Pick, a flagship campaign that rewards your trading activity. Early Bird reservation opens on 2026-10-19, while the campaign officially launches on 2026-10-21 (UTC). The more users who reserve during Early Bird, the larger the prize pool unlocked, up to 1,000,000 USDC. Eligible users can start completing tasks and making predictions for a share of the prize pool.\n👉🏻 Learn more here \nDisclaimer: This is not available for users in the EEA.",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128571",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128571",
+   "published": "2026-10-19T07:05:00+00:00",
+   "title": "新白名單：去中心化智慧 ➡️ 前往：https://di.xyz/check-in ➖ 連線您的錢包 ➖ 每日簽到 15/30 天 ➖ 完成",
+   "summary": "新白名單：去中心化智慧 ➡️ 前往：https://di.xyz/check-in ➖ 連線您的錢包 ➖ 每日簽到 15/30 天 ➖ 完成日常任務 ➖ 完成簽到 15 或 30 天，即可獲得 NFT 白名單訪問資格……賺取積分並增加您的",
+   "original": "New Whitelist: Decentralized Intelligence ➡️ Go to: https://di.xyz/check-in ➖ Connect your wallet ➖ Daily check-in for 15/30 days ➖ Complete daily tasks ➖ Done Check in for 15 or 30 days to qualify for NFT Whitelist access, earn points, and increase your…",
+   "projects": []
+  },
+  {
+   "id": "news:CBMiqAFBVV95cUxPMlZyLTR3c2c4OEtfZWhodGZjTlZ0ZEtwR1ZpSDZaMGpTY1M2MEtZQ2JSRlhpUUpVQ1l0UmhoeXEtNHJWRDdKQzlBMHl6d0NCS3hwcGppRDZzTFctZmc1eHR3TE1RS2lSMkR6WTloTkNSaW14T3cybld3XzFhMkNsbjN1dWEzdHNOWnRzbXIxOG91Q1gxcGJTZlZaWGdlSG91Wlo4bC1ZR2c",
+   "source": "news",
+   "channel": "Google News 空投",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMlZyLTR3c2c4OEtfZWhodGZjTlZ0ZEtwR1ZpSDZaMGpTY1M2MEtZQ2JSRlhpUUpVQ1l0UmhoeXEtNHJWRDdKQzlBMHl6d0NCS3hwcGppRDZzTFctZmc1eHR3TE1RS2lSMkR6WTloTkNSaW14T3cybld3XzFhMkNsbjN1dWEzdHNOWnRzbXIxOG91Q1gxcGJTZlZaWGdlSG91Wlo4bC1ZR2c?oc=5",
+   "published": "2026-10-19T06:45:06+00:00",
+   "title": "Musk Teases SpaceX 'Airdrop' as Florida Awaits 'Jellyfish' Launch on Oct. 19 - KuCoin",
+   "summary": "佛羅裡達州等待 10 月 19 日發射“水母”，馬斯克嘲笑 SpaceX 正在“空投” KuCoin",
+   "original": "Musk Teases SpaceX 'Airdrop' as Florida Awaits 'Jellyfish' Launch on Oct. 19 - KuCoin\nMusk Teases SpaceX 'Airdrop' as Florida Awaits 'Jellyfish' Launch on Oct. 19    KuCoin",
+   "projects": []
+  },
+  {
+   "id": "news:CBMidEFVX3lxTE43MzU0djBqaHNjRGJMb1ZMc2hwZWx1ZHpFZnZ5dUV6Q2Y0OFB6Yk1NUTlrOE1FMkQ2dzZld2laZkx4YV83eTQzdF9sVTBCdGJRbzQwS3FrNklMMFk2MjAzX0p4VEVwejh6OXJjRVhTcVIyTWEw",
+   "source": "news",
+   "channel": "Google News 空投",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43MzU0djBqaHNjRGJMb1ZMc2hwZWx1ZHpFZnZ5dUV6Q2Y0OFB6Yk1NUTlrOE1FMkQ2dzZld2laZkx4YV83eTQzdF9sVTBCdGJRbzQwS3FrNklMMFk2MjAzX0p4VEVwejh6OXJjRVhTcVIyTWEw?oc=5",
+   "published": "2026-10-19T06:43:21+00:00",
+   "title": "加密貨幣空投第 43/2026 週：Meteora 和 Pharos 關閉 - CryptoTicker",
+   "summary": "加密貨幣空投第 43/2026 週：Meteora 和 Pharos 關閉 CryptoTicker",
+   "original": "Crypto airdrops week 43/2026: Meteora and Pharos close - CryptoTicker\nCrypto airdrops week 43/2026: Meteora and Pharos close    CryptoTicker",
+   "projects": [
+    "pharos"
+   ]
+  },
+  {
+   "id": "telegram:airdropfind/128570",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128570",
+   "published": "2026-10-19T06:20:02+00:00",
+   "title": "Stash 錢包測試版候補名單",
+   "summary": "Stash 錢包測試版候補名單\n➡️註冊：https://stashapes.xyz/r/56259dcc\n➖ 點選“觀看”>“下一步”\n➖ 連線新錢包\n➖ 領取藏匿點\n➖ 去賺取以獲得更多積分\n📖來源：https://x.com/STASHAPES/status/2111856987411800186",
+   "original": "Stash Wallet Beta Waitlist\n➡️ Register: https://stashapes.xyz/r/56259dcc\n➖ Click on Watch > Next\n➖ Connect with NEW wallet\n➖ Claim Stash Point\n➖ Go to earn to get more points\n📖 Source: https://x.com/STASHAPES/status/2111856987411800186",
+   "projects": []
+  },
+  {
+   "id": "news:CBMijgFBVV95cUxOY1NBSkZjT1UxT2NYMnFuQ2thZm92cU9EcnBNYU9nYkVWcVRxRzhocmtCWDlIaXJzeWRiY2Z2bUFCRUdMYUZVU2RZcXAwNVhWaVF2NUJLUXVTZkIyTmg3b1FPcFA4OGxmbHNaaEpPWjI2S1RSR1hzREh0VTBERkw1enVmN04yOUNkeC1lNnlR",
+   "source": "news",
+   "channel": "Google News 空投",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1NBSkZjT1UxT2NYMnFuQ2thZm92cU9EcnBNYU9nYkVWcVRxRzhocmtCWDlIaXJzeWRiY2Z2bUFCRUdMYUZVU2RZcXAwNVhWaVF2NUJLUXVTZkIyTmg3b1FPcFA4OGxmbHNaaEpPWjI2S1RSR1hzREh0VTBERkw1enVmN04yOUNkeC1lNnlR?oc=5",
+   "published": "2026-10-19T06:00:00+00:00",
+   "title": "AVA (Travala) 將舉行空投 - TradingView",
+   "summary": "AVA (Travala) 將舉行空投 TradingView",
+   "original": "AVA (Travala) to Hold Airdrop - TradingView\nAVA (Travala) to Hold Airdrop    TradingView",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/128569",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/128569",
+   "published": "2026-10-19T05:33:08+00:00",
+   "title": "Ryfinite TGE 2027 年第一季📖 資料來源：https://ryfinite.com/roadmap",
+   "summary": "Ryfinite TGE 2027 年第一季📖 資料來源：https://ryfinite.com/roadmap",
+   "original": "Ryfinite TGE Q1 2027 📖 Source: https://ryfinite.com/roadmap",
+   "projects": []
+  },
   {
    "id": "telegram:airdropfind/128568",
    "source": "telegram",
@@ -15348,210 +15626,6 @@
    "title": "VOIDTRACE AI空投：參與任務、獎勵和領取詳情 - Coin Gabbar",
    "summary": "VOIDTRACE AI 空投：參與任務、獎勵和領取詳情 Coin Gabbar",
    "original": "VOIDTRACE AI Airdrop: Participation Tasks, Rewards, and Claim Details - Coin Gabbar\nVOIDTRACE AI Airdrop: Participation Tasks, Rewards, and Claim Details    Coin Gabbar",
-   "projects": []
-  },
-  {
-   "id": "news:CBMidkFVX3lxTE5CTlNmZS1MMGI3UGlNMXJqSm1HV0lYRVZ1TVJGZERqVkE1eEU1cjJydGtGandwN05Kak1hWFA0emhoZkZxa0RDdzNhVjktclp6TC1ydlRkdWdMb2MzbXBycXhpMU8tT0xXdDNlQ0dyYWFsZ095SVE",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CTlNmZS1MMGI3UGlNMXJqSm1HV0lYRVZ1TVJGZERqVkE1eEU1cjJydGtGandwN05Kak1hWFA0emhoZkZxa0RDdzNhVjktclp6TC1ydlRkdWdMb2MzbXBycXhpMU8tT0xXdDNlQ0dyYWFsZ095SVE?oc=5",
-   "published": "2026-10-10T11:56:00+00:00",
-   "title": "伺服網路空投指南：資格、任務和獎勵詳情 - Coin Gabbar",
-   "summary": "伺服網路空投指南：資格、任務和獎勵詳情 Coin Gabbar",
-   "original": "Servo Network Airdrop Guide: Eligibility, Tasks, and Reward Details - Coin Gabbar\nServo Network Airdrop Guide: Eligibility, Tasks, and Reward Details    Coin Gabbar",
-   "projects": []
-  },
-  {
-   "id": "news:https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet",
-   "source": "news",
-   "channel": "CoinTelegraph",
-   "url": "https://cointelegraph.com/news/justin-sun-says-trons-post-quantum-cryptography-has-gone-live-on-testnet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-10T11:52:14+00:00",
-   "title": "賈斯汀·孫 (Justin Sun) 表示 Tron 的後量子密碼學已在測試網上上線",
-   "summary": "Sun 在 X 上的一篇貼文中表示：“我們隨時準備將量子抗性引入主網。”",
-   "original": "Justin Sun says Tron’s post-quantum cryptography has gone live on testnet\n“We’re ready to bring quantum resistance to mainnet at any time,” Sun said in a post on X.",
-   "projects": []
-  },
-  {
-   "id": "news:CBMihAFBVV95cUxNVTJ1T3F1OU9qY2Q2c2ptM2N5OG15YklOT1gwSHZmcVh2dERGV2FMYURwblI3UG5nSV9sbGtXeVB3NHZQako2bko1MEtKY0FnQ3hIUVNPYWd2ZE4xWmc2bGk0M3BGdUtJUHpSR0FmREQ5TVNVMmhaNkk3Y3FNUmlCM0JBMnA",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVTJ1T3F1OU9qY2Q2c2ptM2N5OG15YklOT1gwSHZmcVh2dERGV2FMYURwblI3UG5nSV9sbGtXeVB3NHZQako2bko1MEtKY0FnQ3hIUVNPYWd2ZE4xWmc2bGk0M3BGdUtJUHpSR0FmREQ5TVNVMmhaNkk3Y3FNUmlCM0JBMnA?oc=5",
-   "published": "2026-10-10T11:00:00+00:00",
-   "title": "Sigmabull 預售新聞：免費 5M 空投領取還是 1 SOL 預售價格？ - 硬幣加巴爾",
-   "summary": "Sigmabull 預售新聞：免費 5M 空投領取還是 1 SOL 預售價格？    硬幣加巴爾",
-   "original": "Sigmabull Presale News: Free 5M Airdrop Claim or 1 SOL Presale Price? - Coin Gabbar\nSigmabull Presale News: Free 5M Airdrop Claim or 1 SOL Presale Price?    Coin Gabbar",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/128343",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/128343",
-   "published": "2026-10-10T10:51:47+00:00",
-   "title": "新白名單：無界",
-   "summary": "新白名單：無界\n🏷獎勵：2222 WL NFT\n🪂 註冊：https://jadebound.fun/?ref=ZXBD5UCR\n➖ 連線EVM錢包\n➖ 關注 Twitter 並轉發\n➖ 加入 Discord\n➖️完成",
-   "original": "New Whitelist : The Unbound\n🏷 Reward : 2222 WL NFT\n🪂 Register : https://jadebound.fun/?ref=ZXBD5UCR\n➖ Connect EVM Wallet \n➖ Follow Twitter & Retweet \n➖ Join Discord\n➖️ Done",
-   "projects": []
-  },
-  {
-   "id": "news:CBMidEFVX3lxTE8yYUo1ODBVMFhqMXlJb0haRi13U0FfMy1hTVdKS2hsak5oSDA2MjYteWE1MXBBaGFFcmdjRGNSWVk3ak1QcFBVVDNfN09KcHdkRm1LeFJNSEVHY1k4WGRpcllLSFFpNTV1SnJ1ODdNZElkNmJi",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yYUo1ODBVMFhqMXlJb0haRi13U0FfMy1hTVdKS2hsak5oSDA2MjYteWE1MXBBaGFFcmdjRGNSWVk3ak1QcFBVVDNfN09KcHdkRm1LeFJNSEVHY1k4WGRpcllLSFFpNTV1SnJ1ODdNZElkNmJi?oc=5",
-   "published": "2026-10-10T10:01:52+00:00",
-   "title": "TastyCo 空投：任務參與如何塑造 $TASTY 獎勵 - Coin Gabbar",
-   "summary": "TastyCo 空投：任務參與如何塑造 $TASTY 獎勵 Coin Gabbar",
-   "original": "TastyCo Airdrop: How Quest Participation Shapes $TASTY Rewards - Coin Gabbar\nTastyCo Airdrop: How Quest Participation Shapes $TASTY Rewards    Coin Gabbar",
-   "projects": [
-    "tastyco"
-   ]
-  },
-  {
-   "id": "news:CBMimAFBVV95cUxOQXpuRG5hVFlCTlFmMjJLVHpfOVAyby10cTQwcmRWaEZDdFhtS0xvclU5aG16Qnc4eWVtVWZKX2FZZnJ6ZUZmN2dxVlRRZmpXRzdYZUJZU0dadVlFRElLVkRpWVlCRjdtS2tyNlFVTTJ6cXlNUmZJZWVidF83a2RxbHR5LXpyeWtxS1pYX0tCd09yY2h1aTBHQQ",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQXpuRG5hVFlCTlFmMjJLVHpfOVAyby10cTQwcmRWaEZDdFhtS0xvclU5aG16Qnc4eWVtVWZKX2FZZnJ6ZUZmN2dxVlRRZmpXRzdYZUJZU0dadVlFRElLVkRpWVlCRjdtS2tyNlFVTTJ6cXlNUmZJZWVidF83a2RxbHR5LXpyeWtxS1pYX0tCd09yY2h1aTBHQQ?oc=5",
-   "published": "2026-10-10T09:45:00+00:00",
-   "title": "草空投第 2 季領取截止日期和新內容 API 成為焦點 - Coin Gabbar",
-   "summary": "草空投第 2 季領取截止日期和新內容 API 焦點 Coin Gabbar",
-   "original": "Grass Airdrop Season 2 Claim Deadline and New Contents API in Focus - Coin Gabbar\nGrass Airdrop Season 2 Claim Deadline and New Contents API in Focus    Coin Gabbar",
-   "projects": []
-  },
-  {
-   "id": "news:CBMiY0FVX3lxTE1XWHhOTDZwWU9CYnFuRmtEOG9Ya2JZZlEtaElFNFRpVG9KMXBxUUt2Rlh4eUdFWEdOWHpHWHJadzlSWm0xTXBDU2paUlVvVS02WHJrS1ZPT1pmbFVXNnl2eGlZUQ",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XWHhOTDZwWU9CYnFuRmtEOG9Ya2JZZlEtaElFNFRpVG9KMXBxUUt2Rlh4eUdFWEdOWHpHWHJadzlSWm0xTXBDU2paUlVvVS02WHJrS1ZPT1pmbFVXNnl2eGlZUQ?oc=5",
-   "published": "2026-10-10T09:18:35+00:00",
-   "title": "2026 年熱門加密貨幣空投：立即領取免費獎勵 - Coin Gabbar",
-   "summary": "2026 年熱門加密貨幣空投：立即領取免費獎勵 Coin Gabbar",
-   "original": "Top Ongoing Crypto Airdrops 2026: Claim Free Rewards Today - Coin Gabbar\nTop Ongoing Crypto Airdrops 2026: Claim Free Rewards Today    Coin Gabbar",
-   "projects": []
-  },
-  {
-   "id": "news:CBMijAFBVV95cUxNOVJjbTBQcVBPSmJJRzA3ZkFqS1VmY3YyS1JJeG5PMlg3QnBVc1AxX1lrV2pKbWw3M1JFdVJvUl8ySXZMYi1MaHpQazRWZmNmTGFadnhzUWtKVEx4Q09DOWw0NTV3U2xpakRvbzZNQmVXRkg2cHBnNEVfRVYzZnlJQjM0SWpxRGY3bmFVaQ",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOVJjbTBQcVBPSmJJRzA3ZkFqS1VmY3YyS1JJeG5PMlg3QnBVc1AxX1lrV2pKbWw3M1JFdVJvUl8ySXZMYi1MaHpQazRWZmNmTGFadnhzUWtKVEx4Q09DOWw0NTV3U2xpakRvbzZNQmVXRkg2cHBnNEVfRVYzZnlJQjM0SWpxRGY3bmFVaQ?oc=5",
-   "published": "2026-10-10T08:38:00+00:00",
-   "title": "CZR 代幣空投解鎖新聞引發殘酷的價格暴跌：下一步是什麼？ - 硬幣加巴爾",
-   "summary": "CZR 代幣空投解鎖新聞引發殘酷的價格暴跌：下一步是什麼？    硬幣加巴爾",
-   "original": "CZR Token Airdrop Unlock News Sparks Brutal Price Crash: What's Next? - Coin Gabbar\nCZR Token Airdrop Unlock News Sparks Brutal Price Crash: What's Next?    Coin Gabbar",
-   "projects": [
-    "czr"
-   ]
-  },
-  {
-   "id": "news:CBMixgFBVV95cUxQR3NMbjdRcXpObk9qZ1cwLTd1bXVlVmVYS3ZpcHlnclpCbk1wU2VmUi03Tnd2eGFaRVRwYWZ1UnV4Q1JvNE9fZjJsZ3ZSb1JOXzZzekdXZUY3QUFGdkZjT255QmtRbEk0dWRnUF8zR19RbS1jOGIwWVRqYkUzSWl5VHFvS0F0MlVmT2c4Wk9KUHRvMVRSZVhnYnlESXJEdVZhZENuTHhLR1RyLTU2Z1Z1WVFhaUxfTW5VSDBJUmZKZWNFbm9RS0E",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQR3NMbjdRcXpObk9qZ1cwLTd1bXVlVmVYS3ZpcHlnclpCbk1wU2VmUi03Tnd2eGFaRVRwYWZ1UnV4Q1JvNE9fZjJsZ3ZSb1JOXzZzekdXZUY3QUFGdkZjT255QmtRbEk0dWRnUF8zR19RbS1jOGIwWVRqYkUzSWl5VHFvS0F0MlVmT2c4Wk9KUHRvMVRSZVhnYnlESXJEdVZhZENuTHhLR1RyLTU2Z1Z1WVFhaUxfTW5VSDBJUmZKZWNFbm9RS0E?oc=5",
-   "published": "2026-10-10T07:40:45+00:00",
-   "title": "印度的加密貨幣空投：它們如何運作、稅收規則以及在哪裡可以找到真正的空投 (2026) - The Hans India",
-   "summary": "印度的加密貨幣空投：它們如何運作、稅收規則以及在哪裡可以找到真正的空投 (2026)   The Hans India",
-   "original": "Crypto Airdrops in India: How They Work, Tax Rules and Where to Find Real Ones (2026) - The Hans India\nCrypto Airdrops in India: How They Work, Tax Rules and Where to Find Real Ones (2026)    The Hans India",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/128341",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/128341",
-   "published": "2026-10-10T07:00:52+00:00",
-   "title": "ACI 測試網還剩 9 天。第 1 季截止時間：UTC 時間 10 月 10 日 23:59。之後：快照。",
-   "summary": "ACI 測試網還剩 9 天。第 1 季截止時間：UTC 時間 10 月 10 日 23:59。之後：快照。",
-   "original": "ACI testnet 9 days left. Season 1 cutoff: 10 Oct, 23:59 UTC. After that: snapshot.",
-   "projects": []
-  },
-  {
-   "id": "news:CBMijAFBVV95cUxPYXJKUDV2ZGgxMFBJZ2k0WUdBUG9PQUcwZVBJWTd5VElQT0xXT0VONHJkTWZrMkpRamczNEJ3MFVCV0VYWTN6S2tzVmFHc2Z4NlRyMmhGV3ZIcWRDeFRmWGN4akxXUVcxYnBqdGl1eDdvSFBTdkFxZ2cyQmtDaVlfdXZrYWl0NVhtRk5qVg",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYXJKUDV2ZGgxMFBJZ2k0WUdBUG9PQUcwZVBJWTd5VElQT0xXT0VONHJkTWZrMkpRamczNEJ3MFVCV0VYWTN6S2tzVmFHc2Z4NlRyMmhGV3ZIcWRDeFRmWGN4akxXUVcxYnBqdGl1eDdvSFBTdkFxZ2cyQmtDaVlfdXZrYWl0NVhtRk5qVg?oc=5",
-   "published": "2026-10-10T06:30:00+00:00",
-   "title": "FLOKI RICE 空投：最新措施對質押者意味著什麼？ - 硬幣加巴爾",
-   "summary": "FLOKI RICE 空投：最新措施對質押者意味著什麼？    硬幣加巴爾",
-   "original": "FLOKI RICE Airdrop: What Could the Latest Move Mean for Stakers? - Coin Gabbar\nFLOKI RICE Airdrop: What Could the Latest Move Mean for Stakers?    Coin Gabbar",
-   "projects": [
-    "floki"
-   ]
-  },
-  {
-   "id": "telegram:airdropfind/128340",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/128340",
-   "published": "2026-10-10T06:14:14+00:00",
-   "title": "早期 .RFN 索賠現已上線 • 只有前 5,000 名使用者可以獲得早期索賠訪問許可權 • 要求：完成 Ryfinite 社交任務 · 加",
-   "summary": "早期 .RFN 索賠現已上線 • 只有前 5,000 名使用者可以獲得早期索賠訪問許可權 • 要求：完成 Ryfinite 社交任務 · 加入 $RFN Launchpool ➡️ Mint Here：ryfinite.com（付費薄荷）",
-   "original": "Early .RFN Claim is now LIVE • Only the first 5,000 users get Early Claim access • Requirements: Complete Ryfinite social quests · Join the $RFN Launchpool ➡️ Mint Here: ryfinite.com (PAID MINT)",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/128338",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/128338",
-   "published": "2026-10-10T04:53:17+00:00",
-   "title": "真正新的活動等值原則 https://app.rally.fun/campaigns/0x22e61262645C881E4b54b3eBc",
-   "summary": "真正新的活動等值原則 https://app.rally.fun/campaigns/0x22e61262645C881E4b54b3eBc769511Ed6B661e6",
-   "original": "Really New Campaign Equivalence Principle https://app.rally.fun/campaigns/0x22e61262645C881E4b54b3eBc769511Ed6B661e6",
-   "projects": []
-  },
-  {
-   "id": "news:CBMiWkFVX3lxTE5MbDR6ZW5tNDZtV2RDYzlpN0RRNFdxUi12S2FJakdVT0UwYW4tUUl2WVl4SXFQWWZ3eGg5X2F1V05jTkxEOGtkWGJHY28wblNvaUU3dTljeHFRZw",
-   "source": "news",
-   "channel": "Google News P2E",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MbDR6ZW5tNDZtV2RDYzlpN0RRNFdxUi12S2FJakdVT0UwYW4tUUl2WVl4SXFQWWZ3eGg5X2F1V05jTkxEOGtkWGJHY28wblNvaUU3dTljeHFRZw?oc=5",
-   "published": "2026-10-10T04:18:19+00:00",
-   "title": "MAGIC 引領 GameFi 代幣漲勢，24 小時漲幅達 134% - TOKENPOST",
-   "summary": "MAGIC 引領 GameFi 代幣漲勢，24 小時漲幅達 134%    TOKENPOST",
-   "original": "MAGIC Leads GameFi Token Rally With 134% 24-Hour Gain - TOKENPOST\nMAGIC Leads GameFi Token Rally With 134% 24-Hour Gain    TOKENPOST",
-   "projects": []
-  },
-  {
-   "id": "news:CBMif0FVX3lxTE91WlJSTXdVTEFOYVcwSFo4dmZ5QXhHY1F0dGlsdk9DSG1yNmJqRTJiT0p2OHI4Uy11VV9lRnNpNktsYncxX3Z2MDY2TDhyS2FpQWJlM0RMWlRMN19uMy1SbV9xMXcySWlDNjFKMGJFWTBRQU1mdzVzeTFrNnl3UXM",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91WlJSTXdVTEFOYVcwSFo4dmZ5QXhHY1F0dGlsdk9DSG1yNmJqRTJiT0p2OHI4Uy11VV9lRnNpNktsYncxX3Z2MDY2TDhyS2FpQWJlM0RMWlRMN19uMy1SbV9xMXcySWlDNjFKMGJFWTBRQU1mdzVzeTFrNnl3UXM?oc=5",
-   "published": "2026-10-10T03:32:44+00:00",
-   "title": "Abstract Migration Hub: Terms of Service and Airdrop - CryptoTicker",
-   "summary": "Abstract Migration Hub: Terms of Service and Airdrop    CryptoTicker",
-   "original": "Abstract Migration Hub: Terms of Service and Airdrop - CryptoTicker\nAbstract Migration Hub: Terms of Service and Airdrop    CryptoTicker",
-   "projects": []
-  },
-  {
-   "id": "news:CBMigAFBVV95cUxNT0d4THJ1Y2I5enZHSm14dE92NERmMlBwT3REOW90dDNzMGdKV1FONGJhcUxpSmd4MnpTWEpXRHpRVzZKVWNFaUFWSHktUFZqWi1yaDk1NWZibHE1cTNobHlCOVhBNGtrcjFkQnhUbWtjSi1BVjdzRm1EcGE5bFZ6OA",
-   "source": "news",
-   "channel": "Google News 空投",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNT0d4THJ1Y2I5enZHSm14dE92NERmMlBwT3REOW90dDNzMGdKV1FONGJhcUxpSmd4MnpTWEpXRHpRVzZKVWNFaUFWSHktUFZqWi1yaDk1NWZibHE1cTNobHlCOVhBNGtrcjFkQnhUbWtjSi1BVjdzRm1EcGE5bFZ6OA?oc=5",
-   "published": "2026-10-10T03:32:44+00:00",
-   "title": "Abstract Migration Hub：服務條款與空投 - CryptoTicker",
-   "summary": "摘要遷移中心：服務條款與空投 CryptoTicker",
-   "original": "Abstract Migration Hub: Terms of Service and Airdrop - CryptoTicker\nAbstract Migration Hub: Terms of Service and Airdrop    CryptoTicker",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/128335",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/128335",
-   "published": "2026-10-10T02:44:19+00:00",
-   "title": "新候補名單：JeanPhilHoods",
-   "summary": "新候補名單：JeanPhilHoods\n🪂 註冊：https://docs.google.com/forms/d/e/1FAIpQLSfaokqn7WxcY-FbBXXUMEjzMDdvOflHsGz9nJ7oAXgbhrE-rw/alreadyresponded\n➖ 完成所有任務\n➖ 提交EVM地址\n➖ 完成\n供應量：5,555\n薄荷價格 : Freemint\n鑄造日期 : 10 月 13 日\n連結作業系統：https://opensea.io/collection/jeanphillhoods",
-   "original": "New Waitlist: JeanPhilHoods\n🪂 Register : https://docs.google.com/forms/d/e/1FAIpQLSfaokqn7WxcY-FbBXXUMEjzMDdvOflHsGz9nJ7oAXgbhrE-rw/alreadyresponded\n➖ Complete All Task\n➖ Submit EVM Address \n➖ Done\nSupply : 5,555\nMint Price : Freemint\nMint Date : 13 Oktober\nLink OS : https://opensea.io/collection/jeanphillhoods",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/128334",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/128334",
-   "published": "2026-10-10T02:13:42+00:00",
-   "title": "AGNT 每週社交 | S4 第 2 週 - 第 4 天 https://app.galxe.com/quest/AGNTHub/GCJgB",
-   "summary": "AGNT 每週社交 | S4 第 2 週 - 第 4 天 https://app.galxe.com/quest/AGNTHub/GCJgBtZBR1",
-   "original": "AGNT Weekly Socials | S4 Week 2 - Day 4 https://app.galxe.com/quest/AGNTHub/GCJgBtZBR1",
    "projects": []
   }
  ]
