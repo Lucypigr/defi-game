@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-10-20T00:22:04+00:00（自動產生，請勿手動修改）
+最後更新：2026-10-20T08:35:47+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -16,8 +16,8 @@
 | [Amadeus Protocol](https://amahub.ama.one) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需投入資金 | 高 | 艾瑪迪斯協議是一個專為代理金融而構建的機密第一層區塊鏈，人工智慧代理在其中進行鏈上交易、結算和協調。它的原生代幣是$AMA。它執行在有用的工作量證明（uPoW）上，這是一種共識模型 |
 | [Jumper Exchange](https://discord.gg/lifi) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Jumper Exchange 是一個多鏈流動性聚合器，匯集了三種型別的流動性來源：DEX 聚合器、求解器和跨鏈橋。它為您提供完整的訂單路由系統，使交易變得更加容易，從而節省您進行 |
 | [Base](https://era.guild.xyz/base) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 加入 Base Guild - 一個由為建立全球經濟做出貢獻的建設者、創造者、交易者和新手組成的社群。完成任務以獲得獨特的角色。 |
-| [Polymarket](https://polymarket.com/perps) | 進行中 | 頂級機構支持 | ★ | 免費 | 低 | 世界上最大的預測市場正在推出自己的perps。加入候補名單即可搶先體驗。 |
 | [Kaito](https://kaito.ai/studio) | 進行中 | 頂級機構支持 | ★★ | 免費 | 低 | Kaito Studio是Kaito AI推出的策劃創作者行銷平臺。開始作為大使為專案做出貢獻，以獲得各種獎勵。 |
+| [Polymarket](https://polymarket.com/perps) | 進行中 | 頂級機構支持 | ★ | 免費 | 低 | 世界上最大的預測市場正在推出自己的perps。加入候補名單即可搶先體驗。 |
 | [Liquid](https://tryliquid.xyz/) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Liquid combines trading, yield, and news into a seamless mobile experience designed for sp |
 | [VOICE](https://discord.gg/MDKCRdAWaZ) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需投入資金 | 高 | VOICE 是 Solana 上的 OpinionFi 平臺，將意見轉化為鏈上資產。使用者建立民意調查，對辯論和熱門話題進行投票，並透過參與獲得獎勵，無論他們站在哪一邊。主應用程式 |
 | [Arc](https://community.arc.network) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Arc 是由 Circle（USDC 背後的公司）開發的相容 EVM 的 Layer-1 區塊鏈。它被設計為“網際網路經濟作業系統”，將可程式設計貨幣與現實世界的經濟活動連線起來， |
@@ -50,8 +50,8 @@
 | [Cycles](https://beta.cycles.money/auth/login) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Cycles (https://beta.cycles.money/auth/login) 是一個專為多邊債務清理和流動性最佳化而設計的開放協議。該團隊目前正在執行測試版，讓早期使 |
 | [Current](https://www.current.finance/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Current 是 Sui 上所有未來資產的資本效率層。一鍵倍增收益，隔離借貸市場，你的資金從未如此辛苦。 |
 | [Perle Labs](https://app.perle.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Perle Labs is building the human-verified data infrastructure for high-stakes AI systems.  |
-| [Bittensor dTAO](https://bittensor.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bittensor's native dTAO AMM pools, which price each subnet's alpha token against TAO and h |
 | [Tydro](https://tydro.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Tydro 是一種針對鏈上資本市場的非託管借貸協議。由 Aave 提供支援並基於 Ink 構建 |
+| [Bittensor dTAO](https://bittensor.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bittensor's native dTAO AMM pools, which price each subnet's alpha token against TAO and h |
 | [PERPTools](https://discord.gg/perptools) | 進行中 | 頂級機構支持 | ★★★★ | 需投入資金 | 中 | PERPTools 是由 DEXTools 背後團隊開發的自我託管永續期貨 DEX。它在 Orderly Network 的共享訂單簿上執行，因此訂單可以根據每個 Orderly  |
 | [Symbiotic](https://symbiotic.fi) | 潛在空投（未確認） | 頂級機構支持 | ★★★ | 需投入資金 | 中 | 共生為抵押品市場提供動力，資本承諾履行財務義務並透過程式碼執行。資本在投入的同時仍然保持生產力，消除了鎖定和盈利之間的權衡。它支援信貸、保險、穩定幣和 RWA 等產品。 Symbi |
 | [D3](https://app.doma.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | D3's mission is to revolutionize the domain name industry by seamlessly connecting Web 1-3 |
@@ -110,6 +110,7 @@
 | [RWAPerp](https://rwaperp.xyz) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | RWAPerp 是 OKX 建構的以太坊第 2 層 X Layer 上現實世界資產的去中心化永續期貨交易所。交易者使用 USDC 作為抵押品，透過自我託管錢包做多或做空股票、指數、 |
 | [BULK](https://x.com/bulktrade/status/2061445961621086244?s=20) | 進行中 | 頂級機構支持 | ★★★★★ | 需投入資金 | 中 | Bulk Trade (https://early.bulk.trade/deposit?ref=dropstab) 是一個基於 Solana 的永久 DEX，目前正在進行早期存款 |
 | [Ammora](https://ammora.org) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Ammora 是 GIWA 上鍊上市場的流動性基礎設施，GIWA 是由 Upbit 交易所背後的韓國公司 Dunamu 建造的以太坊第 2 層。 Ammora 並沒有停留在代幣發行 |
+| [Kryvora Network](https://tasks.kryvora.network) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Kryvora Network 是一個與 EVM 等效的以太坊第 2 層，圍繞著去中心化節點基礎架構建構。 Kryvora 測試網已上線，與其他值得耕種的免費測試網一樣，使用者可以 |
 | [Synthra](https://discord.gg/eesEKPRDtd) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需投入資金 | 高 | Synthra 是一種鏈抽象的 DEX 和交易層，它將現貨互換、流動性提供、永續期貨和跨鏈路由整合到一個應用程式中。使用者存款、交易和提款無需自行處理橋接或鏈切換，同時結算保持在鏈 |
 | [Byzanlink](https://forms.gle/xZmS7m8uL8k5gutD7) | 進行中 | 有投資方 | ★★ | 未知 | 低 | Byzanlink is working on a Real-World Asset tokenization infrastructure. The Byzanlink Amba |
 | [Blackboard](https://blackboard.fi) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Blackboard 是一種自我託管的鏈上交易終端，只需一次登入即可將永續期貨、預測市場、選擇權和代幣化收藏納入其中。訂單路由至現有場所：加密貨幣 Perps 路由至 Aster， |
@@ -117,7 +118,6 @@
 | [PlutonAI](https://www.plutonai.net/waitlist) | 進行中 | 有投資方 | ★ | 免費 | 低 | PlutonAI 正在建構 DeFAI 的對話層。第 1 波訪問現已開放。加入候補名單以確保您的席位。 |
 | [PowerX OneWallet](https://t.me/PowerXOne) | 進行中 | 未知 / 無公開投資方 | ★ | 免費 | 高 | PowerX OneWallet 是一款自我託管的加密錢包和社交應用程式，而 PX1 是其生態系統和當前 PX1 空投背後的原生代幣。一個應用程式可以儲存您的資產並執行付費的即時音 |
 | [BaiBai](https://discord.gg/UNnSJjWRBq) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | BaiBai 是由 Spire Labs 打造的 Base 上的 PropAMM 交易所和流動性聚合器，其新的積分計劃已使其成為潛在的 BaiBai 空投的關注物件。在百百上，專業 |
-| [Kryvora Network](https://tasks.kryvora.network) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | Kryvora Network 是一個與 EVM 等效的以太坊第 2 層，圍繞著去中心化節點基礎架構建構。 Kryvora 測試網已上線，與其他值得耕種的免費測試網一樣，使用者可以 |
 | [Memebook](https://mint.memebook.app) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需投入資金 | 高 | Memebook 是 Solana 上的社交應用程式，圍繞著照片和短片而構建。該 feed 的工作方式類似於 Instagram，但帳戶是錢包而不是電子郵件註冊：使用者直接在鏈上向 |
 | [Acepyr](https://discord.gg/acepyr) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 免費 | 中 | Acepyr is a pre-mainnet prediction market that prices questions most platforms will not li |
 | [Raycash](https://raycash.xyz) | 進行中 | 未知 / 無公開投資方 | ★ | 免費 | 中 | Raycash 是一個自我託管貨幣帳戶，用於持有、傳送、支出和賺取穩定幣，同時餘額和交易金額保持加密狀態。 該應用程式使用 Zama 協議將 USDC 或 USDT 轉換為機密版本 |
@@ -166,18 +166,18 @@
 | [Moca Network](https://www.coingecko.com/en/coins/mocaverse) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Catizen](https://www.coingecko.com/en/coins/catizen) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fren Pet](https://www.coingecko.com/en/coins/frenpet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [BORA](https://www.coingecko.com/en/coins/bora) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [DEAPCOIN](https://www.coingecko.com/en/coins/deapcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [BORA](https://www.coingecko.com/en/coins/bora) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Illuvium](https://www.coingecko.com/en/coins/illuvium) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [SKALE](https://www.coingecko.com/en/coins/skale) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Audiera](https://www.coingecko.com/en/coins/audiera) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Capybobo](https://www.coingecko.com/en/coins/capybobo) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [SKALE](https://www.coingecko.com/en/coins/skale) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [CARV](https://www.coingecko.com/en/coins/carv) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Capybobo](https://www.coingecko.com/en/coins/capybobo) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Metaplex](https://www.coingecko.com/en/coins/metaplex) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [OVERTAKE](https://www.coingecko.com/en/coins/overtake) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Verse World](https://www.coingecko.com/en/coins/verse-world) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GMT](https://www.coingecko.com/en/coins/stepn) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Verse World](https://www.coingecko.com/en/coins/verse-world) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [OVERTAKE](https://www.coingecko.com/en/coins/overtake) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fusionist](https://www.coingecko.com/en/coins/endurance) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Big Time](https://www.coingecko.com/en/coins/big-time) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
