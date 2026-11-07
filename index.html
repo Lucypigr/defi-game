@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>空投雷達</title>
+<meta name="description" content="自動整理 DeFi 空投與 P2E 邊玩邊賺遊戲：中文說明、支撐機構、難易度、費用、發放方式與連結。">
+<style>
+:root{
+  --bg:#f6f7f9;--panel:#fff;--ink:#16181d;--muted:#5d6472;--line:#e3e6ec;--accent:#3b5bdb;--accent-ink:#fff;
+  --good:#1f7a4d;--good-bg:#e3f4ea;--warn:#8a5a00;--warn-bg:#fdf1d8;--bad:#b42318;--bad-bg:#fde5e3;--info:#2f4a9e;--info-bg:#e6ecfb;
+  --chip:#eef0f4;--shadow:0 1px 2px rgba(16,24,40,.06);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f1115;--panel:#171a21;--ink:#e8eaf0;--muted:#9aa2b1;--line:#2a2f3a;--accent:#7b93f5;--accent-ink:#0f1115;
+  --good:#6fd6a0;--good-bg:#173226;--warn:#f2c46b;--warn-bg:#3a2d12;--bad:#ff8f84;--bad-bg:#3d1916;--info:#a9b9ff;--info-bg:#1d2540;
+  --chip:#232833;--shadow:none}}
+:root[data-theme="dark"]{
+  --bg:#0f1115;--panel:#171a21;--ink:#e8eaf0;--muted:#9aa2b1;--line:#2a2f3a;--accent:#7b93f5;--accent-ink:#0f1115;
+  --good:#6fd6a0;--good-bg:#173226;--warn:#f2c46b;--warn-bg:#3a2d12;--bad:#ff8f84;--bad-bg:#3d1916;--info:#a9b9ff;--info-bg:#1d2540;
+  --chip:#232833;--shadow:none}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 system-ui,-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+body{overflow-x:hidden}
+.card *,.post *{overflow-wrap:anywhere}
+header{padding:28px 0 12px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:.02em}
+.sub{color:var(--muted);margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 12px;box-shadow:var(--shadow)}
+.stat b{font-size:18px;display:block;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:12px}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);margin:18px 0 0;scrollbar-width:none}
+nav.tabs button{flex:none;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:10px 12px;font:inherit;cursor:pointer}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-color:var(--accent);font-weight:600}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:14px 0}
+.filters input,.filters select{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit}
+.filters label.check{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:14px}
+.filters label.check input{width:auto;margin:0}
+.count{color:var(--muted);font-size:13px;margin:0 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:12px;align-items:start}
+@media (max-width:400px){.grid{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px;min-width:0}
+.card h3{margin:0;font-size:17px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--muted);white-space:nowrap}
+.good{background:var(--good-bg);color:var(--good)}.warn{background:var(--warn-bg);color:var(--warn)}
+.bad{background:var(--bad-bg);color:var(--bad)}.info{background:var(--info-bg);color:var(--info)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:13px}
+.kv dt{color:var(--muted)}.kv dd{margin:0}
+.stars{color:#e8a317;letter-spacing:1px}
+.summary{margin:0;font-size:14px;display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.card:has(details[open]) .summary{-webkit-line-clamp:unset;display:block}
+details{border-top:1px dashed var(--line);padding-top:8px}
+summary{cursor:pointer;color:var(--accent);font-size:14px}
+details h4{margin:12px 0 4px;font-size:14px}
+details ol,details ul{margin:0;padding-left:20px;font-size:14px}
+details p{margin:0;font-size:14px}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.links a{font-size:13px;border:1px solid var(--line);border-radius:6px;padding:3px 8px;text-decoration:none;overflow-wrap:anywhere}
+.muted{color:var(--muted);font-size:12px}
+.post{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.post h3{margin:2px 0 4px;font-size:15px}
+.post p{margin:0;font-size:14px}
+.post pre{white-space:pre-wrap;font:13px/1.5 inherit;color:var(--muted);margin:6px 0 0;overflow-wrap:anywhere}
+.guide{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 20px;max-width:780px}
+.guide li{margin:4px 0}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;padding:30px 0 40px}
+.themebtn{float:right;background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:4px 10px;cursor:pointer;font:inherit;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <button class="themebtn" id="themeBtn" type="button">深 / 淺色</button>
+  <h1>🪂 空投雷達</h1>
+  <p class="sub">自動從 airdrops.io、DropsTab、DefiLlama、CoinGecko、Telegram、X、Reddit 與各大新聞網站收集 DeFi 空投與 P2E 遊戲，翻譯成中文並分析。</p>
+  <p class="sub" id="updated">載入中…</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" data-tab="all" aria-selected="true">全部項目</button>
+  <button role="tab" data-tab="defi">🪂 DeFi 空投</button>
+  <button role="tab" data-tab="p2e">🎮 P2E 遊戲</button>
+  <button role="tab" data-tab="posts">📰 最新情報</button>
+  <button role="tab" data-tab="guide">🛡️ 新手 & 防詐須知</button>
+</nav>
+
+<section id="projectView">
+  <div class="filters">
+    <input id="q" type="search" placeholder="搜尋名稱、鏈、投資方…">
+    <select id="fStatus"><option value="">所有狀態</option><option value="ongoing">進行中</option><option value="upcoming">即將開始</option><option value="potential">潛在（未確認）</option><option value="claimable">可領取</option><option value="ended">已結束</option></select>
+    <select id="fCost"><option value="">所有費用</option><option value="free">免費</option><option value="gas_only">僅需 Gas</option><option value="deposit">需投入資金</option><option value="paid">需付費</option></select>
+    <select id="fDiff"><option value="5">所有難度</option><option value="1">★ 非常簡單</option><option value="2">★★ 以下</option><option value="3">★★★ 以下</option><option value="4">★★★★ 以下</option></select>
+    <select id="fBack"><option value="">所有支撐</option><option value="top">頂級機構</option><option value="notable">知名機構以上</option></select>
+    <select id="fRisk"><option value="">所有風險</option><option value="low">低風險</option><option value="medium">中風險以下</option></select>
+    <select id="sort"><option value="score">排序：熱度</option><option value="new">排序：最新發現</option><option value="easy">排序：最簡單</option><option value="backing">排序：支撐最強</option></select>
+    <label class="check"><input type="checkbox" id="hideEnded" checked> 隱藏已結束</label>
+    <label class="check"><input type="checkbox" id="hideSocial"> 隱藏僅社群提及</label>
+  </div>
+  <p class="count" id="count"></p>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="postView" hidden>
+  <div class="filters">
+    <input id="pq" type="search" placeholder="搜尋情報…">
+    <select id="pSrc"><option value="">所有來源</option><option value="telegram">Telegram</option><option value="x">X (Twitter)</option><option value="reddit">Reddit</option><option value="news">新聞網站</option></select>
+  </div>
+  <div id="posts"></div>
+</section>
+
+<section id="guideView" hidden>
+  <div class="guide">
+    <h3>怎麼看這個網站</h3>
+    <ul>
+      <li><b>狀態</b>：進行中 = 現在就能參與；即將開始 = 已公布、尚未開放；潛在 = 官方未確認，憑經驗推測可能空投（例如還沒發幣、但鎖倉量很高的協議）；可領取 = 已開放 Claim。</li>
+      <li><b>支撐</b>：頂級 = a16z、Paradigm、幣安 (YZi Labs)、Coinbase 等一線機構或大型公司 / 公鏈基金會投資；知名 = 中型知名基金或募資 ≥ 500 萬美元。</li>
+      <li><b>難度</b>：★ 幾分鐘的免費社群任務 → ★★★★★ 需架節點、寫程式或投入大量資金。</li>
+      <li><b>費用</b>：免費 / 僅 Gas（少量鏈上手續費）/ 需投入資金（存款、質押、交易量）/ 需付費（買 NFT、買代幣才能玩）。</li>
+      <li>標示「AI 分析」的項目由 Claude 讀取原始資料並上網查證後整理；「規則分析」為關鍵字判斷 + 機器翻譯，僅供參考。</li>
+    </ul>
+    <h3>🛡️ 防詐騙須知（一定要看）</h3>
+    <ul>
+      <li><b>任何要你輸入「助記詞 / 私鑰」的網站 100% 是詐騙。</b>真正的空投只需要連接錢包和簽名。</li>
+      <li>只從官方 X 帳號、官方 Discord 公告或本站列出的官方連結進入，小心假冒網址（多一個字母、不同網域）。</li>
+      <li>用一個<b>專門撸空投的錢包</b>，裡面不要放大額資產；簽名前看清楚是不是「授權 (Approve) 無限額度」。</li>
+      <li>要求你先轉帳「手續費 / 解鎖費」才能領取空投的，都是詐騙。</li>
+      <li>「官方未確認」的空投可能做了也拿不到；需投入資金的項目有本金虧損與合約被駭風險。</li>
+      <li>P2E 遊戲的代幣價格波動極大，買 NFT / 代幣才能玩的遊戲要特別評估回本時間。</li>
+    </ul>
+  </div>
+</section>
+
+<footer>本站內容由程式自動收集與 AI 整理，可能有錯誤或過時資訊，不構成任何投資建議。參與前請自行查證（DYOR）。</footer>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const $ = s => document.querySelector(s);
+  const state = { data: null, tab: "all" };
+  const BACK_RANK = { top: 3, notable: 2, some: 1, none_known: 0 };
+  const RISK_RANK = { low: 0, medium: 1, high: 2 };
+  const SRC_ICON = { telegram: "✈️ Telegram", x: "𝕏", reddit: "👽 Reddit", news: "📰" };
+
+  // ── 安全的 DOM 建立工具（所有外部文字一律當純文字，不當 HTML）──
+  function el(tag, attrs, ...kids) {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k === "class") n.className = v; else if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+    }
+    for (const k of kids.flat()) if (k != null && k !== "") n.append(k instanceof Node ? k : document.createTextNode(String(k)));
+    return n;
+  }
+  const safeUrl = u => (typeof u === "string" && /^https?:\/\//i.test(u)) ? u : null;
+  const link = (href, text) => safeUrl(href) ? el("a", { href, target: "_blank", rel: "noopener noreferrer nofollow" }, text) : null;
+  const fmtDate = s => s ? new Date(s).toLocaleString("zh-TW", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "";
+  const money = n => n == null ? "" : n >= 1e9 ? `$${(n/1e9).toFixed(2)}B` : n >= 1e6 ? `$${(n/1e6).toFixed(1)}M` : n >= 1 ? `$${n.toLocaleString()}` : `$${n}`;
+  const stars = n => "★".repeat(n) + "☆".repeat(5 - n);
+
+  function chipClass(kind, v) {
+    if (kind === "status") return { ongoing: "good", claimable: "good", upcoming: "info", potential: "warn", ended: "" }[v] || "";
+    if (kind === "cost") return { free: "good", gas_only: "good", deposit: "warn", paid: "bad" }[v] || "";
+    if (kind === "back") return { top: "good", notable: "info" }[v] || "";
+    if (kind === "risk") return { low: "good", medium: "warn", high: "bad" }[v] || "";
+    return "";
+  }
+
+  function card(p) {
+    const chips = el("div", { class: "chips" },
+      el("span", { class: "chip " + chipClass("status", p.status), text: p.status_zh }),
+      el("span", { class: "chip", text: p.confirmed_zh }),
+      el("span", { class: "chip " + chipClass("back", p.backing_level), text: "🏦 " + p.backing_zh }),
+      el("span", { class: "chip " + chipClass("cost", p.cost_type), text: "💰 " + p.cost_zh }),
+      el("span", { class: "chip " + chipClass("risk", p.risk_level), text: "⚠️ 風險" + p.risk_zh }),
+      p.social_only ? el("span", { class: "chip warn", text: "僅社群提及" }) : null);
+
+    const kv = el("dl", { class: "kv" },
+      el("dt", { text: "難度" }), el("dd", {}, el("span", { class: "stars", text: stars(p.difficulty) }), " ", p.difficulty_zh, p.difficulty_note ? `（${p.difficulty_note}）` : ""),
+      p.time_commitment ? [el("dt", { text: "時間" }), el("dd", { text: p.time_commitment })] : null,
+      p.chains.length ? [el("dt", { text: "鏈 / 生態" }), el("dd", { text: p.chains.slice(0, 5).join("、") })] : null,
+      p.backers.length ? [el("dt", { text: "投資方" }), el("dd", { text: p.backers.slice(0, 6).join("、") + (p.backers.length > 6 ? "…" : "") })] : null,
+      p.funds_raised_usd ? [el("dt", { text: "募資" }), el("dd", { text: money(p.funds_raised_usd) })] : null,
+      p.market.price_usd != null ? [el("dt", { text: "代幣" }), el("dd", { text: `${p.market.symbol || ""} ${money(p.market.price_usd)}　市值 ${money(p.market.market_cap_usd)}　24h ${p.market.change_24h_pct != null ? p.market.change_24h_pct.toFixed(1) + "%" : "-"}` })] : null,
+      p.market.tvl_usd ? [el("dt", { text: "鎖倉量" }), el("dd", { text: money(p.market.tvl_usd) + "（尚未發幣）" })] : null,
+      p.deadline && p.deadline !== "未公布" ? [el("dt", { text: "截止" }), el("dd", { text: p.deadline })] : null);
+
+    const section = (title, body) => body ? [el("h4", { text: title }), body] : null;
+    const list = (items, ordered) => items && items.length ? el(ordered ? "ol" : "ul", {}, items.map(s => el("li", { text: s }))) : null;
+    const related = (p.related_posts || []).map(id => state.postIndex[id]).filter(Boolean);
+
+    const details = el("details", {},
+      el("summary", { text: "查看完整說明：怎麼做、如何發放、風險…" }),
+      section("📋 如何進行", list(p.steps, true)),
+      section("🎁 獎勵內容", p.reward ? el("p", { text: p.reward }) : null),
+      section("📦 完成後如何發放", p.distribution ? el("p", { text: p.distribution }) : null),
+      section("💰 費用說明", p.cost_note ? el("p", { text: p.cost_note }) : null),
+      section("🧾 需要準備", list(p.requirements)),
+      section("🏦 背後支撐", p.backing_note ? el("p", { text: p.backing_note }) : null),
+      section("⚠️ 風險提醒", list(p.risks)),
+      section("💡 小提示", p.tips ? el("p", { text: p.tips }) : null),
+      section("📰 相關情報", related.length ? el("ul", {}, related.slice(0, 5).map(r => el("li", {}, link(r.url, r.title || r.summary.slice(0, 60)) || r.title, el("span", { class: "muted", text: ` · ${r.channel}` })))) : null),
+      section("🔗 資料來源", el("div", { class: "links" }, p.sources.map(s => link(s.url, s.name) || el("span", { class: "chip", text: s.name })))),
+      el("p", { class: "muted", text: `${p.analysis_by === "ai" ? "AI 分析" : "規則分析（僅供參考）"} · 首次發現 ${fmtDate(p.first_seen)} · 最後確認 ${fmtDate(p.last_seen)}` }));
+
+    return el("article", { class: "card" },
+      el("h3", {}, p.kind === "p2e" ? "🎮" : "🪂", p.name),
+      chips,
+      p.summary ? el("p", { class: "summary", text: p.summary }) : null,
+      kv,
+      p.links.length ? el("div", { class: "links" }, p.links.slice(0, 6).map(l => link(l.url, l.label))) : null,
+      details);
+  }
+
+  function renderProjects() {
+    const q = $("#q").value.trim().toLowerCase();
+    const st = $("#fStatus").value, cost = $("#fCost").value, maxD = +$("#fDiff").value;
+    const back = $("#fBack").value, risk = $("#fRisk").value, sort = $("#sort").value;
+    let rows = state.data.projects.filter(p =>
+      (state.tab === "all" || p.kind === state.tab) &&
+      (!st || p.status === st) && (!cost || p.cost_type === cost) && p.difficulty <= maxD &&
+      (!back || BACK_RANK[p.backing_level] >= BACK_RANK[back]) &&
+      (!risk || RISK_RANK[p.risk_level] <= RISK_RANK[risk]) &&
+      !($("#hideEnded").checked && p.status === "ended" && st !== "ended") &&
+      !($("#hideSocial").checked && p.social_only) &&
+      (!q || [p.name, p.summary, p.chains.join(" "), p.backers.join(" "), p.tags.join(" ")].join(" ").toLowerCase().includes(q)));
+    const by = {
+      score: (a, b) => b.score - a.score,
+      new: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""),
+      easy: (a, b) => a.difficulty - b.difficulty || b.score - a.score,
+      backing: (a, b) => BACK_RANK[b.backing_level] - BACK_RANK[a.backing_level] || b.score - a.score,
+    }[sort];
+    rows = rows.sort(by);
+    $("#count").textContent = `共 ${rows.length} 個項目`;
+    const grid = $("#grid");
+    grid.replaceChildren(...(rows.length ? rows.slice(0, 300).map(card) : [el("div", { class: "empty", text: "沒有符合條件的項目" })]));
+  }
+
+  function renderPosts() {
+    const q = $("#pq").value.trim().toLowerCase(), src = $("#pSrc").value;
+    const rows = state.data.posts.filter(p => (!src || p.source === src) &&
+      (!q || (p.title + p.summary + p.original + p.channel).toLowerCase().includes(q)));
+    $("#posts").replaceChildren(...(rows.length ? rows.slice(0, 200).map(p => el("div", { class: "post" },
+      el("div", { class: "muted", text: `${SRC_ICON[p.source] || p.source} · ${p.channel} · ${fmtDate(p.published)}` }),
+      el("h3", {}, link(p.url, p.title || "(無標題)") || p.title),
+      el("p", { text: p.summary }),
+      p.projects.length ? el("div", { class: "chips" }, p.projects.map(k => el("span", { class: "chip info", text: (state.projIndex[k] || {}).name || k }))) : null,
+      el("details", {}, el("summary", { text: "原文" }), el("pre", { text: p.original })))) : [el("div", { class: "empty", text: "沒有情報" })]));
+  }
+
+  function render() {
+    if (!state.data) return;
+    $("#projectView").hidden = !["all", "defi", "p2e"].includes(state.tab);
+    $("#postView").hidden = state.tab !== "posts";
+    $("#guideView").hidden = state.tab !== "guide";
+    if (!$("#projectView").hidden) renderProjects();
+    if (!$("#postView").hidden) renderPosts();
+  }
+
+  function renderHeader(d) {
+    $("#updated").textContent = `最後更新：${d.updated_at ? new Date(d.updated_at).toLocaleString("zh-TW") : "—"}` +
+      (d.last_run ? `　·　分析模式：${d.last_run.mode === "ai" ? "Claude AI" : "規則 + 機器翻譯"}` : "");
+    const live = d.projects.filter(p => p.status !== "ended");
+    const stats = [
+      ["進行中", live.filter(p => p.status === "ongoing" || p.status === "claimable").length],
+      ["即將 / 潛在", live.filter(p => p.status === "upcoming" || p.status === "potential").length],
+      ["P2E 遊戲", live.filter(p => p.kind === "p2e").length],
+      ["免費參與", live.filter(p => p.cost_type === "free" || p.cost_type === "gas_only").length],
+      ["頂級機構支持", live.filter(p => p.backing_level === "top").length],
+      ["今日情報", d.posts.filter(p => p.published && Date.now() - new Date(p.published) < 864e5).length],
+    ];
+    $("#stats").replaceChildren(...stats.map(([k, v]) => el("div", { class: "stat" }, el("b", { text: v }), el("span", { text: k }))));
+  }
+
+  document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+    state.tab = b.dataset.tab;
+    try { localStorage.setItem("tab", state.tab); } catch (e) {}
+    render();
+  }));
+  ["#q", "#fStatus", "#fCost", "#fDiff", "#fBack", "#fRisk", "#sort", "#hideEnded", "#hideSocial", "#pq", "#pSrc"]
+    .forEach(s => $(s).addEventListener("input", render));
+  $("#themeBtn").addEventListener("click", () => {
+    const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.dataset.theme = cur === "dark" ? "light" : "dark";
+    try { localStorage.setItem("theme", document.documentElement.dataset.theme); } catch (e) {}
+  });
+  try {
+    const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t;
+    const tab = localStorage.getItem("tab"); const btn = tab && document.querySelector(`nav.tabs button[data-tab="${tab}"]`);
+    if (btn) btn.click();
+  } catch (e) {}
+
+  function load(d) {
+    state.data = d;
+    state.postIndex = Object.fromEntries(d.posts.map(p => [p.id, p]));
+    state.projIndex = Object.fromEntries(d.projects.map(p => [p.key, p]));
+    renderHeader(d);
+    render();
+  }
+  if (window.__AIRDROP_DATA__) load(window.__AIRDROP_DATA__);
+  else fetch("data.json", { cache: "no-store" }).then(r => r.json()).then(load)
+    .catch(e => { $("#updated").textContent = "資料載入失敗：" + e.message + "（若是直接開啟檔案，請改用 python -m http.server）"; });
+})();
+</script>
+</body>
+</html>
