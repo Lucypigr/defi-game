@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-11-07T06:00:34+00:00（自動產生，請勿手動修改）
+最後更新：2026-11-07T13:03:17+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -13,9 +13,9 @@
 | [Base](https://era.guild.xyz/base) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 加入 Base Guild - 一個由為建立全球經濟做出貢獻的建設者、創造者、交易者和新手組成的社群。完成任務以獲得獨特的角色。 |
 | [Polymarket](https://polymarket.com/perps) | 進行中 | 頂級機構支持 | ★ | 免費 | 低 | 世界上最大的預測市場正在推出自己的perps。加入候補名單即可搶先體驗。 |
 | [Kaito](https://kaito.ai/studio) | 進行中 | 頂級機構支持 | ★★ | 免費 | 低 | Kaito Studio是Kaito AI推出的策劃創作者行銷平臺。開始作為大使為專案做出貢獻，以獲得各種獎勵。 |
+| [Steakhouse Financial](https://www.steakhouse.financial/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 我們建立透明、高效且易於存取的金融原語，為公共區塊鏈上的下一代資本市場提供動力 |
 | [Backpack](https://backpack.exchange/bp-claim) | 進行中 | 頂級機構支持 | ★★★★ | 需投入資金 | 中 | 檢查您的揹包（$BP）空投分配並領取您的份額。 |
 | [Liquid](https://tryliquid.xyz/) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Liquid 將交易、收益和新聞整合到專為速度、透明度和高階使用者而設計的無縫移動體驗中。在行動應用程式中進行交易並賺取積分。 |
-| [Steakhouse Financial](https://www.steakhouse.financial/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 我們建立透明、高效且易於存取的金融原語，為公共區塊鏈上的下一代資本市場提供動力 |
 | [Arcium](https://rtg.arcium.com/) | 可領取 | 頂級機構支持 | ★★ | 未知 | 低 | Arcium 正在建立一個加密且完全去中心化的超級電腦。 RTG 入口網站和資格檢查器已上線。第一波資格現已揭曉 - 探索 RTG 並獲得下一波資格。 |
 | [Bullpen](https://dropstab.com/coins/bullpen) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bullpen 是鏈上市場的非託管交易終端。與平臺互動並賺取積分。 |
 | [DoubleZero](https://doublezero.xyz/ecosystem#ambassadors) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | DoubleZero 是一個專為高效能區塊鏈設計的全球光纖網路。透過製作教育內容並透過社群管道分享來支援 DoubleZero。 |
@@ -43,8 +43,8 @@
 | [Bittensor dTAO](https://bittensor.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bittensor's native dTAO AMM pools, which price each subnet's alpha token against TAO and h |
 | [RocketSwap Anubis](https://x.com/Rocket_Swap_) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | RocketSwap是部署在Anubis上的Uniswap V2分叉DEX。 |
 | [StandX](https://dropstab.com/coins/standx) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | StandX 是跨 BNB 和 Solana 執行在主網上的 Perps DEX，由其原生收益 DUSD 提供支援。開始在平臺上進行交易以獲得積分。 |
-| [TermiX](https://www.agent.family) | 進行中 | 頂級機構支持 | ★★ | 免費 | 低 | TermiX 是一個鏈上市場，人工智慧代理可以透過區塊鏈找到工作、完成任務並接收付款。該專案從 YZi Labs（幣安實驗室）籌集了 100 萬美元，目前正在進行積分活動，積分預計 |
 | [RockawayX](https://rockawayx.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 鏈上資產管理器。 Morpho 和其他 DeFi 借貸協議的風險管理者。面向機構和富裕人士客戶的市場中性收益策略 - 穩定幣、ETH、BTC、SOL |
+| [TermiX](https://www.agent.family) | 進行中 | 頂級機構支持 | ★★ | 免費 | 低 | TermiX 是一個鏈上市場，人工智慧代理可以透過區塊鏈找到工作、完成任務並接收付款。該專案從 YZi Labs（幣安實驗室）籌集了 100 萬美元，目前正在進行積分活動，積分預計 |
 | [Symbiotic](https://symbiotic.fi) | 潛在空投（未確認） | 頂級機構支持 | ★★★ | 需投入資金 | 中 | 共生為抵押品市場提供動力，資本承諾履行財務義務並透過程式碼執行。資本在投入的同時仍然保持生產力，消除了鎖定和盈利之間的權衡。它支援信貸、保險、穩定幣和 RWA 等產品。 Symbi |
 | [Fables](https://x.com/fablesfi) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 基於 Uniswap v4 建構的動態費用 ve(3,3) DEX。每個池都會收取根據其資產調整的費用——代幣化股票基於日曆，加密貨幣基於波動性——因此當交易更有可能對他們不利時， |
 | [infiniFi](https://infinifi.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | infiniFi 正在透過在鏈上重建現代銀行基礎設施來建立去中心化金融的未來。透過將流動性和非流動性資產合併到具有透明部分準備金的資本效率高的系統中，infiniFi 可以在不增加 |
@@ -108,17 +108,17 @@
 | [Pudgy Penguins](https://www.pudgyworld.com/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Pudgy World 是Pudgy Penguins 團隊推出的全新遊戲。客製化您的外觀，潛入故事驅動的任務，收集魚並與朋友聯絡。 |
 | [Pixie Chess](https://www.pixiechess.xyz/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Pixie Chess 是由 Paradigm 支援的新版本國際象棋。收集獨特的棋子並參加錦標賽來賺取真錢。 |
 | [FLOKI](https://www.coingecko.com/en/coins/floki) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Geodnet](https://www.coingecko.com/en/coins/geodnet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Beam](https://www.coingecko.com/en/coins/beam-2) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Geodnet](https://www.coingecko.com/en/coins/geodnet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Verse World](https://www.coingecko.com/en/coins/verse-world) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GoMining Token](https://www.coingecko.com/en/coins/gmt-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Axie Infinity](https://www.coingecko.com/en/coins/axie-infinity) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Decentraland](https://www.coingecko.com/en/coins/decentraland) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [The Sandbox](https://www.coingecko.com/en/coins/the-sandbox) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Rollbit Coin](https://www.coingecko.com/en/coins/rollbit-coin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [ApeCoin](https://www.coingecko.com/en/coins/apecoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Immutable](https://www.coingecko.com/en/coins/immutable-x) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [SuperVerse](https://www.coingecko.com/en/coins/superfarm) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [ApeCoin](https://www.coingecko.com/en/coins/apecoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GALA](https://www.coingecko.com/en/coins/gala) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Four](https://www.coingecko.com/en/coins/four) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [WEMIX](https://www.coingecko.com/en/coins/wemix-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
@@ -126,29 +126,29 @@
 | [ONEchain](https://www.coingecko.com/en/coins/cross-2) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Baby Doge Coin](https://www.coingecko.com/en/coins/baby-doge-coin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Unipoly](https://www.coingecko.com/en/coins/unipoly) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Infinity Gaming](https://www.coingecko.com/en/coins/infinity-gaming) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Nexpace](https://www.coingecko.com/en/coins/nexpace) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Infinity Gaming](https://www.coingecko.com/en/coins/infinity-gaming) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Enjin Coin](https://www.coingecko.com/en/coins/enjincoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Pentagon Chain](https://www.coingecko.com/en/coins/pentagon-chain) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Audiera](https://www.coingecko.com/en/coins/audiera) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [1win Token](https://1wtoken.com/) | 進行中 | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 1win Token is launching its public token sale on October 15 at 15:00 UTC. The sale offers  |
 | [Metaplex](https://www.coingecko.com/en/coins/metaplex) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Loaded Lions](https://www.coingecko.com/en/coins/loaded-lions) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Moca Network](https://www.coingecko.com/en/coins/mocaverse) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Notcoin](https://www.coingecko.com/en/coins/notcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Moca Network](https://www.coingecko.com/en/coins/mocaverse) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [DEAPCOIN](https://www.coingecko.com/en/coins/deapcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Aria.AI](https://www.coingecko.com/en/coins/aria-ai) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [OVERTAKE](https://www.coingecko.com/en/coins/overtake) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Catizen](https://www.coingecko.com/en/coins/catizen) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [CARV](https://www.coingecko.com/en/coins/carv) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [BORA](https://www.coingecko.com/en/coins/bora) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [CARV](https://www.coingecko.com/en/coins/carv) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Illuvium](https://www.coingecko.com/en/coins/illuvium) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [SKALE](https://www.coingecko.com/en/coins/skale) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Yield Guild Games](https://www.coingecko.com/en/coins/yield-guild-games) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Capybobo](https://www.coingecko.com/en/coins/capybobo) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Big Time](https://www.coingecko.com/en/coins/big-time) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [GMT](https://www.coingecko.com/en/coins/stepn) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fren Pet](https://www.coingecko.com/en/coins/frenpet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [GMT](https://www.coingecko.com/en/coins/stepn) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Gama Token](https://www.coingecko.com/en/coins/gama-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
