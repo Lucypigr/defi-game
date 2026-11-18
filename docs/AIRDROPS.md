@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-11-18T11:45:39+00:00（自動產生，請勿手動修改）
+最後更新：2026-11-18T20:33:31+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -33,8 +33,8 @@
 | [USDD](https://usdd.io/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 去中心化美元（USDD）是一種完全去中心化的穩定幣，透過加密貨幣儲備與美元掛鉤 |
 | [Valantis](https://dropstab.com/coins/valantis) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Valantis 是圍繞其自己的原生 LST stHYPE 的 LST 特定 DEX。所有 stHYPE 活動和 Valantis 池都有資格每週賺取積分。 |
 | [Nexus](https://app.nexus.xyz/trade) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Nexus 是可驗證金融的第一層。加入搶先體驗全新 Nexus DEX Alpha 的行列。 |
-| [Saturn](https://app.saturn.credit/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Saturn 是一種由比特幣支援的雙代幣信用協議，其中 USDat 是由代幣化國庫券支援的穩定幣，而 sUSDat 是由數位信用敞口支援的收益版本。 |
 | [Tydro](https://app.tydro.com/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Tydro 是 Ink 的原生借貸協議 - 一個信貸市場，旨在使 Ink 上的每項資產都具有生產力。提供和借用資產來賺取與未來 INK 空投相關的積分。 |
+| [Saturn](https://app.saturn.credit/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Saturn 是一種由比特幣支援的雙代幣信用協議，其中 USDat 是由代幣化國庫券支援的穩定幣，而 sUSDat 是由數位信用敞口支援的收益版本。 |
 | [infiniFi](https://infinifi.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | infiniFi 正在透過在鏈上重建現代銀行基礎設施來建立去中心化金融的未來。透過將流動性和非流動性資產合併到具有透明部分準備金的資本效率高的系統中，infiniFi 可以在不增加 |
 | [Cycles](https://beta.cycles.money/auth/login) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Cycles (https://beta.cycles.money/auth/login) 是一個專為多邊債務清理和流動性最佳化而設計的開放協議。該團隊目前正在執行測試版，讓早期使 |
 | [worm.wtf](https://www.worm.wtf/) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Worm.wtf is a creator-driven platform on Solana that enables anyone to launch permissionle |
@@ -45,8 +45,8 @@
 | [Bittensor dTAO](https://bittensor.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bittensor's native dTAO AMM pools, which price each subnet's alpha token against TAO and h |
 | [RocketSwap Anubis](https://x.com/Rocket_Swap_) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | RocketSwap是部署在Anubis上的Uniswap V2分叉DEX。 |
 | [RockawayX](https://rockawayx.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 鏈上資產管理器。 Morpho 和其他 DeFi 借貸協議的風險管理者。面向機構和富裕人士客戶的市場中性收益策略 - 穩定幣、ETH、BTC、SOL |
-| [Symbiotic](https://symbiotic.fi) | 潛在空投（未確認） | 頂級機構支持 | ★★★ | 需投入資金 | 中 | 共生為抵押品市場提供動力，資本承諾履行財務義務並透過程式碼執行。資本在投入的同時仍然保持生產力，消除了鎖定和盈利之間的權衡。它支援信貸、保險、穩定幣和 RWA 等產品。 Symbi |
 | [Project X](https://www.prjx.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Project X 堅信科技正變得越來越商品化，而 DeFi 的下一個時代將透過分配、激勵設計和使用者體驗方面的創新來贏得勝利。 |
+| [Symbiotic](https://symbiotic.fi) | 潛在空投（未確認） | 頂級機構支持 | ★★★ | 需投入資金 | 中 | 共生為抵押品市場提供動力，資本承諾履行財務義務並透過程式碼執行。資本在投入的同時仍然保持生產力，消除了鎖定和盈利之間的權衡。它支援信貸、保險、穩定幣和 RWA 等產品。 Symbi |
 | [GTBTC](https://www.gate.com/staking/BTC) | 潛在空投（未確認） | 知名機構支持 | ★★★ | 需投入資金 | 中 | Gate BTC Stake 讓使用者將 BTC 質押在 Gate 平臺上以換取 GTBTC（1:1 比例），GTBTC 透過 Gate 的內部質押/賺取機制獲得收益；使用者可以隨 |
 | [Hyperithm](https://www.hyperithm.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Hyperithm 是一家領先的數位資產管理公司，總部位於東京和首爾，並活躍於量化交易和創投領域。 |
 | [TermiX](https://www.agent.family) | 進行中 | 頂級機構支持 | ★★ | 免費 | 低 | TermiX 是一個鏈上市場，人工智慧代理可以透過區塊鏈找到工作、完成任務並接收付款。該專案從 YZi Labs（幣安實驗室）籌集了 100 萬美元，目前正在進行積分活動，積分預計 |
@@ -70,9 +70,9 @@
 | [Tulipa Capital](https://www.tulipa.capital) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Tulipa Capital 致力於以透明、高效和久經考驗的彈性來徹底改變加密貨幣市場。我們先進的策略和對創新的承諾使機構投資者能夠大規模部署資本。 |
 | [Project 0](https://app.0.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Project 0 是一家 DeFi 原生大宗經紀公司，允許使用者在多個場所以其整個 DeFi 投資組合進行借貸。 |
 | [Re7 Labs](https://www.re7labs.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 分散式數位資產生態系統的投資者和營運商 |
-| [Vishwa](https://www.vishwalab.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Vishwa 是針對自主資本的代理原生銀行基礎設施，圍繞著預執行控制層構建，該控制層在資本跨鍊和執行場所移動之前驗證和執行償付能力、授權、政策和執行約束。 |
 | [3F](https://www.3f.xyz/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 3F 是一種基於 Morpho 建立的保險庫協議，可讓您利用代幣化 RWA 的槓桿風險。 |
 | [Noon](https://app.noon.capital) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Noon 是一種收益最佳化協議，可產生 Delta 中性回報，最大化治理代幣效用，並確保公平、可持續的價值分配 |
+| [Vishwa](https://www.vishwalab.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Vishwa 是針對自主資本的代理原生銀行基礎設施，圍繞著預執行控制層構建，該控制層在資本跨鍊和執行場所移動之前驗證和執行償付能力、授權、政策和執行約束。 |
 | [Bitlayer YBTC Family](https://x.com/BitlayerLabs) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 比特幣和Bitlayer鏈之間的橋樑 |
 | [Mantle Restaking](https://x.com/mETHProtocol) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 以太坊上的流動性重新質押 |
 | [Plasma One](https://www.plasma.to/one) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 僅需 Gas 手續費 | 中 | Plasma One is a next-generation card product built on the Plasma Chain, an EVM-compatible  |
@@ -108,8 +108,8 @@
 | [Beam](https://www.coingecko.com/en/coins/beam-2) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [FLOKI](https://www.coingecko.com/en/coins/floki) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Axie Infinity](https://www.coingecko.com/en/coins/axie-infinity) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [GoMining Token](https://www.coingecko.com/en/coins/gmt-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Geodnet](https://www.coingecko.com/en/coins/geodnet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [GoMining Token](https://www.coingecko.com/en/coins/gmt-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Decentraland](https://www.coingecko.com/en/coins/decentraland) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Rollbit Coin](https://www.coingecko.com/en/coins/rollbit-coin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [The Sandbox](https://www.coingecko.com/en/coins/the-sandbox) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
@@ -123,18 +123,18 @@
 | [ECOMI](https://www.coingecko.com/en/coins/ecomi) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Baby Doge Coin](https://www.coingecko.com/en/coins/baby-doge-coin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Pentagon Chain](https://www.coingecko.com/en/coins/pentagon-chain) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Nexpace](https://www.coingecko.com/en/coins/nexpace) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Aria.AI](https://www.coingecko.com/en/coins/aria-ai) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Nexpace](https://www.coingecko.com/en/coins/nexpace) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Infinity Gaming](https://www.coingecko.com/en/coins/infinity-gaming) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Enjin Coin](https://www.coingecko.com/en/coins/enjincoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Moca Network](https://www.coingecko.com/en/coins/mocaverse) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [1win Token](https://1wtoken.com/) | 進行中 | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 1win Token is launching its public token sale on October 15 at 15:00 UTC. The sale offers  |
 | [Notcoin](https://www.coingecko.com/en/coins/notcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Audiera](https://www.coingecko.com/en/coins/audiera) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [DEAPCOIN](https://www.coingecko.com/en/coins/deapcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Metaplex](https://www.coingecko.com/en/coins/metaplex) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Moca Network](https://www.coingecko.com/en/coins/mocaverse) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Loaded Lions](https://www.coingecko.com/en/coins/loaded-lions) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Unipoly](https://www.coingecko.com/en/coins/unipoly) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Loaded Lions](https://www.coingecko.com/en/coins/loaded-lions) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [OVERTAKE](https://www.coingecko.com/en/coins/overtake) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [BORA](https://www.coingecko.com/en/coins/bora) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Catizen](https://www.coingecko.com/en/coins/catizen) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
