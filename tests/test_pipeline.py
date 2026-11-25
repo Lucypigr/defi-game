@@ -171,3 +171,18 @@ def test_generic_steps_for_sources_without_guides(tmp_path):
     assert len(lend) >= 4 and "https://lend.xyz" in lend[0] and "@lend" in lend[0] and "借款" in lend[2]
     game = store.projects["space-game"]["analysis"]["steps"]
     assert len(game) >= 4 and "$SPG" in game[3]
+
+
+def test_translate_list_retries_untranslated_lines(monkeypatch):
+    from airdrop_hunter.enrich import translate as tr
+    calls = []
+
+    def fake_request(chunk, target):
+        calls.append(chunk)
+        if "\n" in chunk:   # 合併翻譯時，第一行（含網址）被原封不動傳回
+            first, rest = chunk.split("\n", 1)
+            return first + "\n" + "\n".join("譯" + x for x in rest.split("\n"))
+        return "譯" + chunk
+    monkeypatch.setattr(tr, "_request", fake_request)
+    out = tr.translate_list(["Open the deposit page (https://a.b/x).", "Connect wallet."])
+    assert out == ["譯Open the deposit page (https://a.b/x).", "譯Connect wallet."]

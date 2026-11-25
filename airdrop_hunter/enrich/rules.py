@@ -100,8 +100,7 @@ def analyze(p: Project, related_posts: list[dict], lang: str = "zh-TW") -> dict:
         "confirmed": "confirmed" if p.confirmed else ("unconfirmed" if p.confirmed is False else "speculative"),
         "backing_level": level,
         "backers": backers[:12],
-        "backing_note": (f"已募資約 ${p.funds_raised_usd/1e6:.1f}M。" if p.funds_raised_usd else "")
-                        + ("" if backers else "未找到公開的投資方資料。"),
+        "backing_note": "" if backers else "未找到公開的投資方資料。",   # 募資金額網頁會另外顯示
         "difficulty": difficulty,
         "difficulty_note": "",
         "time_commitment": "需持續每日 / 每週互動" if _DAILY.search(text) else "一次性完成即可",

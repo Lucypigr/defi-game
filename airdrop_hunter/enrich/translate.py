@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import time
 from datetime import timedelta
 from pathlib import Path
@@ -106,7 +107,17 @@ def translate_list(items: list[str], target: str = "zh-TW") -> list[str]:
         return []
     joined = translate("\n".join(i.replace("\n", " ") for i in items), target)
     parts = joined.split("\n")
-    return parts if len(parts) == len(items) else [translate(i, target) for i in items]
+    if len(parts) != len(items):
+        return [translate(i, target) for i in items]
+    # Google 偶爾會跳過含網址的英文行（原封不動傳回）→ 單獨再翻一次
+    return [translate(src, target) if out.strip() == src.strip() and _mostly_latin(src) else out
+            for src, out in zip(items, parts)]
+
+
+def _mostly_latin(s: str) -> bool:
+    s = re.sub(r"https?://\S+", "", s)
+    letters = re.findall(r"[A-Za-z]", s)
+    return len(letters) >= 8 and len(letters) > 0.5 * len(s.replace(" ", ""))
 
 
 def _chunks(text: str, size: int) -> list[str]:
