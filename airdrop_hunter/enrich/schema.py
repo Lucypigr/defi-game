@@ -4,7 +4,7 @@ ANALYSIS_SCHEMA = {
     "type": "object",
     "additionalProperties": False,
     "required": ["summary", "kind", "status", "confirmed", "backing_level", "backers", "backing_note",
-                 "difficulty", "difficulty_note", "time_commitment", "cost_type", "cost_note", "steps",
+                 "difficulty", "difficulty_note", "time_commitment", "cost_type", "cost_note", "steps", "notes",
                  "reward", "distribution", "requirements", "deadline", "risk_level", "risks",
                  "official_links", "tips"],
     "properties": {
@@ -21,6 +21,7 @@ ANALYSIS_SCHEMA = {
         "cost_type": {"type": "string", "enum": ["free", "gas_only", "deposit", "paid", "unknown"]},
         "cost_note": {"type": "string"},
         "steps": {"type": "array", "items": {"type": "string"}},
+        "notes": {"type": "array", "items": {"type": "string"}},
         "reward": {"type": "string"},
         "distribution": {"type": "string"},
         "requirements": {"type": "array", "items": {"type": "string"}},

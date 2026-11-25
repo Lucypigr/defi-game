@@ -29,8 +29,50 @@ def extract_activities(html: str) -> list[dict]:
             continue
         if obj.get("id") not in seen and obj.get("titleProject"):
             seen.add(obj["id"])
+            for k in ("howToParticipate", "about"):   # 長文字放在別段，用 "$55" 這種代號引用
+                if isinstance(obj.get(k), str) and _REF.fullmatch(obj[k]):
+                    obj[k] = _resolve_text(text, obj[k][1:])
             out.append(obj)
     return out
+
+
+_REF = re.compile(r"\$[0-9a-f]+")
+
+
+def _resolve_text(text: str, ref: str) -> str:
+    """Next.js flight 的文字區塊格式：<代號>:T<位元組長度(16進位)>,<內容>"""
+    # 區塊之間不一定有換行（上一段文字結束就緊接下一段），所以只要求前面不是 16 進位字元
+    m = re.search(r"(?<![0-9a-f])" + re.escape(ref) + r":T([0-9a-f]+),", text)
+    if not m:
+        return ""
+    size = int(m.group(1), 16)
+    return text[m.end():m.end() + size * 2].encode("utf-8")[:size].decode("utf-8", "ignore")
+
+
+def parse_how_to(md: str) -> tuple[list[str], list[str]]:
+    """把 Markdown 教學拆成「步驟」（有編號的項目）和「補充說明」（其他條列 / 段落）。"""
+    steps, notes, section = [], [], ""
+    for line in md.split("\n"):
+        raw = line.strip()
+        if not raw:
+            continue
+        if raw.startswith("#"):
+            section = strip_markdown(raw.lstrip("#").strip())
+            continue
+        text = strip_markdown(re.sub(r"^\d+[.)]\s*", "", raw))
+        if not text:
+            continue
+        if re.match(r"^\d+[.)]\s", raw):
+            # 每個小節的第一步加上小節名稱，例如「【Join Testnet】Go to ...」
+            if section and (not steps or not steps[-1].startswith(f"【{section}】")) and \
+                    not any(s.startswith(f"【{section}】") for s in steps):
+                text = f"【{section}】{text}"
+            steps.append(text)
+        else:
+            notes.append(text)
+    if len(steps) < 2:      # 沒有編號清單時，退而用全部條列
+        steps, notes = steps + notes, []
+    return steps[:15], notes
 
 
 def to_project(a: dict) -> Project:
@@ -41,10 +83,7 @@ def to_project(a: dict) -> Project:
     is_game = "gaming" in atype.lower() or any("gam" in t.lower() for t in tags + eco)
     backers = [{"name": i.get("name"), "tier": i.get("rating"), "type": i.get("ventureType")}
                for i in tp.get("investors") or [] if i.get("name")]
-    steps = [strip_markdown(re.sub(r"^\d+\.\s*", "", s))
-             for s in (a.get("howToParticipate") or "").split("\n")
-             if s.strip() and not s.lstrip().startswith("#")]   # 略過 Markdown 小標題
-    steps = [s for s in steps if s]
+    steps, notes = parse_how_to(a.get("howToParticipate") or "")
     links = {"participate": a.get("participationLink")}
     for u in a.get("links") or []:
         key = "twitter" if ("x.com/" in u or "twitter.com/" in u) else "docs" if "docs" in u else "website"
@@ -76,7 +115,7 @@ def to_project(a: dict) -> Project:
         links={k: v for k, v in links.items() if v},
         score=min(100.0, (tp.get("tweetscoutScore") or 0) / 10 + (20 if a.get("isFeatured") else 0)),
         published=iso(from_ms(a.get("createdAt"))),
-        extra={"dropstab_id": a.get("id"), "outdated": a.get("isOutdated")},
+        extra={"dropstab_id": a.get("id"), "outdated": a.get("isOutdated"), "notes": notes[:10]},
     )
 
 

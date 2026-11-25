@@ -78,9 +78,24 @@ def test_dropstab_extract_and_convert():
     p = dropstab.to_project(acts[0])
     assert p.name == "TermiX" and p.status == "ongoing"
     assert p.backers[0]["name"].startswith("YZi")
-    assert p.steps == ["Open site (https://a.b).", "Earn points"]
+    assert p.steps == ["【Setup】Open site (https://a.b).", "Earn points"]
     assert p.description == "Raised $1M"
     assert p.links["twitter"] == "https://x.com/termix"
+
+
+def test_dropstab_resolves_text_references():
+    # 真實頁面：長文字用 "$55" 引用，內容放在 "55:T<位元組長度>,<文字>"，且區塊間沒有換行
+    body = "### Join\n1. Go to app\n2. Connect wallet\n- Points weekly"
+    act = {"id": 9, "isDraft": False, "status": "ACTIVE", "titleProject": {"name": "Ref"},
+           "howToParticipate": "$55", "about": "$56"}
+    about = "Ref is a DEX 中文"
+    payload = ("0:" + json.dumps([act], separators=(",", ":")) + "\n"
+               + f"55:T{len(body.encode()):x}," + body + f"56:T{len(about.encode()):x}," + about)
+    html = f'<script>self.__next_f.push([1,{json.dumps(payload)}])</script>'
+    p = dropstab.to_project(dropstab.extract_activities(html)[0])
+    assert p.steps == ["【Join】Go to app", "Connect wallet"]
+    assert p.extra["notes"] == ["Points weekly"]
+    assert p.description == about
 
 
 TG = """

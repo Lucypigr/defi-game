@@ -5,6 +5,7 @@ import json
 import shutil
 from pathlib import Path
 
+from .enrich.rules import clean_step
 from .enrich.vc import LEVEL_ZH
 from .store import Store
 from .util import safe_url
@@ -37,6 +38,15 @@ def _links(raw: dict, analysis: dict) -> list[dict]:
     return out
 
 
+def _main_link(raw: dict, analysis: dict) -> str | None:
+    """「前往參與」按鈕要開的網址：參與連結 > 官網 > AI 找到的官方連結。"""
+    links = raw.get("links", {})
+    for k in ("participate", "website"):
+        if u := safe_url(links.get(k)):
+            return u
+    return next((u for l in analysis.get("official_links", []) if (u := safe_url(l.get("url")))), None)
+
+
 def public_project(rec: dict) -> dict:
     raw, a = rec["raw"], rec.get("analysis") or {}
     status = "ended" if rec.get("stale") else (a.get("status") or raw["status"])
@@ -62,7 +72,9 @@ def public_project(rec: dict) -> dict:
         "cost_type": a.get("cost_type", "unknown"),
         "cost_zh": COST_ZH.get(a.get("cost_type", "unknown")),
         "cost_note": a.get("cost_note", ""),
-        "steps": a.get("steps", []),
+        "steps": [x for x in (clean_step(st) for st in a.get("steps", [])) if x],
+        "notes": a.get("notes", []),
+        "main_link": _main_link(raw, a),
         "reward": a.get("reward", ""),
         "distribution": a.get("distribution", ""),
         "requirements": a.get("requirements", []),

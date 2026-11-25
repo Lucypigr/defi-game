@@ -33,6 +33,7 @@ def session() -> requests.Session:
             status_forcelist=(429, 500, 502, 503, 504),
             allowed_methods=("GET",),
             raise_on_status=False,
+            respect_retry_after_header=False,   # 被限流時不要乖乖等 60 秒以上，直接放棄、下次再試
         )
         s.mount("https://", HTTPAdapter(max_retries=retry))
         s.mount("http://", HTTPAdapter(max_retries=retry))

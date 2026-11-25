@@ -136,3 +136,38 @@ def test_analyze_project_filters_unsafe_links(monkeypatch):
         create=lambda **kw: _resp("end_turn", json.dumps(out)))))
     res = an.analyze_project(_projects()[0], [])
     assert res["official_links"] == [{"label": "官網", "url": "https://ok.xyz"}]
+
+
+def test_failed_translation_is_retried_next_run(tmp_path, monkeypatch):
+    from airdrop_hunter.enrich import translate as tr
+    fails = {"n": 0}
+    monkeypatch.setattr(tr, "fail_count", lambda: fails["n"])
+
+    def flaky(text, lang="zh-TW"):
+        fails["n"] += 1          # 模擬 Google 限流：每次翻譯都失敗
+        return text
+    monkeypatch.setattr(rules, "translate", flaky)
+    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW": [flaky(i) for i in items])
+
+    store = Store(tmp_path / "db.json")
+    pipeline.run({}, store, use_ai=False, collect_fn=lambda cfg: (_projects()[:1], []))
+    rec = store.projects["foo"]
+    assert rec["analysis"] and rec["analysis_hash"] is None      # 先顯示原文，但標記下次重試
+
+    monkeypatch.setattr(rules, "translate", lambda text, lang="zh-TW": f"譯:{text}" if text else "")
+    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW": [f"譯:{i}" for i in items])
+    pipeline.run({}, store, use_ai=False, collect_fn=lambda cfg: (_projects()[:1], []))
+    rec = store.projects["foo"]
+    assert rec["analysis_hash"] and rec["analysis"]["steps"][0].startswith("譯:")
+
+
+def test_generic_steps_for_sources_without_guides(tmp_path):
+    store = Store(tmp_path / "db.json")
+    proto = Project(name="Big Lend", source="defillama", status="potential", tags=["Lending"],
+                    links={"website": "https://lend.xyz", "twitter": "https://x.com/lend"},
+                    chains=["Base"], extra={"category": "Lending", "tvl_usd": 9e7})
+    pipeline.run({}, store, use_ai=False, collect_fn=lambda cfg: ([proto, _projects()[2]], []))
+    lend = store.projects["big-lend"]["analysis"]["steps"]
+    assert len(lend) >= 4 and "https://lend.xyz" in lend[0] and "@lend" in lend[0] and "借款" in lend[2]
+    game = store.projects["space-game"]["analysis"]["steps"]
+    assert len(game) >= 4 and "$SPG" in game[3]

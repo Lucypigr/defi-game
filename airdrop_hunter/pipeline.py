@@ -7,6 +7,7 @@ from dataclasses import fields
 from datetime import timedelta
 
 from .enrich import rules
+from .enrich import translate as translate_mod
 from .enrich.ai import ClaudeAnalyzer
 from .models import Post, Project
 from .sources import POST_SOURCES, PROJECT_SOURCES
@@ -89,9 +90,13 @@ def project_from_extraction(e: dict, post: dict) -> Project:
     )
 
 
+ANALYSIS_VERSION = 2   # 分析邏輯改版時 +1，所有項目會重新分析
+
+
 def _analysis_input_hash(raw: dict) -> str:
-    return content_hash(raw["name"], raw["description"], raw["steps"], raw["actions"], raw["status"],
-                        raw["confirmed"], [b["name"] for b in raw["backers"]], raw["end"], raw["reward_hint"])
+    return content_hash(ANALYSIS_VERSION, raw["name"], raw["description"], raw["steps"], raw["actions"], raw["status"],
+                        raw["confirmed"], [b["name"] for b in raw["backers"]], raw["end"], raw["reward_hint"],
+                        raw["links"].get("website"), raw["extra"].get("notes"))
 
 
 def _project_from_dict(d: dict) -> Project:
@@ -138,10 +143,17 @@ def run(cfg: dict, store: Store, *, use_ai: bool | None = None, collect_fn=colle
             p["first_seen"] = now_s
             store.posts[p["id"]] = p
     else:
+        # 之前翻譯失敗的貼文先重試
+        for p in [p for p in store.posts.values() if p.get("needs_translation")][:40]:
+            before = translate_mod.fail_count()
+            p["zh"] = rules.summarize_post(p, lang)
+            p["needs_translation"] = translate_mod.fail_count() > before
         for p in new_posts[:80]:
+            before = translate_mod.fail_count()
             p["zh"] = rules.summarize_post(p, lang)
             p["relevant"] = bool(RELEVANT.search(f"{p.get('title', '')} {p['text']}"))
             p["processed_by"] = "rules"
+            p["needs_translation"] = translate_mod.fail_count() > before
             p["mentions"] = []
             p["first_seen"] = now_s
             store.posts[p["id"]] = p
@@ -197,14 +209,24 @@ def run(cfg: dict, store: Store, *, use_ai: bool | None = None, collect_fn=colle
             for (key, rec, h), result in ex.map(work, ai_todo):
                 if result:
                     rec.update(analysis=result, analysis_by="ai", analysis_hash=h, analyzed_at=now_s)
+    rules_budget = cfg.get("max_rules_per_run", 70)   # 規則分析要呼叫翻譯，分批做避免被 Google 限流
     for key, rec, h in todo:
         if rec.get("analysis_hash") == h and rec.get("analysis_by") == "ai":
             continue
         if rec.get("analysis") and rec.get("analysis_by") == "ai":
             continue        # 保留舊的 AI 分析，等下次額度再更新
+        if rules_budget <= 0 and rec.get("analysis"):
+            continue        # 已有舊分析的先沿用，下次再更新
+        rules_budget -= 1
         related = [store.posts[i] for i in rec.get("related_posts", [])[:5] if i in store.posts]
-        rec.update(analysis=rules.analyze(_project_from_dict(rec["raw"]), related, lang),
-                   analysis_by="rules", analysis_hash=h, analyzed_at=now_s)
+        result = rules.analyze(_project_from_dict(rec["raw"]), related, lang)
+        if result.pop("_incomplete", False):
+            # 翻譯失敗：有舊的分析就先保留舊的；兩種情況都把 hash 清掉，下次執行重試
+            if not rec.get("analysis"):
+                rec.update(analysis=result, analysis_by="rules", analyzed_at=now_s)
+            rec["analysis_hash"] = None
+            continue
+        rec.update(analysis=result, analysis_by="rules", analysis_hash=h, analyzed_at=now_s)
 
     # 4) 過期與清理
     stale_cutoff = now - timedelta(days=cfg.get("stale_after_days", 21))
@@ -223,6 +245,7 @@ def run(cfg: dict, store: Store, *, use_ai: bool | None = None, collect_fn=colle
         if when and when < post_cutoff:
             del store.posts[pid]
 
+    translate_mod.save_cache()
     store.data["last_run"] = {
         "at": now_s, "mode": "ai" if analyzer else "rules",
         "collected_projects": len(raw_projects), "collected_posts": len(raw_posts),

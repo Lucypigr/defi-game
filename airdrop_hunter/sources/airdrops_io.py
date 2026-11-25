@@ -1,6 +1,7 @@
 """airdrops.io — 專門整理空投的網站，列表頁有狀態、熱度、需要做的動作，詳細頁有逐步教學。"""
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 
 from bs4 import BeautifulSoup
@@ -91,7 +92,8 @@ def parse_detail(html: str, p: Project) -> None:
                 if sib.name in ("h2", "h3", "h4"):
                     break
                 body.append(sib.get_text(" ", strip=True))
-            steps.append(clean_text(f"{title}: {' '.join(body)}", 400))
+            title = re.sub(r"^step\s*\d+\s*[:.\-–]\s*", "", title, flags=re.I)   # 去掉「Step 1:」，網頁會自己編號
+            steps.append(clean_text(f"{title}：{' '.join(body)}", 400))
         if not steps:  # 版面不同時，退而求其次保留整段文字
             text = clean_text(guide.get_text("\n", strip=True), 2500)
             steps = [line for line in text.split("\n") if line][:20]

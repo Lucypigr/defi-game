@@ -10,6 +10,7 @@ import anthropic
 
 from ..models import Project
 from ..util import log, safe_url
+from .guides import generic_steps
 from .schema import ANALYSIS_SCHEMA, POSTS_SCHEMA
 
 LANG_NAME = {"zh-TW": "繁體中文（台灣用語）", "zh-CN": "简体中文"}
@@ -35,7 +36,11 @@ fees; "deposit" = must deposit / stake / trade / provide liquidity; "paid" = mus
 to play; "unknown" if unclear.
 - distribution: how rewards will actually reach users (points converted at TGE, claim page, direct \
 wallet drop, NFT, in-game earnings sold on exchanges...), plus vesting/unlock if known.
-- steps: concrete, numbered-style actions a beginner can follow, in order (no numbering prefix).
+- steps: concrete actions a complete beginner can follow, in order, 3-10 items, no numbering prefix. \
+Each step starts with a verb and says exactly where to go (include the official URL when known) and \
+what to click or do. Never leave steps empty: if the raw data has no guide, write practical steps from \
+the project type and official links (`template_steps` is a starting point you should improve).
+- notes: short extra details worth knowing (points rules, boosts, minimums, eligibility, dates).
 - status / confirmed: "confirmed" only if the team officially announced a token or airdrop.
 - risk_level and risks: point out unconfirmed airdrops, capital at risk, sybil filters, KYC, and any \
 scam signals (asks for seed phrase/private key, upfront payment, fake claim sites, guaranteed returns). \
@@ -80,6 +85,7 @@ class ClaudeAnalyzer:
             "backers": p.backers, "funds_raised_usd": p.funds_raised_usd, "requirements": p.requirements,
             "cost_hint": p.cost_hint, "reward_hint": p.reward_hint, "distribution_hint": p.distribution_hint,
             "start": p.start, "end": p.end, "links": p.links, "extra": p.extra,
+            "template_steps": generic_steps(p),
             "related_social_posts": [{"source": r["source"], "channel": r["channel"], "url": r["url"],
                                       "text": r["text"][:800]} for r in related_posts[:5]],
         }

@@ -8,6 +8,8 @@ import re
 
 from ..models import Project
 from . import vc
+from .guides import generic_steps
+from . import translate as _tr
 from .translate import translate, translate_list
 
 _PAID = re.compile(r"\b(deposit|stake|staking|bridge|buy|purchase|mint|swap|trade|trading|lend|borrow|"
@@ -87,8 +89,11 @@ def analyze(p: Project, related_posts: list[dict], lang: str = "zh-TW") -> dict:
         else "medium" if risks else "low"
 
     summary_src = "\n".join((p.description or p.actions or "").split("\n")[:2])[:700]
-    steps_src = p.steps or ([p.actions] if p.actions else [])
-    return {
+    template = generic_steps(p, translate(p.actions, lang) if p.actions else "") if len(p.steps) < 2 else []
+    steps_src = p.steps if len(p.steps) >= 2 else []
+    notes_src = [n for n in p.extra.get("notes", []) if n][:6]
+    fails_before = _tr.fail_count()
+    result = {
         "summary": translate(summary_src, lang) if summary_src else "",
         "kind": "p2e" if p.kind == "p2e" or _GAME.search(text) else "defi",
         "status": p.status,
@@ -104,7 +109,8 @@ def analyze(p: Project, related_posts: list[dict], lang: str = "zh-TW") -> dict:
         "cost_note": {"free": "只需錢包或社群帳號，不用花錢。", "gas_only": "只需少量鏈上手續費 (Gas)。",
                       "deposit": "需要存入 / 交易資金才能累積資格。", "paid": "需要購買代幣或 NFT 才能遊玩。",
                       "unknown": "資訊不足，請以官方說明為準。"}[cost_type],
-        "steps": translate_list([s[:400] for s in steps_src[:12]], lang),
+        "steps": template or [clean_step(s) for s in translate_list([s[:400] for s in steps_src[:12]], lang)],
+        "notes": translate_list([n[:300] for n in notes_src], lang) if notes_src else [],
         "reward": translate(p.reward_hint, lang) if p.reward_hint else "未公布",
         "distribution": distribution,
         "requirements": sorted(set(p.requirements + ["錢包 (Wallet)"])),
@@ -114,6 +120,16 @@ def analyze(p: Project, related_posts: list[dict], lang: str = "zh-TW") -> dict:
         "official_links": [],
         "tips": "",
     }
+    result["_incomplete"] = _tr.fail_count() > fails_before   # 翻譯失敗 → 下次重試
+    return result
+
+
+_STEP_PREFIX = re.compile(r"^\s*(?:步驟\s*\d+\s*[:：.、]?|第\s*\d+\s*步\s*[:：.、]?|step\s*\d+\s*[:：.]?|\d+\s*[.)、])\s*", re.I)
+
+
+def clean_step(s: str) -> str:
+    """去掉翻譯後殘留的「步驟 1：」「第 2 步：」編號（網頁會自己編號）。"""
+    return _STEP_PREFIX.sub("", s).strip()
 
 
 def summarize_post(post: dict, lang: str = "zh-TW") -> dict:
