@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-11-25T04:40:59+00:00（自動產生，請勿手動修改）
+最後更新：2026-11-25T04:49:49+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -74,7 +74,7 @@
 | [CommunityV3](https://defillama.com/protocol/communityv3) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 以太坊上未經修改的 Uniswap V3 部署，工廠所有者被燒毀，因此協議費用永遠無法開啟——LP 保留 100% 的交換費用。提供 0.01% 到 5% 的 25 個費用等級。 |
 | [Flowdesk](https://x.com/flowdesk_co) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Flowdesk 是一家提供全方位服務的數位資產交易和科技公司，也在 Morpho 上管理了一個金庫。 |
 | [Mantle Restaking](https://x.com/mETHProtocol) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 以太坊上的流動性重新質押 |
-| [Plasma One](https://www.plasma.to/one) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 僅需 Gas 手續費 | 中 | Plasma One is a next-generation card product built on the Plasma Chain, an EVM-compatible  |
+| [Plasma One](https://www.plasma.to/one) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 僅需 Gas 手續費 | 中 | Plasma One 是基於 Plasma 鏈構建的下一代卡產品，Plasma 鍊是一種相容 EVM 的 L1，針對穩定幣支付和日常支出進行了最佳化。它將有收益的賺取產品（P1US |
 | [XRPL DEX](https://x.com/RippleXDev) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | XRP 帳本區塊鏈的 AMM 池 |
 | [Y10K Capital](https://x.com/y10kcapital) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 由 Yield Network 和 RockawayX 團隊積極管理的鏈上工具專注於私人鏈上流動性交易。 |
 | [Zoo Finance](https://x.com/ZooFinanceIO) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 更好地利用流動性的結構化資產協議。 |
@@ -83,8 +83,8 @@
 | [Incentiv](https://dropstab.com/coins/incentiv) | 進行中 | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 激勵主網已上線。透過實際使用賺取 XP，收集徽章，探索主網上的不同 dApp，並開啟神秘盒子來解鎖即時獎勵。 |
 | [Variational](https://omni.variational.io/) | 進行中 | 頂級機構支持 | ★★★★ | 需投入資金 | 中 | 變分是一種為點對點衍生性商品交易提供基礎設施的協議。透過持續的活動維持 Omni 的獎勵等級，從而獲得更高的積分。 |
 | [Strata](https://dropstab.com/coins/strata) | 進行中 | 知名機構支持 | ★ | 免費 | 低 | Strata 是一種協議，可為任何鏈上或鏈下收益策略帶來結構化收益產品。作為流動性提供者加入 Strata 積分計劃，以便在未來賺取獎勵。 |
-| [junk.fun](https://dropstab.com/coins/junk-fun) | 進行中 | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Junk.Fun 是一個基於 Solana 的平臺，您可以在其中銷毀毫無價值的代幣和 NFT。清理你的錢包並透過寶箱和各種任務賺取真正的獎勵。 |
-| [June](https://askjune.ai/app/chat) | 進行中 | 未知 / 無公開投資方 | ★★★ | 免費 | 中 | June 是 Blockchain.com 團隊打造的一款強大的人工智慧助理。與六月平臺互動，每日聊天，賺取積分。 |
+| [junk.fun](https://dropstab.com/coins/junk-fun) | 進行中 | 未知 / 無公開投資方 | ★★ | 免費 | 中 | Junk.Fun 是一個基於 Solana 的平臺，您可以在其中銷毀毫無價值的代幣和 NFT。清理你的錢包並透過寶箱和各種任務賺取真正的獎勵。 |
+| [June](https://askjune.ai/app/chat) | 進行中 | 未知 / 無公開投資方 | ★★ | 未知 | 中 | June 是 Blockchain.com 團隊打造的一款強大的人工智慧助理。與六月平臺互動，每日聊天，賺取積分。 |
 | [Dow Protocol](https://app.dowprotocol.com/points) | 進行中 | 頂級機構支持 | ★ | 免費 | 低 | DowProtocol 是一個用於支付和現實世界資產的鏈上平臺。 |
 | [Solarious](https://solarious.us/) | 進行中 | 未知 / 無公開投資方 | ★ | 免費 | 中 | Solarious 正在進行 SOLAR 的持續銷售，SOLAR 是 Solarious Layer-1 區塊鏈的原生代幣。此次發售提供 20,000,000 SOLAR，佔 10 |
 | [BULK](https://x.com/bulktrade/status/2061445961621086244?s=20) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Bulk Trade (https://early.bulk.trade/deposit?ref=dropstab) 是一個基於 Solana 的永久 DEX，目前正在進行早期存款 |
@@ -94,7 +94,7 @@
 | [ArenaDAO](https://arenadao.live/en/?utm_source=dropstab&utm_medium=display&utm_campaign=paid_media_jul&utm_content=article) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | ArenaDAO (https://arenadao.live/) 是 BNB 鏈上的遊戲化 DeFi 協議，其中兩個 meme 代幣在 Arenas 中進行正面競爭。使用者可以加 |
 | [Browser Cash](https://www.browser.cash/) | 進行中 | 頂級機構支持 | ★★★ | 免費 | 低 | Browser Cash 是一個建構分散式瀏覽器網路的網路超級智慧實驗室。下載瀏覽器現金應用程式開始被動賺錢。 |
 | [dMeet](https://x.com/dMeetApp/status/2049840703690154343?s=20) | 進行中 | 未知 / 無公開投資方 | ★ | 免費 | 中 | dMeet 是一個去中心化的人工智慧通訊平臺。該團隊宣佈為活躍使用者分配 260 萬美元的獎勵。更多詳情請見官方公告（https://x.com/dMeetApp/status/2 |
-| [Perena](https://dropstab.com/coins/perena) | 進行中 | 頂級機構支持 | ★★ | 未知 | 低 | Perena 是一家穩定銀行，提供可組合貨幣支援的流動儲蓄代幣。透過第 1 季的各種活動和里程碑賺取花瓣和徽章。 |
+| [Perena](https://dropstab.com/coins/perena) | 進行中 | 頂級機構支持 | ★★★★★ | 需投入資金 | 中 | Perena 是一家穩定銀行，提供可組合貨幣支援的流動儲蓄代幣。透過第 1 季的各種活動和里程碑賺取花瓣和徽章。 |
 | [SimpleChain](https://task.simplechain.com/) | 進行中 | 知名機構支持 | ★ | 免費 | 低 | SimpleChain 是 RWA 的機構作業系統。測試網活動正式上線 - 完成測試網任務，賺取積分，並有資格獲得未來的代幣分配。 |
 
 ## P2E 邊玩邊賺遊戲（47）
@@ -119,9 +119,9 @@
 | [ApeCoin](https://apechain.com/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | APE 推動文化。它得到了世界上最好的俱樂部和全球數十萬持有者的支援，是數位和現實生活社群、建造者、創造者、收藏家、遊戲玩家等的代幣。 APE 是 ApeChain 的原生 Gas |
 | [GALA](https://gala.com/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | GALA 旨在為 Gala Games 生態系統提供動力，以支援重新設計的遊戲，從而使創作者和玩家受益。 |
 | [Aria.AI](https://playariagame.com/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | AriaAI是受迪士尼風格的沉浸式世界和人工智慧技術啟發而進行的下一代遊戲開發和發行實驗，以自有IP相關遊戲玩法為核心進行設計。它代表著將 Web2 品質的遊戲設計和發布標準帶入  |
-| [WEMIX](https://www.coingecko.com/en/coins/wemix-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Infinity Gaming](https://www.coingecko.com/en/coins/infinity-gaming) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Baby Doge Coin](https://www.coingecko.com/en/coins/baby-doge-coin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [WEMIX](https://www.wemix.com/en) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 擁有熱門遊戲的全球遊戲平臺 |
+| [Infinity Gaming](https://infinitygaming.co) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | Infinity Gaming 是一個連線線上賭場遊戲、體育博彩的全球遊戲和數位資產生態系統 市場、預測市場、會員參與、社群獎勵和基於區塊鏈的效用 |
+| [Baby Doge Coin](https://babydoge.com) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Baby Doge Coin 是一種迷因加密貨幣，其設計目的是通貨緊縮，並且隨著時間的推移變得更加稀缺。 Baby Doge 的所有持有者只需在錢包中持有 Baby Doge 硬幣 |
 | [Pentagon Chain](https://www.coingecko.com/en/coins/pentagon-chain) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [ECOMI](https://www.coingecko.com/en/coins/ecomi) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Nexpace](https://www.coingecko.com/en/coins/nexpace) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
@@ -136,15 +136,15 @@
 | [BORA](https://www.coingecko.com/en/coins/bora) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Audiera](https://www.coingecko.com/en/coins/audiera) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Catizen](https://www.coingecko.com/en/coins/catizen) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Illuvium](https://www.coingecko.com/en/coins/illuvium) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [Big Time](https://www.coingecko.com/en/coins/big-time) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Yield Guild Games](https://www.coingecko.com/en/coins/yield-guild-games) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [Big Time](https://www.coingecko.com/en/coins/big-time) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [CARV](https://www.coingecko.com/en/coins/carv) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Zylo Ecosystem](https://www.coingecko.com/en/coins/zylo-ecosystem) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Capybobo](https://www.coingecko.com/en/coins/capybobo) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fren Pet](https://www.coingecko.com/en/coins/frenpet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [SKALE](https://www.coingecko.com/en/coins/skale) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
+| [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Gama Token](https://www.coingecko.com/en/coins/gama-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GMT](https://www.coingecko.com/en/coins/stepn) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
