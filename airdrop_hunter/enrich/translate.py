@@ -63,7 +63,7 @@ def _request(chunk: str, target: str) -> str | None:
         _fail_total += 1
         return None
     try:
-        time.sleep(0.3)
+        time.sleep(0.8)   # 放慢速度，降低被 Google 限流的機會
         r = session().post(URL, timeout=20, params={"client": "gtx", "sl": "auto", "tl": target, "dt": "t"},
                            data={"q": chunk})
         r.raise_for_status()
