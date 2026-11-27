@@ -1,11 +1,11 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-11-27T12:26:02+00:00（自動產生，請勿手動修改）
+最後更新：2026-11-27T23:30:17+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
 
-## DeFi / 加密貨幣空投（86）
+## DeFi / 加密貨幣空投（84）
 
 | 項目 | 狀態 | 支撐 | 難度 | 費用 | 風險 | 簡介 |
 |---|---|---|---|---|---|---|
@@ -48,7 +48,7 @@
 | [Solarious](https://solarious.us/) | 進行中 | 未知 / 無公開投資方 | ★ | 免費 | 中 | Solarious 正在持續銷售 SOLAR，這是 Solarious Layer-1 區塊鏈的原生代幣。此次發售提供 20,000,000 SOLAR，佔 10 億 SOLAR  |
 | [OP_NET](https://opnet.org/portal) | 進行中 | 未知 / 無公開投資方 | ★★ | 免費 | 中 | OP_NET 正在比特幣 Layer1 上建立智慧合約。加入 Odyssey 測試網活動。完成鏈上和社交任務即可賺取積分。 |
 | [junk.fun](https://dropstab.com/coins/junk-fun) | 進行中 | 未知 / 無公開投資方 | ★★ | 免費 | 中 | Junk.Fun 是一個基於 Solana 的平臺，你可以在其中銷毀毫無價值的代幣和 NFT。清理你的錢包並透過寶箱和各種任務賺取真正的獎勵。 |
-| [Byzanlink](https://forms.gle/xZmS7m8uL8k5gutD7) | 進行中 | 有投資方 | ★★ | 未知 | 低 | Byzanlink 正在開發現實世界資產代幣化基礎設施。 Byzanlink 大使計畫邀請建造者、創作者和社群成員參與其中。 |
+| [Byzanlink](https://forms.gle/xZmS7m8uL8k5gutD7) | 進行中 | 有投資方 | ★★ | 未知 | 低 | Byzanlink 正在開發現實世界資產代幣化基礎設施。 Byzanlink大使計畫邀請建造者、創作者和社群成員參與其中。 |
 | [GTBTC](https://www.gate.com/staking/BTC) | 潛在空投（未確認） | 知名機構支持 | ★★★ | 需投入資金 | 中 | Gate BTC Stake 讓使用者將 BTC 質押在 Gate 平臺上，以換取 GTBTC（1:1 比例），GTBTC 透過 Gate 的內部質押/賺取機制獲得收益；使用者可以 |
 | [Incentiv](https://dropstab.com/coins/incentiv) | 進行中 | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Incentiv主網上線。透過實際使用賺取 XP，收集徽章，探索主網上的不同 dApp，並開啟神秘盒子來解鎖即時獎勵。 |
 | [Plasma One](https://www.plasma.to/one) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 僅需 Gas 手續費 | 中 | Plasma One是基於Plasma鏈構建的下一代卡產品，Plasma鍊是一種相容EVM的L1，針對穩定幣支付和日常支出進行了最佳化。它將有收益的賺取產品（P1USD）與無gas |
@@ -56,7 +56,6 @@
 | [Steakhouse Financial](https://www.steakhouse.financial/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 我們建立透明、高效且易於存取的金融原語，為公共區塊鏈上的下一代資本市場提供動力 |
 | [USDD](https://usdd.io/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 去中心化美元（USDD）是一種完全去中心化的穩定幣，透過加密貨幣儲備與美元掛鉤 |
 | [Saturn](https://app.saturn.credit/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Saturn 是一種由比特幣支援的雙代幣信用協議，其中 USDat 是由代幣化國庫券支援的穩定幣，sUSDat 是由數位信用敞口支援的收益版本。 |
-| [RocketSwap Anubis](https://x.com/Rocket_Swap_) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | RocketSwap是部署在Anubis上的Uniswap V2分叉DEX。 |
 | [K3 Capital](https://k3.capital) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 去中心化金融領域領先的機構資產與風險管理 |
 | [Clearstar](https://clearstar.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 建構鏈上基礎設施和策略。 |
 | [Project X](https://www.prjx.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Project X 建立在這樣的信念之上：科技正變得越來越商品化，而 DeFi 的下一個時代將透過在分發、激勵設計和使用者體驗方面的創新來贏得。 |
@@ -69,7 +68,6 @@
 | [Vishwa](https://www.vishwalab.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Vishwa 是用於自主資本的代理原生銀行基礎設施，圍繞著預執行控制層構建，該控制層在資本跨鍊和執行場所移動之前驗證和執行償付能力、授權、政策和執行約束。 |
 | [Mantle Restaking](https://x.com/mETHProtocol) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Ethereum 上的液體 Restaking |
 | [XRPL DEX](https://x.com/RippleXDev) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | XRP 帳本區塊鏈的 AMM 池 |
-| [Y10K Capital](https://x.com/y10kcapital) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 由 Yield Network 和 RockawayX 團隊積極管理的鏈上工具專注於私人鏈上流動性交易。 |
 | [Flop Labs](https://faucet.flop.network/) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需投入資金 | 高 | FLOP Network 是一個去中心化的第 1 層區塊鏈，專為人工智慧驅動的經濟而設計。它建立了一個鏈上市場，人工智慧代理可以從 GPU 提供者購買運算能力，而驗證器則驗證已完成 |
 | [Bullpen](https://dropstab.com/coins/bullpen) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需投入資金 | 高 | Bullpen是鏈上市場的非託管交易終端。與平臺互動並賺取積分。 |
 | [Ventuals](https://app.ventuals.com/markets) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Ventuals 建立在 Hyperliquid 成熟的 perps 訂單基礎設施之上。從交易活動中賺取積分，並透過持有 vHYPE 獲得提升。 |
@@ -82,8 +80,8 @@
 | [Bittensor dTAO](https://bittensor.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Bittensor 的原生 dTAO AMM 池，根據 TAO 對每個子網路的 alpha 代幣進行定價，並保持網路的子網路流動性 |
 | [RockawayX](https://rockawayx.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 鏈上資產管理器。 Morpho 和其他 DeFi 借貸協議的風險管理者。面向機構和富裕人士客戶的市場中性收益策略 - 穩定幣、ETH、BTC、SOL |
 | [Hyperithm](https://www.hyperithm.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Hyperithm 是一家總部位於東京和首爾的一流數位資產管理公司，活躍於量化交易和創投領域。 |
-| [b14g](https://www.b14g.xyz/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | b14g 是 Bitcoin 的模組化雙質押層，允許協議使用 BTC 及其原生代幣保護其網路，從而減少拋售壓力、提高代幣效用並提高永續性。 |
 | [Curvance](https://app.curvance.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Curvance是Monad的超高效借貸層，幫助使用者賺取更多收益並獲得簡單的一鍵槓桿。 |
+| [b14g](https://www.b14g.xyz/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | b14g 是 Bitcoin 的模組化雙質押層，允許協議使用 BTC 及其原生代幣保護其網路，從而減少拋售壓力、提高代幣效用並提高永續性。 |
 | [Dango](https://dango.exchange/trade) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Dango是DeFi交易平臺，建立在自己的區塊鏈上，用於快速、公平、無縫的加密貨幣交易。在 Dango 上交易 Perps 並賺取積分。 |
 | [Keyrock](https://keyrock.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | Keyrock 是一家全球加密貨幣投資集團和風險管理者，透過 Morpho 管理鏈上獲利金庫。 |
 | [Yuzu Money](https://app.yuzu.money) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★★ | 需投入資金 | 高 | 一種超額抵押的穩定幣，由精心策劃的鏈上策略支援，旨在提供 DeFi 中最高的收益率。使用者可以抵押 yzUSD 來獲得有收益的 syzUSD。 yzPP 的存款人接受基礎策略的首次 |
@@ -121,8 +119,8 @@
 | [GALA](https://gala.com/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | GALA 旨在為 Gala Games 生態系統提供動力，以支援重新設計的遊戲，從而使創作者和玩家受益。 |
 | [Aria.AI](https://playariagame.com/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | AriaAI是受迪士尼風格的沉浸式世界和人工智慧技術啟發而進行的下一代遊戲開發和發行實驗，以自有IP相關遊戲玩法為核心進行設計。它代表著將 Web2 品質的遊戲設計和發布標準帶入  |
 | [WEMIX](https://www.wemix.com/en) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 擁有熱門遊戲的全球遊戲平臺 |
-| [Infinity Gaming](https://infinitygaming.co) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | Infinity Gaming是一個連線線上賭場遊戲、體育博彩的全球遊戲和數位資產生態系統 市場、預測市場、會員參與、社群獎勵和基於區塊鏈的效用 |
 | [Capybobo](https://capybobo.io/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | Capybobo 正在打造下一代 Web3 原生藝術玩具 IP，融合遊戲、收藏品和現實世界的設計。他們的生態系統具有 GameFi 基礎、稀有性空投、NFT 連結盲盒和 PBT（實 |
+| [Infinity Gaming](https://infinitygaming.co) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | Infinity Gaming是一個連線線上賭場遊戲、體育博彩的全球遊戲和數位資產生態系統 市場、預測市場、會員參與、社群獎勵和基於區塊鏈的效用 |
 | [Nexpace](https://msu.io/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [ECOMI](https://ecomi.notion.site/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | ECOMI 是 OMI 代幣的發行者。 OMI 代幣旨在用於 VeVe 數位收藏品生態系統。自 2021 年初以來，VeVe 已售出超過 800 萬份數位收藏品 NFT，一系列國際 |
 | [DEAPCOIN](https://dea.sg/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 娛樂平臺「PlayMining」允許使用者透過享受平臺上免費提供的遊戲和漫畫來獲取加密貨幣；同時，其中的角色和商品將作為加密貨幣出售，並透過數位藝術品拍賣用於使用者之間的二次交易， |
@@ -145,6 +143,6 @@
 | [Audiera](https://audiera.fi/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Audiera（BEAT）開創了代理原生參與經濟，其中人類和自主人工智慧代理充當平等的經濟參與者。 Audiera首次引入結構化的代理角色和參與規則－使代理人能夠執行任務、與使用者 |
 | [GoMining Token](https://gomining.com/) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需付費 / 購買 | 中 | GoMining 幫助世界各地的人們釋放比特幣的全部潛力。它建立在現實世界的挖礦基礎設施之上，並由 GOMINING 實用代幣提供支援，將數位挖礦、錢包和金融產品整合到一個簡單、安 |
 | [Zylo Ecosystem](https://zylo.io/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Zylo不是一個單一的產品，也不僅僅是一個代幣。它是一個經濟層，旨在將多種數位體驗連線到一個持續進步的系統中。 大多數平臺將使用者視為不同的角色：這裡是遊戲玩家，那裡是交易者。每個 |
-| [Big Time](https://bigtime.gg/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Big Time 是一款免費多人動作角色扮演遊戲，結合了快速動作戰鬥和穿越時空的冒險。 當你在歷史中奮戰時，探索古老的奧秘和未來文明。與敵人戰鬥並擊敗敵人時，拾取稀有收藏品戰利品、 |
-| [SKALE](https://discord.com/invite/gM5XBy6) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | SKALE是一條針對代理時代全面最佳化的區塊鏈。透過可程式隱私，SKALE 解鎖私人 DeFi、代理交易和合規支付。 SKALE 是基於 x402、AP2、MPP 和 ERC-80 |
+| [SKALE](https://skale.space/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | SKALE是一條針對代理時代全面最佳化的區塊鏈。透過可程式隱私，SKALE 解鎖私人 DeFi、代理交易和合規支付。 SKALE 是基於 x402、AP2、MPP 和 ERC-80 |
+| [Big Time](https://discord.com/invite/bigtime) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Big Time 是一款免費多人動作角色扮演遊戲，結合了快速動作戰鬥和穿越時空的冒險。 當你在歷史中奮戰時，探索古老的奧秘和未來文明。與敵人戰鬥並擊敗敵人時，拾取稀有收藏品戰利品、 |
 | [CARV](https://carv.io) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需付費 / 購買 | 中 | CARV是主權人工智慧生命生活、學習和進化的地方。 什麼是人工智慧存在？他們是天生鏈上的主權智慧。人工智慧生命體的設計具有目的性、自主性和成長能力。他們擁有記憶、身分認同以及感知環 |
