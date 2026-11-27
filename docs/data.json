@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-27T01:46:41+00:00",
+ "updated_at": "2026-11-27T05:23:36+00:00",
  "last_run": {
-  "ai_calls": 0,
-  "at": "2026-11-27T01:44:38+00:00",
-  "collected_posts": 109,
-  "collected_projects": 72,
+  "at": "2026-11-27T05:18:13+00:00",
   "mode": "rules",
-  "new_posts": 19,
-  "new_projects": 0
+  "collected_projects": 121,
+  "collected_posts": 115,
+  "new_projects": 0,
+  "new_posts": 12,
+  "ai_calls": 0
  },
  "projects": [
   {
@@ -18,7 +18,7 @@
    "status_zh": "可領取",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "Arcium 正在建立一個加密且完全去中心化的超級電腦。 RTG 入口網站和資格檢查器已上線。第一波資格現已揭曉 - 探索 RTG 並獲得下一波資格。",
+   "summary": "Arcium正在建構一個加密且完全去中心化的超級電腦。 RTG 入口網站和資格檢查器已上線。第一波資格現已揭曉 - 探索 RTG 並獲得下一波資格。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -45,9 +45,9 @@
    "cost_zh": "未知",
    "cost_note": "資訊不足，請以官方說明為準。",
    "steps": [
-    "【檢視分配】前往Arcium RTG頁面（https://rtg.arcium.com/）",
-    "連結你的 Discord 帳戶",
-    "連線你的 Solana 錢包"
+    "【檢視分配】進入Arcium RTG頁面（https://rtg.arcium.com/）",
+    "連結你的Discord帳戶",
+    "連線你的Solana錢包"
    ],
    "notes": [
     "索賠將從 TGE 開始（詳情待定）。",
@@ -88,7 +88,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 94
@@ -170,7 +170,7 @@
    "market": {},
    "score": 75.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 93
@@ -210,7 +210,7 @@
    "cost_zh": "免費",
    "cost_note": "只需錢包或社群帳號，不用花錢。",
    "steps": [
-    "【加入Kaito Studio】進入Kaito Studio頁面（https://kaito.ai/studio）",
+    "【加入Kaito工作室】進入Kaito工作室頁面（https://kaito.ai/studio）",
     "使用你的電子郵件地址登入",
     "登入後，連線你所有的社交網路。",
     "【申請大使】從開放申請清單中選擇一個專案",
@@ -259,7 +259,7 @@
    "market": {},
    "score": 91.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/8068",
@@ -341,14 +341,13 @@
    ],
    "social_only": false,
    "market": {},
-   "score": 91.0,
+   "score": 89.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:icodrops/25344",
-    "news:CBMiZEFVX3lxTE5hcWg1U0JVRFhPZmhfM3RIeExCQS1tcFhNTGRTS0h1ZjlLNnByakF4VlIzT2ljc2lkU084dEZ6cC05MmRMbDRoZklIUUxJcDhmRWkwenN3eS1ZaDgxdXJMTk9nNVo",
-    "telegram:icodrops/25295"
+    "news:CBMiZEFVX3lxTE5hcWg1U0JVRFhPZmhfM3RIeExCQS1tcFhNTGRTS0h1ZjlLNnByakF4VlIzT2ljc2lkU084dEZ6cC05MmRMbDRoZklIUUxJcDhmRWkwenN3eS1ZaDgxdXJMTk9nNVo"
    ],
    "recommend": 87
   },
@@ -360,7 +359,7 @@
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "Pudgy World 是Pudgy Penguins 團隊推出的全新遊戲。客製化你的外觀，潛入故事驅動的任務，收集魚並與朋友聯絡。",
+   "summary": "《Pudgy世界》是Pudgy Penguins團隊的一款全新遊戲。客製化你的外觀，潛入故事驅動的任務，收集魚並與朋友聯絡。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -384,16 +383,16 @@
    "cost_zh": "免費",
    "cost_note": "只需錢包或社群帳號，不用花錢。",
    "steps": [
-    "【加入Pudgy World】進入Pudgy World網站（https://www.pudgyworld.com/）",
-    "點選“立即開始遊戲”按鈕",
+    "【加入Pudgy世界】前往Pudgy世界網站（https://www.pudgyworld.com/）",
+    "單擊“立即開始遊戲”按鈕",
     "使用你喜歡的方式登入",
     "【邀請好友】點選螢幕右下角選單按鈕",
     "點選推薦橫幅",
     "複製並分享你的推薦碼"
    ],
    "notes": [
-    "在探索 Pudgy World 之前，你需要學習基本機制。請依照螢幕上的指示完成教學。完成所有必需的步驟後，你將能夠透過完成任務、釣魚和參加其他活動來自由探索矮胖世界。",
-    "為了保持你的每日活動記錄，請每天進入矮胖世界並至少去釣魚一次。",
+    "在探索 Pudgy World 之前，你需要學習基本機制。按照螢幕上的說明完成教程。完成所有必需的步驟後，你將可以透過完成任務、釣魚和參加其他活動來自由探索Pudgy世界。",
+    "為了保持你的每日活動記錄，請每天進入 Pudgy 世界並至少去釣魚一次。",
     "達到某些連勝里程碑可解鎖特殊獎勵。",
     "當你的朋友達到 4 級時，你將有資格獲得獎勵，並且你的朋友將獲得 1,000 顆卵石。當你的推薦人註冊時，稍後返回領取獎勵。"
    ],
@@ -432,12 +431,119 @@
    "market": {},
    "score": 87.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/129807"
    ],
    "recommend": 87
+  },
+  {
+   "key": "ronin",
+   "name": "Ronin",
+   "kind": "p2e",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "confirmed",
+   "confirmed_zh": "官方已確認",
+   "summary": "RON 是 Ronin 鏈的生態系統代幣。它最終將用於支付 Axie Infinity 和鏈上託管的未來遊戲/產品的 Gas 費並保護網路安全。",
+   "backing_level": "top",
+   "backing_zh": "頂級機構支持",
+   "backers": [
+    "Andreessen Horowitz (a16z)",
+    "Mark Cuban",
+    "ConsenSys",
+    "Hashed",
+    "Libertus Capital",
+    "Collaborative Fund",
+    "500 Startups Vietnam",
+    "Animoca Brands",
+    "Accel",
+    "Alexis Ohanian",
+    "Pangea Blockchain Fund",
+    "Dialectic Capital"
+   ],
+   "backing_note": "",
+   "funds_raised_usd": 159000000,
+   "difficulty": 2,
+   "difficulty_zh": "簡單",
+   "difficulty_note": "",
+   "time_commitment": "一次性完成即可",
+   "cost_type": "unknown",
+   "cost_zh": "未知",
+   "cost_note": "資訊不足，請以官方說明為準。",
+   "steps": [
+    "【加入Ronin Creator計畫】前往Ronin Creator計畫網站（https://creators.roninchain.com/）",
+    "點選成為Ronin Creator",
+    "填寫所有必填資訊",
+    "提交你的申請"
+   ],
+   "notes": [
+    "有兩種方式可以被批准成為 Ronin Creator：",
+    "你在過去兩個月內建立了有關 Ronin 或其專案的內容。",
+    "你是一位成熟的創作者，在至少一個社交媒體平臺上製作高品質的區塊鏈或 Web3 內容。",
+    "透過 Ronin 提高你的社交媒體影響力",
+    "Ronin 支援新老創作者擴大其影響力。",
+    "Ronin Network的官方頻道和聯盟粉絲總數超過1000萬，為創作者提供了強大的放大能力。"
+   ],
+   "main_link": "https://creators.roninchain.com/",
+   "reward": "未公布",
+   "distribution": "官方尚未公布，通常是代幣發行時空投到錢包或開放 Claim。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "TBA",
+   "deadline_zh": "未公布",
+   "days_left": null,
+   "risk_level": "low",
+   "risk_zh": "低",
+   "risks": [],
+   "tips": "",
+   "chains": [
+    "Blockchain"
+   ],
+   "tags": [
+    "Ambassador Program",
+    "play-to-earn",
+    "$RON"
+   ],
+   "links": [
+    {
+     "label": "參與連結",
+     "url": "https://creators.roninchain.com/"
+    },
+    {
+     "label": "官網",
+     "url": "https://roninchain.com"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.gg/roninnetwork"
+    }
+   ],
+   "sources": [
+    {
+     "name": "DropsTab",
+     "url": "https://dropstab.com/coins/ronin"
+    },
+    {
+     "name": "CoinGecko",
+     "url": "https://www.coingecko.com/en/coins/ronin"
+    }
+   ],
+   "social_only": false,
+   "market": {
+    "symbol": "RON",
+    "price_usd": 0.0361512,
+    "market_cap_usd": 27910408,
+    "change_24h_pct": 2.37203
+   },
+   "score": 90.0,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
+   "analysis_by": "rules",
+   "related_posts": [],
+   "recommend": 84
   },
   {
    "key": "backpack",
@@ -519,7 +625,7 @@
    "market": {},
    "score": 87.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:icodrops/25307"
@@ -561,18 +667,18 @@
    "cost_zh": "免費",
    "cost_note": "只需錢包或社群帳號，不用花錢。",
    "steps": [
-    "【加入 TeleArms Private Beta 候補名單】前往候補名單申請表 (https://app.youform.com/forms/kce82fwu)",
+    "【加入 TeleArms Private Beta 候補名單】前往候補名單申請表（https://app.youform.com/forms/kce82fwu）",
     "輸入所有必需的資訊並完成所有必需的步驟。",
     "提交你的申請。",
     "在此處 (https://x.com/BitRobotNetwork/status/2009717493997416468) 上評論或分享 X，解釋你想要貢獻的原因。"
    ],
    "notes": [
     "獨家獎勵：獲得僅限大使的現金獎勵、代幣獎勵和推薦賺取機會。",
-    "早期實驗室前往：優先前往 BitRobot 開放機器人實驗室內發生的新子網和機器人實驗。",
-    "限量版裝備：BitRobot 獨家商品並可使用新的機器人硬體。",
-    "直接協作：與 BitRobot 團隊和全球貢獻者密切合作，發起計劃、活動和實驗。",
+    "早期實驗室前往：優先存取 BitRobot 開放機器人實驗室內發生的新子網路和機器人實驗。",
+    "限量版裝備：獨家 BitRobot 商品和新機器人硬體的使用權。",
+    "直接協作：與 BitRobot 團隊和全球貢獻者密切合作，發起倡議、活動和實驗。",
     "內容與教育",
-    "每月在社群中發布至少 2 次，以重點介紹 BitRobot 生態系統的真實實驗、貢獻者和經驗教訓"
+    "每月在社群至少發布 2 次，以突出 BitRobot 生態系統的真實實驗、貢獻者和經驗教訓"
    ],
    "main_link": "https://app.youform.com/forms/omzetnvh",
    "reward": "未公布",
@@ -610,7 +716,7 @@
    "market": {},
    "score": 52.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 83
@@ -700,7 +806,7 @@
    "market": {},
    "score": 39.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 82
@@ -757,12 +863,12 @@
    ],
    "links": [
     {
-     "label": "文件",
-     "url": "https://docs.termix.ai/skill/overview"
-    },
-    {
      "label": "參與連結",
      "url": "https://www.agent.family"
+    },
+    {
+     "label": "文件",
+     "url": "https://docs.termix.ai/skill/overview"
     }
    ],
    "sources": [
@@ -775,7 +881,7 @@
    "market": {},
    "score": 57.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/8068",
@@ -861,7 +967,7 @@
    "market": {},
    "score": 11.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/129996",
@@ -953,7 +1059,7 @@
    "market": {},
    "score": 30.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 78
@@ -1038,7 +1144,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 72
@@ -1119,7 +1225,7 @@
    "market": {},
    "score": 0.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 72
@@ -1206,7 +1312,7 @@
    "market": {},
    "score": 74.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 70
@@ -1267,20 +1373,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/MocaverseNFT"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/Mocaverse"
+     "label": "官網",
+     "url": "https://www.moca.network/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/Moca_Network"
     },
     {
-     "label": "官網",
-     "url": "https://www.moca.network/"
+     "label": "Telegram",
+     "url": "https://t.me/Mocaverse"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/MocaverseNFT"
     }
    ],
    "sources": [
@@ -1292,13 +1398,13 @@
    "social_only": false,
    "market": {
     "symbol": "MOCA",
-    "price_usd": 0.00601567,
-    "market_cap_usd": 28596154,
-    "change_24h_pct": -1.89283
+    "price_usd": 0.00597149,
+    "market_cap_usd": 28374257,
+    "change_24h_pct": -0.81199
    },
-   "score": 30.4,
+   "score": 30.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 70
@@ -1378,7 +1484,7 @@
    "market": {},
    "score": 18.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 70
@@ -1391,7 +1497,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "IMX 是 Immutable X 網路的原生代幣，是以太坊上第一個 NFT 的 zk-rollup。",
+   "summary": "IMX 是 Immutable X 網路的原生代幣，是 Ethereum 上 NFT 的第一個 zk-rollup。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -1439,20 +1545,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/channels/765480457256042496/765871633990287390"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/immutablex"
+     "label": "官網",
+     "url": "https://imx.community/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/Immutable"
     },
     {
-     "label": "官網",
-     "url": "https://imx.community/"
+     "label": "Telegram",
+     "url": "https://t.me/immutablex"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/channels/765480457256042496/765871633990287390"
     }
    ],
    "sources": [
@@ -1464,13 +1570,13 @@
    "social_only": false,
    "market": {
     "symbol": "IMX",
-    "price_usd": 0.093017,
-    "market_cap_usd": 84131383,
-    "change_24h_pct": -0.90758
+    "price_usd": 0.094583,
+    "market_cap_usd": 85538579,
+    "change_24h_pct": 1.24792
    },
    "score": 46.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 69
@@ -1547,13 +1653,12 @@
    ],
    "social_only": false,
    "market": {},
-   "score": 4.8,
+   "score": 2.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
-    "telegram:airdrops_io/8060",
-    "telegram:airdropfind/129558"
+    "telegram:airdrops_io/8060"
    ],
    "recommend": 68
   },
@@ -1629,7 +1734,7 @@
    "market": {},
    "score": 0.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 68
@@ -1702,7 +1807,7 @@
    "market": {},
    "score": 41.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 67
@@ -1763,16 +1868,16 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/cryptocom"
+     "label": "官網",
+     "url": "https://loadedlions.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/LoadedLions_CDC"
     },
     {
-     "label": "官網",
-     "url": "https://loadedlions.com/"
+     "label": "Discord",
+     "url": "https://discord.com/invite/cryptocom"
     }
    ],
    "sources": [
@@ -1784,13 +1889,13 @@
    "social_only": false,
    "market": {
     "symbol": "LION",
-    "price_usd": 0.0008373,
-    "market_cap_usd": 25688235,
-    "change_24h_pct": -0.10991
+    "price_usd": 0.00084886,
+    "market_cap_usd": 26043004,
+    "change_24h_pct": 1.80686
    },
    "score": 28.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 64
@@ -1851,20 +1956,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.gg/illuvium"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/illuvium"
+     "label": "官網",
+     "url": "https://illuvium.io/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/illuviumio"
     },
     {
-     "label": "官網",
-     "url": "https://illuvium.io/"
+     "label": "Telegram",
+     "url": "https://t.me/illuvium"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.gg/illuvium"
     }
    ],
    "sources": [
@@ -1876,13 +1981,13 @@
    "social_only": false,
    "market": {
     "symbol": "ILV",
-    "price_usd": 2.32,
-    "market_cap_usd": 19221872,
-    "change_24h_pct": 1.62633
+    "price_usd": 2.34,
+    "market_cap_usd": 19424424,
+    "change_24h_pct": 2.70433
    },
    "score": 21.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 63
@@ -1971,7 +2076,7 @@
    "market": {},
    "score": 87.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:icodrops/25341"
@@ -1986,7 +2091,7 @@
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "Extended 是一個 Perp DEX，由前 Revolut 團隊建構。透過自然交易活動賺取積分、提供流動性並邀請朋友。",
+   "summary": "Extended 是一個 Perp DEX，由前 Revolut 團隊建造。透過自然交易活動賺取積分、提供流動性並邀請朋友。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -2010,13 +2115,13 @@
    "cost_zh": "需投入資金",
    "cost_note": "需要存入 / 交易資金才能累積資格。",
    "steps": [
-    "[加入 Extended】進入 Extended 網站（https://app.extended.exchange/perp）",
+    "【加入Extended】前往Extended網站（https://app.extended.exchange/perp）",
     "點選開始交易。",
     "連接錢包。",
-    "建立一個帳戶以自動產生你的擴充帳戶和簽名金鑰對。",
+    "建立賬戶，自動生成你的Extended賬戶和簽名金鑰對。",
     "存入資產即可開始交易。",
     "【邀請好友】交易量達到10,000美元即可解鎖推薦。",
-    "在「推薦」標籤上建立推薦連結 (https://app.extended.exchange/referrals)。",
+    "在“推薦”選項卡 (https://app.extended.exchange/referrals) 上建立推薦連結。",
     "將你的個人代碼附加到基本 URL。"
    ],
    "notes": [
@@ -2024,7 +2129,7 @@
     "每週分發：最多 120 萬點，每週二 00:00 UTC",
     "使用者可以透過三個類別賺取積分：",
     "交易",
-    "透過 Extended Perps (https://app.extended.exchange/perp) 上的自然交易活動賺取積分。",
+    "透過 Extended Perps (https://app.extended.exchange/perp) 上的有機交易活動賺取積分。",
     "提供流動性"
    ],
    "main_link": "https://app.extended.exchange/perp",
@@ -2066,12 +2171,12 @@
    ],
    "social_only": false,
    "market": {},
-   "score": 73.8,
+   "score": 76.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
-   "recommend": 60
+   "recommend": 61
   },
   {
    "key": "n1-chain",
@@ -2156,7 +2261,7 @@
    "market": {},
    "score": 69.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 60
@@ -2197,8 +2302,8 @@
     "點選加入按鈕",
     "同意條款和條件",
     "連接錢包",
-    "【取得棋子】前往商城頁面（https://www.pixiechess.xyz/marketplace）",
-    "連接錢包並確保你在 Base 上有 ETH",
+    "【取得碎片】前往商城頁面（https://www.pixiechess.xyz/marketplace）",
+    "連接錢包並確保Base上有ETH",
     "選擇該作品並點選“購買”",
     "如果價格超過你的滑點，交易將恢復"
    ],
@@ -2247,7 +2352,7 @@
    "market": {},
    "score": 61.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 59
@@ -2260,7 +2365,7 @@
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "Predict.fun是一個專注於預測市場的平臺。透過與平臺互動（出價、持有部位）開始賺取預測點 (PP)。",
+   "summary": "Predict.fun是一個專注於預測市場的平臺。透過與平臺互動（出價、持倉）開始賺取預測點 (PP)。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -2282,7 +2387,7 @@
     "建立一個顯示名稱。",
     "輸入邀請碼983A0。",
     "按照鏈上指示存入資金即可開始進行預測：",
-    "【邀請好友】進入「邀請」標籤（https://predict.fun/invite）",
+    "【邀請好友】進入邀請選項卡(https://predict.fun/invite)",
     "向你的 Predict.fun 錢包存入至少 10 美元以解鎖你的推薦碼。",
     "存款完成後顯示你的推薦連結。",
     "複製並分享你的連結即可賺取："
@@ -2290,7 +2395,7 @@
    "notes": [
     "將USDT直接存入BNB網路錢包。",
     "在任何支援的網路上存入 USDT 或 USDC。",
-    "如果存入 USDC，將兌換為 USDT（PCS 池中收取少量費用，滑點設定為 0.1%）。",
+    "如果存入USDC，它將交換為USDT（PCS池中收取少量費用，滑點設定為0.1％）。",
     "透過累積預測積分 (PP (https://predict.fun/points))，你可以登上排行榜。積極使用該平臺即可賺取積分。",
     "賺取積分的方式",
     "在平臺上交易"
@@ -2327,7 +2432,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 58
@@ -2340,7 +2445,7 @@
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "Valantis 是圍繞其自己的原生 LST stHYPE 的 LST 特定 DEX。所有 stHYPE 活動和 Valantis 池都有資格每週賺取積分。",
+   "summary": "Valantis 是 LST 特定的 DEX，圍繞著自己的本地 LST stHYPE。所有 stHYPE 活動和 Valantis 池都有資格每週賺取積分。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -2369,15 +2474,15 @@
    "steps": [
     "【加入Valantis】進入Valantis頁面（https://app.valantis.xyz/vaults?af=dropstab）",
     "連線你的 EVM 錢包",
-    "【邀請好友】進入積分標籤（https://app.valantis.xyz/points）",
-    "建立你的聯盟連結",
+    "【邀請好友】進入積分選項卡（https://app.valantis.xyz/points）",
+    "建立你的聯屬連結",
     "複製並與他人分享"
    ],
    "notes": [
     "你可以透過參加符合資格的活動來賺取 Valantis 積分 (https://app.valantis.xyz/points)，包括：",
     "為所有 Valantis 池提供流動性",
     "持有 stHYPE 或 wstHYPE",
-    "在 DeFi 整合或金庫中使用 stHYPE 或 wstHYPE",
+    "在 DeFi 整合或保管庫中使用 stHYPE 或 wstHYPE",
     "持有某些符合條件的 NFT 藏品",
     "推薦人"
    ],
@@ -2414,7 +2519,7 @@
    "market": {},
    "score": 50.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 58
@@ -2596,7 +2701,7 @@
    "market": {},
    "score": 38.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 57
@@ -2665,7 +2770,7 @@
    "market": {},
    "score": 0.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 57
@@ -2735,7 +2840,7 @@
    "market": {},
    "score": 4.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 56
@@ -2810,17 +2915,17 @@
    "market": {},
    "score": 95.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
+    "telegram:airdropfind/130027",
     "telegram:airdropfind/130000",
     "telegram:airdropfind/129991",
     "telegram:airdrops_io/8072",
     "telegram:binance_announcements/9158",
     "telegram:airdrops_io/8063",
     "telegram:airdrops_io/8059",
-    "telegram:airdrops_io/8056",
-    "telegram:airdrops_io/8054"
+    "telegram:airdrops_io/8056"
    ],
    "recommend": 54
   },
@@ -2832,7 +2937,7 @@
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "Bulk Trade (https://early.bulk.trade/deposit?ref=dropstab) 是一個基於 Solana 的永久 DEX，目前正在進行早期存款活動。使用者可以在平臺上線前存入資金並開始賺取積分，這些積分可能會被考慮用於未來的獎勵。",
+   "summary": "Bulk Trade（https://early.bulk.trade/deposit?ref=dropstab）是一個基於 Solana 的永續 DEX，目前正在進行早期存款活動。使用者可以在平臺上線前存入資金並開始賺取積分，這些積分可能會被考慮用於未來的獎勵。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -2859,7 +2964,7 @@
    "cost_zh": "需投入資金",
    "cost_note": "需要存入 / 交易資金才能累積資格。",
    "steps": [
-    "開啟批次早期存款頁面 (https://early.bulk.trade/deposit?ref=dropstab)。",
+    "開啟批次提前存款頁面（https://early.bulk.trade/deposit?ref=dropstab）。",
     "連接錢包。",
     "將 USDC 存入協議中。",
     "持有你的存款以隨著時間的推移累積積分。",
@@ -2868,9 +2973,9 @@
    ],
    "notes": [
     "存入的資金可以在主網啟動之前隨時提取。",
-    "平臺上線後，存款將自動成為交易保證金。",
+    "平臺上線後，保證金將自動成為交易保證金。",
     "每週向參與者分發 1,000,000 AURA 積分。",
-    "獎勵基於存款規模、存款期限、推薦和未來的追溯激勵。"
+    "獎勵取決於存款規模、存款期限、推薦和未來的追溯激勵。"
    ],
    "main_link": null,
    "reward": "未公布",
@@ -2914,7 +3019,7 @@
    "market": {},
    "score": 5.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 54
@@ -2988,7 +3093,7 @@
    "market": {},
    "score": 84.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 53
@@ -3001,7 +3106,7 @@
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "Dreamcash 是 Hyperliquid 的交易介面。加入第 1 季，每週即可分享 20 萬美元的 USDT 獎勵。使用 Dreamcash 產品累積 XP。",
+   "summary": "Dreamcash是Hyperliquid的交易介面。加入第 1 季，每週即可分享 20 萬美元的 USDT 獎勵。使用Dreamcash產品累積XP。",
    "backing_level": "top",
    "backing_zh": "頂級機構支持",
    "backers": [
@@ -3018,9 +3123,9 @@
    "cost_note": "需要存入 / 交易資金才能累積資格。",
    "steps": [
     "【加入Dreamcash】前往Dreamcash網站（https://dreamcash.xyz/share?code=F6ANKE）",
-    "連線你的 EVM 錢包",
+    "連線你的EVM錢包",
     "在你的錢包中批准連線請求",
-    "【為你的帳戶儲值】點選存款按鈕",
+    "【為你的賬戶充值】點選存款按鈕",
     "選擇月支付選項",
     "輸入你要存入的金額",
     "透過MoonPay完成購買流程",
@@ -3033,9 +3138,9 @@
    "notes": [
     "法定貨幣存款（銀行卡和銀行轉帳）",
     "從外部錢包存入加密貨幣",
-    "如果你已經持有加密貨幣，你可以直接存入 Hyperliquid：",
+    "如果你已經持有加密貨幣，你可以直接存入Hyperliquid：",
     "XP 是透過 Dreamcash 行動應用程式和 Web 應用程式上的活躍交易獲得的。",
-    "沒有被動的賺錢策略－XP 需要真正的參與。",
+    "沒有被動的賺錢策略——XP 需要真正的參與。",
     "交易量"
    ],
    "main_link": null,
@@ -3069,9 +3174,100 @@
    ],
    "social_only": false,
    "market": {},
-   "score": 64.0,
+   "score": 64.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
+   "analysis_by": "rules",
+   "related_posts": [],
+   "recommend": 53
+  },
+  {
+   "key": "perena",
+   "name": "Perena",
+   "kind": "defi",
+   "status": "ongoing",
+   "status_zh": "進行中",
+   "confirmed": "speculative",
+   "confirmed_zh": "推測",
+   "summary": "Perena 是一家穩定銀行，提供可組合貨幣支援的流動儲蓄代幣。透過第 1 季的各種活動和里程碑賺取花瓣和徽章。",
+   "backing_level": "top",
+   "backing_zh": "頂級機構支持",
+   "backers": [
+    "YZi Labs (prev Binance Labs)",
+    "SevenX Ventures",
+    "Maelstrom",
+    "Borderless Capital",
+    "Primitive Ventures",
+    "ABCDE Capital",
+    "Breed",
+    "Anagram Crypto",
+    "Susquehanna International Group (SIG)",
+    "Nom",
+    "Alpen Capital (Prev. Comfy Capital)",
+    "Robert Chen"
+   ],
+   "backing_note": "",
+   "funds_raised_usd": null,
+   "difficulty": 5,
+   "difficulty_zh": "非常困難",
+   "difficulty_note": "",
+   "time_commitment": "需持續每日 / 每週互動",
+   "cost_type": "deposit",
+   "cost_zh": "需投入資金",
+   "cost_note": "需要存入 / 交易資金才能累積資格。",
+   "steps": [
+    "【加入佩雷納第一季】前往佩雷納網站（https://app.perena.org/?ref=APHLKH）。",
+    "連線你的 Solana 錢包（Phantom、Backpack 等）。",
+    "【鑄造美元*】前往投資組合標籤（https://app.perena.org/portfolio）。",
+    "點選獲取美元*。",
+    "輸入你想要鑄造的美元*數量。",
+    "確認你錢包中的交易。",
+    "你將收到等值的美元*，可以隨時兌換。",
+    "【邀請好友】進入獎勵頁面（https://app.perena.org/rewards）",
+    "複製並分享你的推薦連結",
+    "對於你推薦的使用者賺取的每一個花瓣，你將獲得該金額的 10% 作為獎金"
+   ],
+   "notes": [
+    "透過鑄造和持有美元*，你可以開始透過各種活動和里程碑賺取花瓣和徽章。",
+    "在第 1 季結束時，你的花瓣和徽章將決定你的獎勵。",
+    "未來的季節將使用你過去的進步來指導未來的獎勵。",
+    "獎勵公式：獲得的花瓣數×徽章倍數+推薦獎勵=最終賽季獎勵",
+    "花瓣代表你在 Perena 上的活動和貢獻。你可以透過兩種主要方式賺取它們：",
+    "資本參與："
+   ],
+   "main_link": null,
+   "reward": "未公布",
+   "distribution": "先累積積分 (Points)，預計在代幣發行 (TGE) 時依積分比例換成代幣空投。",
+   "requirements": [
+    "錢包 (Wallet)"
+   ],
+   "deadline": "TBA",
+   "deadline_zh": "未公布",
+   "days_left": null,
+   "risk_level": "medium",
+   "risk_zh": "中",
+   "risks": [
+    "需要投入資金，有本金虧損 / 智能合約風險。"
+   ],
+   "tips": "",
+   "chains": [
+    "Infrastructure"
+   ],
+   "tags": [
+    "Point Farming"
+   ],
+   "links": [],
+   "sources": [
+    {
+     "name": "DropsTab",
+     "url": "https://dropstab.com/coins/perena"
+    }
+   ],
+   "social_only": false,
+   "market": {},
+   "score": 62.9,
+   "first_seen": "2026-10-11T02:29:14+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 53
@@ -3153,7 +3349,7 @@
    "market": {},
    "score": 26.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 53
@@ -3255,7 +3451,7 @@
    "market": {},
    "score": 22.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/8068",
@@ -3324,12 +3520,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/galaxyhq"
-    },
-    {
      "label": "官網",
      "url": "https://www.galaxy.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/galaxyhq"
     }
    ],
    "sources": [
@@ -3340,105 +3536,14 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 139021396
+    "tvl_usd": 139098289
    },
    "score": 32.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 51
-  },
-  {
-   "key": "perena",
-   "name": "Perena",
-   "kind": "defi",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "speculative",
-   "confirmed_zh": "推測",
-   "summary": "Perena 是一家穩定銀行，提供可組合貨幣支援的流動儲蓄代幣。透過第 1 季的各種活動和里程碑賺取花瓣和徽章。",
-   "backing_level": "top",
-   "backing_zh": "頂級機構支持",
-   "backers": [
-    "YZi Labs (prev Binance Labs)",
-    "SevenX Ventures",
-    "Maelstrom",
-    "Borderless Capital",
-    "Primitive Ventures",
-    "ABCDE Capital",
-    "Breed",
-    "Anagram Crypto",
-    "Susquehanna International Group (SIG)",
-    "Nom",
-    "Alpen Capital (Prev. Comfy Capital)",
-    "Robert Chen"
-   ],
-   "backing_note": "",
-   "funds_raised_usd": null,
-   "difficulty": 5,
-   "difficulty_zh": "非常困難",
-   "difficulty_note": "",
-   "time_commitment": "需持續每日 / 每週互動",
-   "cost_type": "deposit",
-   "cost_zh": "需投入資金",
-   "cost_note": "需要存入 / 交易資金才能累積資格。",
-   "steps": [
-    "【加入佩雷納第一季】前往佩雷納網站（https://app.perena.org/?ref=APHLKH）。",
-    "連線你的 Solana 錢包（Phantom、Backpack 等）。",
-    "【鑄造美元*】前往投資組合標籤（https://app.perena.org/portfolio）。",
-    "點選獲取美元*。",
-    "輸入你想要鑄造的美元*數量。",
-    "確認你錢包中的交易。",
-    "你將收到等值的美元*，可以隨時兌換。",
-    "【邀請好友】進入獎勵頁面（https://app.perena.org/rewards）",
-    "複製並分享你的推薦連結",
-    "對於你推薦的使用者賺取的每一個花瓣，你將獲得該金額的 10% 作為獎金"
-   ],
-   "notes": [
-    "透過鑄造和持有美元*，你可以開始透過各種活動和里程碑賺取花瓣和徽章。",
-    "在第 1 季結束時，你的花瓣和徽章將決定你的獎勵。",
-    "未來的季節將使用你過去的進步來指導未來的獎勵。",
-    "獎勵公式：獲得的花瓣數×徽章倍數+推薦獎勵=最終賽季獎勵",
-    "花瓣代表你在 Perena 上的活動和貢獻。你可以透過兩種主要方式賺取它們：",
-    "資本參與："
-   ],
-   "main_link": null,
-   "reward": "未公布",
-   "distribution": "先累積積分 (Points)，預計在代幣發行 (TGE) 時依積分比例換成代幣空投。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "TBA",
-   "deadline_zh": "未公布",
-   "days_left": null,
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。"
-   ],
-   "tips": "",
-   "chains": [
-    "Infrastructure"
-   ],
-   "tags": [
-    "Point Farming"
-   ],
-   "links": [],
-   "sources": [
-    {
-     "name": "DropsTab",
-     "url": "https://dropstab.com/coins/perena"
-    }
-   ],
-   "social_only": false,
-   "market": {},
-   "score": 0.0,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
-   "analysis_by": "rules",
-   "related_posts": [],
-   "recommend": 47
   },
   {
    "key": "symbiotic",
@@ -3498,12 +3603,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/symbioticfi"
-    },
-    {
      "label": "官網",
      "url": "https://symbiotic.fi"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/symbioticfi"
     }
    ],
    "sources": [
@@ -3514,11 +3619,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 218309892
+    "tvl_usd": 221647787
    },
    "score": 34.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 46
@@ -3579,12 +3684,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/wintermute_t"
-    },
-    {
      "label": "官網",
      "url": "https://armitage.wintermute.com"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/wintermute_t"
     }
    ],
    "sources": [
@@ -3595,11 +3700,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 97098595
+    "tvl_usd": 96913084
    },
    "score": 31.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 46
@@ -3662,12 +3767,12 @@
    ],
    "links": [
     {
-     "label": "文件",
-     "url": "https://solarious.us/docs/whitepaper.pdf"
-    },
-    {
      "label": "參與連結",
      "url": "https://solarious.us/"
+    },
+    {
+     "label": "文件",
+     "url": "https://solarious.us/docs/whitepaper.pdf"
     }
    ],
    "sources": [
@@ -3680,7 +3785,7 @@
    "market": {},
    "score": 9.7,
    "first_seen": "2026-10-19T13:17:18+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 46
@@ -3765,7 +3870,7 @@
    "market": {},
    "score": 34.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 45
@@ -3845,7 +3950,7 @@
    "market": {},
    "score": 12.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 43
@@ -3905,16 +4010,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/notcoin"
+     "label": "官網",
+     "url": "https://t.me/notcoin_bot"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/thenotcoin"
     },
     {
-     "label": "官網",
-     "url": "https://t.me/notcoin_bot"
+     "label": "Telegram",
+     "url": "https://t.me/notcoin"
     }
    ],
    "sources": [
@@ -3926,13 +4031,13 @@
    "social_only": false,
    "market": {
     "symbol": "NOT",
-    "price_usd": 0.00029278,
-    "market_cap_usd": 29111109,
-    "change_24h_pct": 0.26392
+    "price_usd": 0.00029465,
+    "market_cap_usd": 29313740,
+    "change_24h_pct": 0.90043
    },
    "score": 30.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 42
@@ -3992,16 +4097,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/unipolycoin"
+     "label": "官網",
+     "url": "https://www.unipolycoin.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/unipolycoin"
     },
     {
-     "label": "官網",
-     "url": "https://www.unipolycoin.com/"
+     "label": "Telegram",
+     "url": "https://t.me/unipolycoin"
     }
    ],
    "sources": [
@@ -4013,13 +4118,13 @@
    "social_only": false,
    "market": {
     "symbol": "UNP",
-    "price_usd": 0.100014,
-    "market_cap_usd": 27926986,
-    "change_24h_pct": 0.02466
+    "price_usd": 0.09999,
+    "market_cap_usd": 27935104,
+    "change_24h_pct": -0.0254
    },
    "score": 29.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 42
@@ -4079,16 +4184,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/CatizenAnn"
+     "label": "官網",
+     "url": "https://linktr.ee/catizen"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/CatizenAI"
     },
     {
-     "label": "官網",
-     "url": "https://linktr.ee/catizen"
+     "label": "Telegram",
+     "url": "https://t.me/CatizenAnn"
     }
    ],
    "sources": [
@@ -4100,13 +4205,13 @@
    "social_only": false,
    "market": {
     "symbol": "CATI",
-    "price_usd": 0.0351666,
-    "market_cap_usd": 23701484,
-    "change_24h_pct": 2.46521
+    "price_usd": 0.03554533,
+    "market_cap_usd": 23956269,
+    "change_24h_pct": 3.07893
    },
-   "score": 26.5,
+   "score": 26.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 42
@@ -4119,7 +4224,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "BEAM 是為 Beam 生態系統提供動力的原生加密代幣。作為 ERC-20 代幣，BEAM 充當基礎設施層，支援 Beam 網路上的交易。 Beam 生態系統創造了一個環境，​​讓開發者、創作者和使用者合作，跨遊戲、人工智慧、NFT、RWA 等多個領域建立創新的數位體驗。",
+   "summary": "BEAM 是為 Beam 生態系統提供動力的原生加密代幣。作為 ERC-20 代幣，BEAM 可作為基礎設施層，支援 Beam 網路上的交易。 Beam 生態系統創造了一個開發者、創作者和使用者協作的環境，跨遊戲、人工智慧、NFT、RWA 等多個領域建立創新的數位體驗。",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -4166,20 +4271,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.gg/beamcommunity"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/buildonbeam"
+     "label": "官網",
+     "url": "https://onbeam.com"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/buildonbeam"
     },
     {
-     "label": "官網",
-     "url": "https://onbeam.com"
+     "label": "Telegram",
+     "url": "https://t.me/buildonbeam"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.gg/beamcommunity"
     }
    ],
    "sources": [
@@ -4191,13 +4296,13 @@
    "social_only": false,
    "market": {
     "symbol": "BEAM",
-    "price_usd": 0.00328191,
-    "market_cap_usd": 188663613,
-    "change_24h_pct": 1.4162
+    "price_usd": 0.00324605,
+    "market_cap_usd": 186638167,
+    "change_24h_pct": -0.47462
    },
-   "score": 52.2,
+   "score": 52.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 41
@@ -4257,20 +4362,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.gg/geodnet"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/geodnet"
+     "label": "官網",
+     "url": "https://geodnet.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/GEODNET"
     },
     {
-     "label": "官網",
-     "url": "https://geodnet.com/"
+     "label": "Telegram",
+     "url": "https://t.me/geodnet"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.gg/geodnet"
     }
    ],
    "sources": [
@@ -4282,13 +4387,13 @@
    "social_only": false,
    "market": {
     "symbol": "GEOD",
-    "price_usd": 0.184995,
-    "market_cap_usd": 139432212,
-    "change_24h_pct": 2.44901
+    "price_usd": 0.184872,
+    "market_cap_usd": 139306729,
+    "change_24h_pct": 2.74211
    },
    "score": 50.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 41
@@ -4348,12 +4453,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Four_FORM_"
-    },
-    {
      "label": "官網",
      "url": "https://linktr.ee/Four_FORM_"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Four_FORM_"
     }
    ],
    "sources": [
@@ -4365,13 +4470,13 @@
    "social_only": false,
    "market": {
     "symbol": "FORM",
-    "price_usd": 0.164812,
-    "market_cap_usd": 62936398,
-    "change_24h_pct": 2.76961
+    "price_usd": 0.168465,
+    "market_cap_usd": 64331090,
+    "change_24h_pct": 4.06716
    },
-   "score": 49.4,
+   "score": 49.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:icodrops/25362",
@@ -4435,12 +4540,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/decentraland"
-    },
-    {
      "label": "官網",
      "url": "https://decentraland.org/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/decentraland"
     }
    ],
    "sources": [
@@ -4452,13 +4557,13 @@
    "social_only": false,
    "market": {
     "symbol": "MANA",
-    "price_usd": 0.057641,
-    "market_cap_usd": 112877155,
-    "change_24h_pct": 1.056
+    "price_usd": 0.058303,
+    "market_cap_usd": 114301492,
+    "change_24h_pct": 2.14195
    },
    "score": 48.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 41
@@ -4471,7 +4576,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "Sandbox 是一個社群驅動的平臺，創作者可以在區塊鏈上將體素資產和遊戲體驗貨幣化。\nSAND 是整個 Sandbox 生態系統中使用的實用代幣，作為交易和互動的基礎。它是建立在以太坊區塊鏈上的 ERC-20 實用代幣。 3,000,000,000 SAND 的供應量有限。",
+   "summary": "The Sandbox 是一個社群驅動的平臺，創作者可以在區塊鏈上將體素資產和遊戲體驗貨幣化。\nSAND 是整個 The Sandbox 生態系統中使用的實用代幣，作為交易和互動的基礎。它是建立在 Ethereum 區塊鏈上的 ERC-20 實用代幣。 3,000,000,000 SAND 的供應量有限。",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -4518,16 +4623,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/sandboxgame"
+     "label": "官網",
+     "url": "https://www.sandbox.game/en/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/TheSandboxGame"
     },
     {
-     "label": "官網",
-     "url": "https://www.sandbox.game/en/"
+     "label": "Telegram",
+     "url": "https://t.me/sandboxgame"
     }
    ],
    "sources": [
@@ -4539,13 +4644,13 @@
    "social_only": false,
    "market": {
     "symbol": "SAND",
-    "price_usd": 0.03442571,
-    "market_cap_usd": 101130324,
-    "change_24h_pct": 4.29672
+    "price_usd": 0.0346961,
+    "market_cap_usd": 101893646,
+    "change_24h_pct": 4.75547
    },
    "score": 48.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 41
@@ -4558,7 +4663,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "Rollbit 代幣（RLB）將作為即將推出的 Rollbit 彩票的組成部分推出。該代幣不會進行 ICO。相反，Rollbit 將免費空投 RLB。空投在加密貨幣的整個歷史中一直被用來引導成長、激勵社群發展和獎勵早期採用者。",
+   "summary": "Rollbit 代幣（RLB）將作為即將推出的 Rollbit 彩票的組成部分推出。該代幣不會進行 ICO。相反，Rollbit將免費空投RLB。空投在加密貨幣的整個歷史中一直被用來引導成長、激勵社群發展和獎勵早期採用者。",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -4605,16 +4710,16 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/Mwx3zqH"
+     "label": "官網",
+     "url": "https://rollbit.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/rollbit"
     },
     {
-     "label": "官網",
-     "url": "https://rollbit.com/"
+     "label": "Discord",
+     "url": "https://discord.com/invite/Mwx3zqH"
     }
    ],
    "sources": [
@@ -4626,13 +4731,13 @@
    "social_only": false,
    "market": {
     "symbol": "RLB",
-    "price_usd": 0.063269,
-    "market_cap_usd": 96741728,
-    "change_24h_pct": -0.66286
+    "price_usd": 0.064291,
+    "market_cap_usd": 98288125,
+    "change_24h_pct": 0.9281
    },
    "score": 47.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 41
@@ -4715,7 +4820,7 @@
    "market": {},
    "score": 4.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 41
@@ -4775,16 +4880,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/PoweredByGala"
+     "label": "官網",
+     "url": "https://gala.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/GoGalaGames"
     },
     {
-     "label": "官網",
-     "url": "https://gala.com/"
+     "label": "Telegram",
+     "url": "https://t.me/PoweredByGala"
     }
    ],
    "sources": [
@@ -4796,13 +4901,13 @@
    "social_only": false,
    "market": {
     "symbol": "GALA",
-    "price_usd": 0.00135274,
-    "market_cap_usd": 69709516,
-    "change_24h_pct": 4.01134
+    "price_usd": 0.00137999,
+    "market_cap_usd": 71128838,
+    "change_24h_pct": 6.21368
    },
-   "score": 44.3,
+   "score": 44.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 40
@@ -4862,12 +4967,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/PlayAriaGame"
-    },
-    {
      "label": "官網",
      "url": "https://playariagame.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/PlayAriaGame"
     }
    ],
    "sources": [
@@ -4879,13 +4984,13 @@
    "social_only": false,
    "market": {
     "symbol": "ARIA",
-    "price_usd": 0.333742,
-    "market_cap_usd": 61074785,
-    "change_24h_pct": -0.29133
+    "price_usd": 0.331395,
+    "market_cap_usd": 60675022,
+    "change_24h_pct": -1.65588
    },
-   "score": 42.9,
+   "score": 42.5,
    "first_seen": "2026-11-02T11:09:34+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 40
@@ -4943,16 +5048,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/WEMIX_ANNouncement"
+     "label": "官網",
+     "url": "https://www.wemix.com/en"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/WemixNetwork"
     },
     {
-     "label": "官網",
-     "url": "https://www.wemix.com/en"
+     "label": "Telegram",
+     "url": "https://t.me/WEMIX_ANNouncement"
     }
    ],
    "sources": [
@@ -4964,13 +5069,13 @@
    "social_only": false,
    "market": {
     "symbol": "WEMIX",
-    "price_usd": 0.109177,
-    "market_cap_usd": 54676971,
-    "change_24h_pct": -2.11913
+    "price_usd": 0.109526,
+    "market_cap_usd": 54828667,
+    "change_24h_pct": -1.12888
    },
    "score": 41.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 40
@@ -5030,16 +5135,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/+ZMTk3quQnak1MTM1"
+     "label": "官網",
+     "url": "https://infinitygaming.co"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/infgaming888"
     },
     {
-     "label": "官網",
-     "url": "https://infinitygaming.co"
+     "label": "Telegram",
+     "url": "https://t.me/+ZMTk3quQnak1MTM1"
     }
    ],
    "sources": [
@@ -5051,13 +5156,13 @@
    "social_only": false,
    "market": {
     "symbol": "$INF8",
-    "price_usd": 0.251732,
-    "market_cap_usd": 50346343,
-    "change_24h_pct": -1.17084
+    "price_usd": 0.255713,
+    "market_cap_usd": 51142539,
+    "change_24h_pct": 0.38836
    },
-   "score": 40.8,
+   "score": 41.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 40
@@ -5117,16 +5222,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/CapyboboNews"
+     "label": "官網",
+     "url": "https://capybobo.io/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/Capybobo_io"
     },
     {
-     "label": "官網",
-     "url": "https://capybobo.io/"
+     "label": "Telegram",
+     "url": "https://t.me/CapyboboNews"
     }
    ],
    "sources": [
@@ -5138,13 +5243,13 @@
    "social_only": false,
    "market": {
     "symbol": "PYBOBO",
-    "price_usd": 0.00033877,
-    "market_cap_usd": 50032209,
-    "change_24h_pct": -2.27676
+    "price_usd": 0.00034052,
+    "market_cap_usd": 50342702,
+    "change_24h_pct": -1.69115
    },
    "score": 40.6,
    "first_seen": "2026-10-11T10:01:16+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 40
@@ -5202,12 +5307,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/nexpace_hq"
-    },
-    {
      "label": "官網",
      "url": "https://msu.io/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/nexpace_hq"
     }
    ],
    "sources": [
@@ -5219,13 +5324,13 @@
    "social_only": false,
    "market": {
     "symbol": "NXPC",
-    "price_usd": 0.132499,
-    "market_cap_usd": 42939095,
-    "change_24h_pct": 3.56408
+    "price_usd": 0.135131,
+    "market_cap_usd": 43804629,
+    "change_24h_pct": 7.09614
    },
    "score": 38.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 40
@@ -5285,20 +5390,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.gg/veve"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/ecomi"
+     "label": "官網",
+     "url": "https://ecomi.notion.site/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/ecomi_"
     },
     {
-     "label": "官網",
-     "url": "https://ecomi.notion.site/"
+     "label": "Telegram",
+     "url": "https://t.me/ecomi"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.gg/veve"
     }
    ],
    "sources": [
@@ -5310,105 +5415,16 @@
    "social_only": false,
    "market": {
     "symbol": "OMI",
-    "price_usd": 0.00015462,
-    "market_cap_usd": 41893356,
-    "change_24h_pct": -5.36995
+    "price_usd": 0.00015545,
+    "market_cap_usd": 42126875,
+    "change_24h_pct": -4.4465
    },
-   "score": 37.7,
+   "score": 37.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 40
-  },
-  {
-   "key": "ronin",
-   "name": "Ronin",
-   "kind": "p2e",
-   "status": "ongoing",
-   "status_zh": "進行中",
-   "confirmed": "confirmed",
-   "confirmed_zh": "官方已確認",
-   "summary": "RON是Ronin鏈的生態系統代幣。它最終將用於支付 Axie Infinity 和鏈上託管的未來遊戲/產品的 Gas 費並保護網路安全。",
-   "backing_level": "none_known",
-   "backing_zh": "未知 / 無公開投資方",
-   "backers": [],
-   "backing_note": "未找到公開的投資方資料。",
-   "funds_raised_usd": null,
-   "difficulty": 2,
-   "difficulty_zh": "簡單",
-   "difficulty_note": "",
-   "time_commitment": "一次性完成即可",
-   "cost_type": "paid",
-   "cost_zh": "需付費 / 購買",
-   "cost_note": "需要購買代幣或 NFT 才能遊玩。",
-   "steps": [
-    "到官網 https://roninchain.com 了解玩法與支援平台（網頁 / 手機 / PC）",
-    "建立或連接遊戲支援的錢包；部分遊戲也可以先用 Email 登入",
-    "下載或開啟遊戲並註冊帳號，先玩免費模式熟悉規則",
-    "透過任務、對戰、排名、活動等賺取 $RON 代幣或 NFT 道具",
-    "如果需要先買 NFT / 代幣才能開始賺，先算好回本時間再投入",
-    "把賺到的 $RON 轉到有上架的交易所（CoinGecko 頁面有列出）賣出換成 USDT"
-   ],
-   "notes": [],
-   "main_link": "https://roninchain.com",
-   "reward": "未公布",
-   "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
-   "requirements": [
-    "錢包 (Wallet)"
-   ],
-   "deadline": "未公布",
-   "deadline_zh": "未公布",
-   "days_left": null,
-   "risk_level": "medium",
-   "risk_zh": "中",
-   "risks": [
-    "需要投入資金，有本金虧損 / 智能合約風險。",
-    "查無知名投資方，請自行查證團隊背景。"
-   ],
-   "tips": "",
-   "chains": [],
-   "tags": [
-    "play-to-earn",
-    "$RON"
-   ],
-   "links": [
-    {
-     "label": "Discord",
-     "url": "https://discord.gg/roninnetwork"
-    },
-    {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Ronin_Network"
-    },
-    {
-     "label": "官網",
-     "url": "https://roninchain.com"
-    }
-   ],
-   "sources": [
-    {
-     "name": "DropsTab",
-     "url": "https://dropstab.com/coins/ronin"
-    },
-    {
-     "name": "CoinGecko",
-     "url": "https://www.coingecko.com/en/coins/ronin"
-    }
-   ],
-   "social_only": false,
-   "market": {
-    "symbol": "RON",
-    "price_usd": 0.0357057,
-    "market_cap_usd": 27579144,
-    "change_24h_pct": 1.35564
-   },
-   "score": 34.8,
-   "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
-   "analysis_by": "rules",
-   "related_posts": [],
-   "recommend": 39
   },
   {
    "key": "deapcoin",
@@ -5465,16 +5481,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/DEAPcoin_group"
+     "label": "官網",
+     "url": "https://dea.sg/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/PlayMining_SG"
     },
     {
-     "label": "官網",
-     "url": "https://dea.sg/"
+     "label": "Telegram",
+     "url": "https://t.me/DEAPcoin_group"
     }
    ],
    "sources": [
@@ -5486,13 +5502,13 @@
    "social_only": false,
    "market": {
     "symbol": "DEP",
-    "price_usd": 0.00099282,
-    "market_cap_usd": 29638480,
-    "change_24h_pct": -0.18842
+    "price_usd": 0.00098884,
+    "market_cap_usd": 29541126,
+    "change_24h_pct": -0.1501
    },
-   "score": 31.5,
+   "score": 31.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 39
@@ -5552,16 +5568,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/BORAofficialANN"
+     "label": "官網",
+     "url": "https://www.boraecosystem.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/bora_ecosystem"
     },
     {
-     "label": "官網",
-     "url": "https://www.boraecosystem.com/"
+     "label": "Telegram",
+     "url": "https://t.me/BORAofficialANN"
     }
    ],
    "sources": [
@@ -5573,13 +5589,13 @@
    "social_only": false,
    "market": {
     "symbol": "BORA",
-    "price_usd": 0.02021059,
-    "market_cap_usd": 23297753,
-    "change_24h_pct": -0.5452
+    "price_usd": 0.0205485,
+    "market_cap_usd": 23687266,
+    "change_24h_pct": 2.11319
    },
    "score": 26.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 39
@@ -5592,7 +5608,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "FLOKI 是一種社群驅動的多鏈實用代幣，為包括去中心化遊戲、金融和教育平臺在內的廣泛生態系統提供動力。該計畫最初是從基於模因的資產發展而來，現在專注於以三個支柱為中心的實用驅動模型：社群參與、技術實用和全球慈善工作，平衡生態系統增長與社會影響，例如在迦納和奈及利亞等發展中國家建設學校。\n主要功能包括 Valhalla，一款 NFT 虛擬宇宙遊戲，其中代幣作為捕獲生物和升級角色的主要貨幣。該生態系統還具有 FlokiFi Locker，用於保護數位資產和",
+   "summary": "FLOKI 是一種由社群驅動的多鏈實用代幣，為包括去中心化遊戲、金融和教育平臺在內的廣泛生態系統提供動力。該計畫最初是從基於模因的資產發展而來，現在專注於以三個支柱為中心的實用驅動模型：社群參與、技術實用和全球慈善工作，平衡生態系統增長與社會影響，例如在迦納和奈及利亞等發展中國家建設學校。\n主要功能包括 Valhalla，一款 NFT 元宇宙遊戲，其中代幣作為捕獲生物和升級角色的主要貨幣。該生態系統還具有 FlokiFi Locker，用於保護數位資產和",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -5639,16 +5655,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/FlokiInuToken"
+     "label": "官網",
+     "url": "https://www.floki.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/realflokiinu"
     },
     {
-     "label": "官網",
-     "url": "https://www.floki.com/"
+     "label": "Telegram",
+     "url": "https://t.me/FlokiInuToken"
     }
    ],
    "sources": [
@@ -5660,13 +5676,13 @@
    "social_only": false,
    "market": {
     "symbol": "FLOKI",
-    "price_usd": 1.666e-05,
-    "market_cap_usd": 160657450,
-    "change_24h_pct": -0.13018
+    "price_usd": 1.684e-05,
+    "market_cap_usd": 162465405,
+    "change_24h_pct": 0.88875
    },
    "score": 51.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 38
@@ -5726,20 +5742,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/axie"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/axieinfinity"
+     "label": "官網",
+     "url": "https://axieinfinity.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/axieinfinity"
     },
     {
-     "label": "官網",
-     "url": "https://axieinfinity.com/"
+     "label": "Telegram",
+     "url": "https://t.me/axieinfinity"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/axie"
     }
    ],
    "sources": [
@@ -5751,13 +5767,13 @@
    "social_only": false,
    "market": {
     "symbol": "AXS",
-    "price_usd": 0.652381,
-    "market_cap_usd": 114556616,
-    "change_24h_pct": 2.03684
+    "price_usd": 0.654432,
+    "market_cap_usd": 114919913,
+    "change_24h_pct": 1.7518
    },
    "score": 49.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 38
@@ -5770,7 +5786,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "SuperVerse 是一個統一的 Web3 生態系統，在單一可互操作協議下連線遊戲、DeFi 和人工智慧。其原生代幣 $SUPER 為交易、治理以及沉浸式遊戲、人工智慧驅動的工具和 Blackhole DEX 等流動性基礎設施的存取提供支援。 $SUPER 專為跨多個鏈的實際效用而設計，可實現質押、協議回購和可持續收益，同時支援不斷增長的去中心化應用程式套件。",
+   "summary": "SuperVerse 是一個統一的 Web3 生態系統，在單一可互通協議下連線遊戲、DeFi 和人工智慧。其原生代幣 $SUPER 為交易、治理以及沉浸式遊戲、人工智慧驅動的工具和 Blackhole DEX 等流動性基礎設施的存取提供支援。 $SUPER 專為跨多個鏈的實際效用而設計，可實現質押、協議回購和可持續收益，同時支援不斷增長的去中心化應用程式套件。",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -5817,16 +5833,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/SuperVerseChat"
+     "label": "官網",
+     "url": "https://superverse.co/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/SuperVerse"
     },
     {
-     "label": "官網",
-     "url": "https://superverse.co/"
+     "label": "Telegram",
+     "url": "https://t.me/SuperVerseChat"
     }
    ],
    "sources": [
@@ -5838,13 +5854,13 @@
    "social_only": false,
    "market": {
     "symbol": "SUPER",
-    "price_usd": 0.116893,
-    "market_cap_usd": 76701272,
-    "change_24h_pct": -1.42917
+    "price_usd": 0.119148,
+    "market_cap_usd": 78230564,
+    "change_24h_pct": -0.33709
    },
-   "score": 45.7,
+   "score": 45.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 38
@@ -5950,7 +5966,7 @@
     "把賺到的 $YGG 轉到有上架的交易所（CoinGecko 頁面有列出）賣出換成 USDT"
    ],
    "notes": [],
-   "main_link": null,
+   "main_link": "https://yieldguild.io/",
    "reward": "未公布",
    "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
    "requirements": [
@@ -5966,12 +5982,31 @@
     "查無知名投資方，請自行查證團隊背景。"
    ],
    "tips": "",
-   "chains": [],
+   "chains": [
+    "ethereum"
+   ],
    "tags": [
     "play-to-earn",
     "$YGG"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "官網",
+     "url": "https://yieldguild.io/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/YieldGuild"
+    },
+    {
+     "label": "Telegram",
+     "url": "https://t.me/yieldguildgames"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/ygg"
+    }
+   ],
    "sources": [
     {
      "name": "CoinGecko",
@@ -5981,13 +6016,13 @@
    "social_only": false,
    "market": {
     "symbol": "YGG",
-    "price_usd": 0.02043828,
-    "market_cap_usd": 18387201,
-    "change_24h_pct": -1.44547
+    "price_usd": 0.02062656,
+    "market_cap_usd": 18557887,
+    "change_24h_pct": 0.37107
    },
-   "score": 20.6,
+   "score": 20.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 38
@@ -6022,7 +6057,7 @@
     "把賺到的 $CARV 轉到有上架的交易所（CoinGecko 頁面有列出）賣出換成 USDT"
    ],
    "notes": [],
-   "main_link": null,
+   "main_link": "https://carv.io",
    "reward": "未公布",
    "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
    "requirements": [
@@ -6038,12 +6073,27 @@
     "查無知名投資方，請自行查證團隊背景。"
    ],
    "tips": "",
-   "chains": [],
+   "chains": [
+    "base"
+   ],
    "tags": [
     "gaming",
     "$CARV"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "官網",
+     "url": "https://carv.io"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/carv_official"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/carv"
+    }
+   ],
    "sources": [
     {
      "name": "CoinGecko",
@@ -6053,13 +6103,13 @@
    "social_only": false,
    "market": {
     "symbol": "CARV",
-    "price_usd": 0.02444151,
-    "market_cap_usd": 18224216,
-    "change_24h_pct": 0.45656
+    "price_usd": 0.02442365,
+    "market_cap_usd": 18201157,
+    "change_24h_pct": -0.55024
    },
-   "score": 20.5,
+   "score": 20.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 38
@@ -6094,7 +6144,7 @@
     "把賺到的 $SKL 轉到有上架的交易所（CoinGecko 頁面有列出）賣出換成 USDT"
    ],
    "notes": [],
-   "main_link": null,
+   "main_link": "https://skale.space/",
    "reward": "未公布",
    "distribution": "可能以 NFT 或白名單形式發放，詳見官方公告。",
    "requirements": [
@@ -6110,12 +6160,31 @@
     "查無知名投資方，請自行查證團隊背景。"
    ],
    "tips": "",
-   "chains": [],
+   "chains": [
+    "ethereum"
+   ],
    "tags": [
     "gaming",
     "$SKL"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "官網",
+     "url": "https://skale.space/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/SkaleNetwork"
+    },
+    {
+     "label": "Telegram",
+     "url": "https://t.me/skaleofficial"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/gM5XBy6"
+    }
+   ],
    "sources": [
     {
      "name": "CoinGecko",
@@ -6125,13 +6194,13 @@
    "social_only": false,
    "market": {
     "symbol": "SKL",
-    "price_usd": 0.00282603,
-    "market_cap_usd": 17221852,
-    "change_24h_pct": 0.39396
+    "price_usd": 0.00286896,
+    "market_cap_usd": 17421008,
+    "change_24h_pct": 2.14302
    },
    "score": 19.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 38
@@ -6432,7 +6501,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "APE 推動文化。它得到了世界上最好的俱樂部和全球數十萬持有者的支援，是數位和現實生活社群、建造者、創造者、收藏家、遊戲玩家等的代幣。\nAPE 是 ApeChain 的原生 Gas 代幣，可在多個生態系統中使用，包括以太坊、Arbitrum、Solana 和 HyperLiquid.z",
+   "summary": "APE 推動文化。它得到了世界上最好的俱樂部和全球數十萬持有者的支援，是數位和現實生活社群、建造者、創造者、收藏家、遊戲玩家等的代幣。\nAPE 是 ApeChain 的原生 Gas 代幣，可在多個生態系統中使用，包括 Ethereum、Arbitrum、Solana 和 HyperLiquid.z",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -6477,12 +6546,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/apecoin"
-    },
-    {
      "label": "官網",
      "url": "https://apechain.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/apecoin"
     }
    ],
    "sources": [
@@ -6494,13 +6563,13 @@
    "social_only": false,
    "market": {
     "symbol": "APE",
-    "price_usd": 0.072648,
-    "market_cap_usd": 72647770,
-    "change_24h_pct": -0.28421
+    "price_usd": 0.073427,
+    "market_cap_usd": 73419838,
+    "change_24h_pct": 0.71165
    },
    "score": 44.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 37
@@ -6560,12 +6629,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/ONEchain_game"
-    },
-    {
      "label": "官網",
      "url": "https://www.ogfcorp.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/ONEchain_game"
     }
    ],
    "sources": [
@@ -6577,13 +6646,13 @@
    "social_only": false,
    "market": {
     "symbol": "ONE",
-    "price_usd": 0.121234,
-    "market_cap_usd": 69209492,
-    "change_24h_pct": -1.19752
+    "price_usd": 0.1235,
+    "market_cap_usd": 70509928,
+    "change_24h_pct": -2.69423
    },
-   "score": 44.2,
+   "score": 44.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 37
@@ -6643,20 +6712,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/babydogecoin1"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/babydogecoin"
+     "label": "官網",
+     "url": "https://babydoge.com"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/BabyDoge"
     },
     {
-     "label": "官網",
-     "url": "https://babydoge.com"
+     "label": "Telegram",
+     "url": "https://t.me/babydogecoin"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/babydogecoin1"
     }
    ],
    "sources": [
@@ -6668,13 +6737,13 @@
    "social_only": false,
    "market": {
     "symbol": "BABYDOGE",
-    "price_usd": 2.50417e-10,
-    "market_cap_usd": 46108350,
-    "change_24h_pct": 0.70204
+    "price_usd": 2.5401e-10,
+    "market_cap_usd": 46772051,
+    "change_24h_pct": 1.39061
    },
-   "score": 39.4,
+   "score": 39.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 37
@@ -6734,20 +6803,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.gg/pentagongamesxp"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/PentagonGamesOfficial"
+     "label": "官網",
+     "url": "https://pentagon.games/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/pentagonchain"
     },
     {
-     "label": "官網",
-     "url": "https://pentagon.games/"
+     "label": "Telegram",
+     "url": "https://t.me/PentagonGamesOfficial"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.gg/pentagongamesxp"
     }
    ],
    "sources": [
@@ -6759,13 +6828,13 @@
    "social_only": false,
    "market": {
     "symbol": "PC",
-    "price_usd": 45.11,
-    "market_cap_usd": 44357867,
-    "change_24h_pct": -1.35571
+    "price_usd": 45.9,
+    "market_cap_usd": 45132384,
+    "change_24h_pct": 0.42911
    },
-   "score": 38.8,
+   "score": 38.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 37
@@ -6825,20 +6894,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/qVA6uDr2f8"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/enjin"
+     "label": "官網",
+     "url": "https://enjin.io/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/enjin"
     },
     {
-     "label": "官網",
-     "url": "https://enjin.io/"
+     "label": "Telegram",
+     "url": "https://t.me/enjin"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/qVA6uDr2f8"
     }
    ],
    "sources": [
@@ -6850,13 +6919,13 @@
    "social_only": false,
    "market": {
     "symbol": "ENJ",
-    "price_usd": 0.01909644,
-    "market_cap_usd": 38581682,
-    "change_24h_pct": 0.71057
+    "price_usd": 0.01923268,
+    "market_cap_usd": 38848969,
+    "change_24h_pct": 1.31004
    },
-   "score": 36.4,
+   "score": 36.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 37
@@ -6917,12 +6986,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Gate"
-    },
-    {
      "label": "官網",
      "url": "https://www.gate.com/staking/BTC"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Gate"
     }
    ],
    "sources": [
@@ -6933,11 +7002,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 209571614
+    "tvl_usd": 211903699
    },
    "score": 34.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 36
@@ -6997,16 +7066,16 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/metaplex"
+     "label": "官網",
+     "url": "https://www.metaplex.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/metaplex"
     },
     {
-     "label": "官網",
-     "url": "https://www.metaplex.com/"
+     "label": "Discord",
+     "url": "https://discord.com/invite/metaplex"
     }
    ],
    "sources": [
@@ -7018,13 +7087,13 @@
    "social_only": false,
    "market": {
     "symbol": "MPLX",
-    "price_usd": 0.059456,
-    "market_cap_usd": 28020512,
-    "change_24h_pct": 16.51215
+    "price_usd": 0.060036,
+    "market_cap_usd": 28300681,
+    "change_24h_pct": 17.8022
    },
-   "score": 30.1,
+   "score": 30.2,
    "first_seen": "2026-10-14T08:44:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 36
@@ -7084,16 +7153,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/overtake_world"
+     "label": "官網",
+     "url": "https://overtake.world/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/overtake_world"
     },
     {
-     "label": "官網",
-     "url": "https://overtake.world/"
+     "label": "Telegram",
+     "url": "https://t.me/overtake_world"
     }
    ],
    "sources": [
@@ -7105,13 +7174,13 @@
    "social_only": false,
    "market": {
     "symbol": "TAKE",
-    "price_usd": 0.063092,
-    "market_cap_usd": 25966017,
-    "change_24h_pct": 0.89435
+    "price_usd": 0.063478,
+    "market_cap_usd": 26131036,
+    "change_24h_pct": -0.17938
    },
    "score": 28.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 36
@@ -7171,16 +7240,16 @@
    ],
    "links": [
     {
-     "label": "Telegram",
-     "url": "https://t.me/Audiera_web3"
+     "label": "官網",
+     "url": "https://audiera.fi/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/Audiera_web3"
     },
     {
-     "label": "官網",
-     "url": "https://audiera.fi/"
+     "label": "Telegram",
+     "url": "https://t.me/Audiera_web3"
     }
    ],
    "sources": [
@@ -7192,13 +7261,13 @@
    "social_only": false,
    "market": {
     "symbol": "BEAT",
-    "price_usd": 0.061554,
-    "market_cap_usd": 22421951,
-    "change_24h_pct": -4.69811
+    "price_usd": 0.064298,
+    "market_cap_usd": 23398552,
+    "change_24h_pct": 0.35594
    },
-   "score": 25.4,
+   "score": 26.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 36
@@ -7211,7 +7280,7 @@
    "status_zh": "進行中",
    "confirmed": "confirmed",
    "confirmed_zh": "官方已確認",
-   "summary": "GoMining 幫助世界各地的人們釋放比特幣的全部潛力。 Built on real-world mining infrastructure and powered by the GOMINING utility token, it combines digital mining, wallet, and finance products into one simple, secure ecosystem. From earning Bitcoin witha in spocin simple, secure ecosystem. From earning Bitcoin withy to spendin turns turns turns turns) with spocin 區part of everyday life — accessible to anyone, anywhere, regardless of income or experience.\n數位礦工是 GoMining 的核心創新——類似 NFT 的資產，由 GoMining 資料中心託管的真正比特幣挖礦能力支援。 Each miner earns daily Bitcoin rewards automatically, with all operations (hardware, electricity, and maintenance) hand",
+   "summary": "GoMining 幫助世界各地的人們釋放比特幣的全部潛力。它建立在現實世界的挖礦基礎設施之上，並由 GOMINING 實用代幣提供支援，將數位挖礦、錢包和金融產品整合到一個簡單、安全的生態系統中。從每天賺取比特幣到輕鬆消費，GoMining 將比特幣從遙遠的加密貨幣變成了日常生活的一部分——任何人、任何地方都可以使用，無論收入或經驗如何。\n數字礦工是 GoMining 的核心創新——類似 NFT 的資產，由 GoMining 資料中心託管的真正比特幣挖礦能力支援。每個礦工自動賺取每日比特幣獎勵，所有操作（硬體、電力和維護）均由專人負責",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -7258,20 +7327,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/gmt"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/gmt_token"
+     "label": "官網",
+     "url": "https://gomining.com/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/Gomining_token"
     },
     {
-     "label": "官網",
-     "url": "https://gomining.com/"
+     "label": "Telegram",
+     "url": "https://t.me/gmt_token"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/gmt"
     }
    ],
    "sources": [
@@ -7283,13 +7352,13 @@
    "social_only": false,
    "market": {
     "symbol": "GOMINING",
-    "price_usd": 0.369037,
-    "market_cap_usd": 148475935,
-    "change_24h_pct": 0.46653
+    "price_usd": 0.368319,
+    "market_cap_usd": 148172204,
+    "change_24h_pct": 0.58527
    },
    "score": 50.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 35
@@ -7349,20 +7418,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.gg/cosmofox"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/ZyloEcosystem"
+     "label": "官網",
+     "url": "https://zylo.io/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/Zylo_Ecosystem"
     },
     {
-     "label": "官網",
-     "url": "https://zylo.io/"
+     "label": "Telegram",
+     "url": "https://t.me/ZyloEcosystem"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.gg/cosmofox"
     }
    ],
    "sources": [
@@ -7374,13 +7443,13 @@
    "social_only": false,
    "market": {
     "symbol": "ZYLO",
-    "price_usd": 0.02435061,
-    "market_cap_usd": 20943339,
-    "change_24h_pct": 11.66859
+    "price_usd": 0.02434542,
+    "market_cap_usd": 20937887,
+    "change_24h_pct": 11.36417
    },
-   "score": 23.9,
+   "score": 23.6,
    "first_seen": "2026-11-10T03:35:05+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 35
@@ -7440,20 +7509,20 @@
    ],
    "links": [
     {
-     "label": "Discord",
-     "url": "https://discord.com/invite/bigtime"
-    },
-    {
-     "label": "Telegram",
-     "url": "https://t.me/playbigtime"
+     "label": "官網",
+     "url": "https://bigtime.gg/"
     },
     {
      "label": "X (Twitter)",
      "url": "https://x.com/playbigtime"
     },
     {
-     "label": "官網",
-     "url": "https://bigtime.gg/"
+     "label": "Telegram",
+     "url": "https://t.me/playbigtime"
+    },
+    {
+     "label": "Discord",
+     "url": "https://discord.com/invite/bigtime"
     }
    ],
    "sources": [
@@ -7465,13 +7534,13 @@
    "social_only": false,
    "market": {
     "symbol": "BIGTIME",
-    "price_usd": 0.00654175,
-    "market_cap_usd": 19171910,
-    "change_24h_pct": 1.41244
+    "price_usd": 0.00673108,
+    "market_cap_usd": 19740681,
+    "change_24h_pct": 13.25493
    },
-   "score": 21.6,
+   "score": 21.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 35
@@ -7536,7 +7605,7 @@
    "market": {},
    "score": 29.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 33
@@ -7595,12 +7664,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Plasma"
-    },
-    {
      "label": "官網",
      "url": "https://www.plasma.to/one"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Plasma"
     }
    ],
    "sources": [
@@ -7611,11 +7680,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 30420845
+    "tvl_usd": 30367207
    },
    "score": 30.6,
    "first_seen": "2026-10-29T09:59:00+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 32
@@ -7693,7 +7762,7 @@
    "market": {},
    "score": 13.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/129889",
@@ -7760,12 +7829,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/SteakhouseFi"
-    },
-    {
      "label": "官網",
      "url": "https://www.steakhouse.financial/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/SteakhouseFi"
     }
    ],
    "sources": [
@@ -7776,11 +7845,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 2460463171
+    "tvl_usd": 2458134945
    },
    "score": 79.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 28
@@ -7841,12 +7910,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/usddio"
-    },
-    {
      "label": "官網",
      "url": "https://usdd.io/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/usddio"
     }
    ],
    "sources": [
@@ -7857,11 +7926,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 970911949
+    "tvl_usd": 980278054
    },
-   "score": 49.4,
+   "score": 49.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 25
@@ -7922,12 +7991,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/saturn_credit"
-    },
-    {
      "label": "官網",
      "url": "https://app.saturn.credit/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/saturn_credit"
     }
    ],
    "sources": [
@@ -7938,11 +8007,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 135116705
+    "tvl_usd": 135069361
    },
    "score": 38.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/8068",
@@ -8080,12 +8149,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/prjx_hl"
-    },
-    {
      "label": "官網",
      "url": "https://www.prjx.com"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/prjx_hl"
     }
    ],
    "sources": [
@@ -8096,11 +8165,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 32062131
+    "tvl_usd": 33470649
    },
-   "score": 34.6,
+   "score": 34.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropinspector/8092",
@@ -8167,12 +8236,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/k3_capital"
-    },
-    {
      "label": "官網",
      "url": "https://k3.capital"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/k3_capital"
     }
    ],
    "sources": [
@@ -8183,11 +8252,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 175573989
+    "tvl_usd": 177670228
    },
-   "score": 33.5,
+   "score": 33.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -8251,12 +8320,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/ClearstarLabs"
-    },
-    {
      "label": "官網",
      "url": "https://clearstar.xyz"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/ClearstarLabs"
     }
    ],
    "sources": [
@@ -8267,11 +8336,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 129158103
+    "tvl_usd": 137926557
    },
-   "score": 32.6,
+   "score": 32.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -8410,12 +8479,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Shift_DeFi"
-    },
-    {
      "label": "官網",
      "url": "https://shiftdefi.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Shift_DeFi"
     }
    ],
    "sources": [
@@ -8426,11 +8495,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 77634697
+    "tvl_usd": 77632471
    },
    "score": 31.6,
    "first_seen": "2026-11-09T19:49:44+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -8494,12 +8563,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/GamiLabs"
-    },
-    {
      "label": "官網",
      "url": "https://gamilabs.io/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/GamiLabs"
     }
    ],
    "sources": [
@@ -8510,11 +8579,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 60185321
+    "tvl_usd": 60274837
    },
    "score": 31.2,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -8578,12 +8647,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/tulipacapital"
-    },
-    {
      "label": "官網",
      "url": "https://www.tulipa.capital"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/tulipacapital"
     }
    ],
    "sources": [
@@ -8594,11 +8663,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 47991533
+    "tvl_usd": 48598709
    },
    "score": 31.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -8660,12 +8729,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/noon_capital"
-    },
-    {
      "label": "官網",
      "url": "https://app.noon.capital"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/noon_capital"
     }
    ],
    "sources": [
@@ -8676,11 +8745,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 38130064
+    "tvl_usd": 38129886
    },
    "score": 30.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -8744,12 +8813,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Re7Labs"
-    },
-    {
      "label": "官網",
      "url": "https://www.re7labs.xyz"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Re7Labs"
     }
    ],
    "sources": [
@@ -8760,11 +8829,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 41225190
+    "tvl_usd": 41933793
    },
    "score": 30.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -8824,12 +8893,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Vishwa_lab"
-    },
-    {
      "label": "官網",
      "url": "https://www.vishwalab.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Vishwa_lab"
     }
    ],
    "sources": [
@@ -8840,11 +8909,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 40424704
+    "tvl_usd": 40997771
    },
    "score": 30.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 23
@@ -9111,16 +9180,16 @@
    "cost_note": "需要存入 / 交易資金才能累積資格。",
    "steps": [
     "使用 Polkadot.js (https://polkadot.js.org/)、Talisman (https://talisman.xyz/) 或 SubWallet (https://www.subwallet.app/) 建立與 FLOP 相容的錢包。使用 SS58 字首 42。",
-    "使用 Technocore DID Starter (https://github.com/zunmax/technocore-did-starter) 建立 DID。確保你的私鑰安全。",
-    "請前往官方 FLOP 測試網 Faucet (https://faucet.flop.network/)。",
+    "使用 Technocore DID Starter (https://github.com/zunmax/technocore-did-starter) 建立你的 DID。確保你的私鑰安全。",
+    "前往官方 FLOP 測試網水龍頭（Faucet，免費領測試幣） (https://faucet.flop.network/)。",
     "連接錢包並領取 10 次測試失敗。每 24 小時可以提出一次索賠，並且需要簽名的錢包請求。",
-    "請關注@flop_labs (https://x.com/flop_labs) 以瞭解評分啟動區塊的公告。",
+    "關注@flop_labs（https://x.com/flop_labs）以瞭解評分啟動區塊的公告。",
     "一旦測試網推理可用並開始評分，請使用你的代理商購買計算能力並完成推理會話。"
    ],
    "notes": [
-    "礦工指南 (https://flop.finance/intro/miner/)",
-    "驗證者指南 (https://flop.finance/intro/validator/)",
-    "測試網運營商中心 (https://docs.flop.network/operators?network=testnet)",
+    "礦工指南（https://flop.finance/intro/miner/）",
+    "驗證者指南（https://flop.finance/intro/validator/）",
+    "測試網運營中心（https://docs.flop.network/operators?network=testnet）",
     "測試網目前處於未評分階段。僅在團隊宣佈最終啟用區塊後才開始計分。",
     "較早的活動將不會獲得追溯積分。",
     "測試 FLOP 沒有貨幣價值。僅索取或持有代幣並不能獲得空投分配。"
@@ -9164,7 +9233,7 @@
    "market": {},
    "score": 103.1,
    "first_seen": "2026-11-26T03:34:38+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/129997",
@@ -9186,7 +9255,7 @@
    "status_zh": "進行中",
    "confirmed": "speculative",
    "confirmed_zh": "推測",
-   "summary": "Bullpen 是鏈上市場的非託管交易終端。與平臺互動並賺取積分。",
+   "summary": "Bullpen是鏈上市場的非託管交易終端。與平臺互動並賺取積分。",
    "backing_level": "none_known",
    "backing_zh": "未知 / 無公開投資方",
    "backers": [],
@@ -9200,14 +9269,14 @@
    "cost_zh": "需投入資金",
    "cost_note": "需要存入 / 交易資金才能累積資格。",
    "steps": [
-    "【加入牛棚】進入牛棚網站（https://bullpen.fi/@Dropstab）",
+    "【加入Bullpen】前往Bullpen網站（https://bullpen.fi/@Dropstab）",
     "使用首選方法登入。",
     "連結你的 X 帳號。",
     "【充值資產】點選儲值按鈕。",
     "選擇你要存入的資產。",
-    "從應用程式複製你的 Bullpen 錢包地址。",
+    "從應用程式複製你的 Bullpen 錢包位址。",
     "從外部錢包傳送 SOL、USDC 或其他支援的代幣。",
-    "資金在 Solana 上幾秒鐘內到達，跨鏈則在幾分鐘內到達。",
+    "資金在Solana上幾秒到賬，跨鏈幾分鐘到賬。",
     "【邀請好友】進入聯盟頁面（https://app.bullpen.fi/affiliate）",
     "建立你的推薦連結。",
     "複製並分享。",
@@ -9219,7 +9288,7 @@
     "平臺上的所有活動都會增加你的積分。",
     "如何賺取積分",
     "交易（Solana、Hyperliquid Perps、Hyperliquid Spot）：從交易量、頻率和盈虧中獲利。",
-    "社交活動和社交交易：連結 X 即可賺取 $BULL 發文收入。"
+    "社交活動和社交交易：連線 X 以賺取 $BULL 發文。"
    ],
    "main_link": null,
    "reward": "未公布",
@@ -9255,7 +9324,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -9332,7 +9401,7 @@
    "market": {},
    "score": 85.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -9413,7 +9482,7 @@
    "market": {},
    "score": 76.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdrops_io/8063"
@@ -9480,12 +9549,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/gauntlet_xyz"
-    },
-    {
      "label": "官網",
      "url": "https://www.gauntlet.xyz"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/gauntlet_xyz"
     }
    ],
    "sources": [
@@ -9496,11 +9565,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 1581816345
+    "tvl_usd": 1587510159
    },
-   "score": 61.6,
+   "score": 61.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -9534,7 +9603,7 @@
     "追蹤官方 X / Discord，留意積分活動 (Points)、快照 (Snapshot) 或代幣發行 (TGE) 公告"
    ],
    "notes": [],
-   "main_link": "https://tydro.com/",
+   "main_link": "https://app.tydro.com/",
    "reward": "未公布",
    "distribution": "官方尚未公布，通常是代幣發行時空投到錢包或開放 Claim。",
    "requirements": [
@@ -9552,16 +9621,18 @@
    ],
    "tips": "",
    "chains": [
+    "Lending Platform",
     "Ink"
    ],
    "tags": [
+    "Point Farming",
     "Lending",
     "no-token"
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/tydrohq"
+     "label": "參與連結",
+     "url": "https://app.tydro.com/"
     },
     {
      "label": "官網",
@@ -9580,11 +9651,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 394309063
+    "tvl_usd": 395830907
    },
    "score": 42.9,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -9733,12 +9804,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/noncecap"
-    },
-    {
      "label": "官網",
      "url": "https://nonce-capital.xyz/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/noncecap"
     }
    ],
    "sources": [
@@ -9749,11 +9820,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 463617392
+    "tvl_usd": 470091707
    },
-   "score": 39.3,
+   "score": 39.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -9813,12 +9884,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/CurrentSUI"
-    },
-    {
      "label": "官網",
      "url": "https://www.current.finance/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/CurrentSUI"
     }
    ],
    "sources": [
@@ -9829,11 +9900,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 49003336
+    "tvl_usd": 49358385
    },
    "score": 37.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:binance_announcements/9170",
@@ -9897,12 +9968,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/opentensor"
-    },
-    {
      "label": "官網",
      "url": "https://bittensor.com"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/opentensor"
     }
    ],
    "sources": [
@@ -9913,11 +9984,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 315757970
+    "tvl_usd": 321236773
    },
-   "score": 36.3,
+   "score": 36.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -9982,12 +10053,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Rockaway_X"
-    },
-    {
      "label": "官網",
      "url": "https://rockawayx.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Rockaway_X"
     }
    ],
    "sources": [
@@ -9998,11 +10069,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 264776388
+    "tvl_usd": 264861916
    },
    "score": 35.3,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10067,12 +10138,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/hyperithm"
-    },
-    {
      "label": "官網",
      "url": "https://www.hyperithm.com"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/hyperithm"
     }
    ],
    "sources": [
@@ -10083,11 +10154,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 180844663
+    "tvl_usd": 179979204
    },
    "score": 33.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10147,12 +10218,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Curvance"
-    },
-    {
      "label": "官網",
      "url": "https://app.curvance.com"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Curvance"
     }
    ],
    "sources": [
@@ -10163,11 +10234,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 138349389
+    "tvl_usd": 137850170
    },
    "score": 32.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10229,12 +10300,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/b14g_network"
-    },
-    {
      "label": "官網",
      "url": "https://www.b14g.xyz/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/b14g_network"
     }
    ],
    "sources": [
@@ -10245,11 +10316,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 133457285
+    "tvl_usd": 135379750
    },
    "score": 32.7,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10330,7 +10401,7 @@
    "market": {},
    "score": 32.6,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10391,12 +10462,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/keyrock"
-    },
-    {
      "label": "官網",
      "url": "https://keyrock.com/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/keyrock"
     }
    ],
    "sources": [
@@ -10407,11 +10478,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 82987137
+    "tvl_usd": 82988034
    },
    "score": 31.7,
    "first_seen": "2026-10-14T14:31:29+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10473,12 +10544,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/YuzuMoneyX"
-    },
-    {
      "label": "官網",
      "url": "https://app.yuzu.money"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/YuzuMoneyX"
     }
    ],
    "sources": [
@@ -10489,11 +10560,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 53031629
+    "tvl_usd": 53051530
    },
    "score": 31.1,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10553,12 +10624,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/Firelightfi"
-    },
-    {
      "label": "官網",
      "url": "https://firelight.finance/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/Firelightfi"
     }
    ],
    "sources": [
@@ -10569,11 +10640,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 48951474
+    "tvl_usd": 49781989
    },
    "score": 31.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10633,12 +10704,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/MezoNetwork"
-    },
-    {
      "label": "官網",
      "url": "https://mezo.org/earn/lock"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/MezoNetwork"
     }
    ],
    "sources": [
@@ -10649,11 +10720,11 @@
    ],
    "social_only": false,
    "market": {
-    "tvl_usd": 46970255
+    "tvl_usd": 48050742
    },
-   "score": 30.9,
+   "score": 31.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -10793,12 +10864,12 @@
    ],
    "links": [
     {
-     "label": "X (Twitter)",
-     "url": "https://x.com/3f_xyz"
-    },
-    {
      "label": "官網",
      "url": "https://www.3f.xyz/"
+    },
+    {
+     "label": "X (Twitter)",
+     "url": "https://x.com/3f_xyz"
     }
    ],
    "sources": [
@@ -10813,7 +10884,7 @@
    },
    "score": 30.8,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-27T01:44:38+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -11121,7 +11192,7 @@
    "market": {},
    "score": 3.4,
    "first_seen": "2026-10-11T02:29:14+00:00",
-   "last_seen": "2026-11-26T16:54:54+00:00",
+   "last_seen": "2026-11-27T05:18:13+00:00",
    "analysis_by": "rules",
    "related_posts": [],
    "recommend": 1
@@ -11210,14 +11281,13 @@
    ],
    "social_only": false,
    "market": {},
-   "score": 106.0,
+   "score": 104.0,
    "first_seen": "2026-10-11T02:29:14+00:00",
    "last_seen": "2026-10-13T10:37:13+00:00",
    "analysis_by": "rules",
    "related_posts": [
     "telegram:airdropfind/129987",
-    "telegram:airdropfind/129757",
-    "telegram:airdropfind/129556"
+    "telegram:airdropfind/129757"
    ],
    "recommend": 0
   },
@@ -11930,13 +12000,11 @@
    ],
    "social_only": false,
    "market": {},
-   "score": 91.5,
+   "score": 89.5,
    "first_seen": "2026-10-11T02:29:14+00:00",
    "last_seen": "2026-10-13T10:37:13+00:00",
    "analysis_by": "rules",
-   "related_posts": [
-    "telegram:airdrops_io/8039"
-   ],
+   "related_posts": [],
    "recommend": 0
   },
   {
@@ -14950,13 +15018,114 @@
  ],
  "posts": [
   {
+   "id": "telegram:airdropfind/130033",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/130033",
+   "published": "2026-11-27T04:50:38+00:00",
+   "title": "新空投：週五",
+   "summary": "新空投：週五\n🏷 獎勵：對穆斯林的獎勵\n🪂 登記：清真寺\n➖ 洗澡\n➖ 尋找清真寺\n➖ 沐浴\n➖ 聖行祈禱 NU\n➖ 聽講道\n➖ 週五祈禱\n➖ 包飯（可選）\n➖ 完成",
+   "original": "New Airdrops : Jumatan\n🏷 Reward : Pahala For Muslim\n🪂 Register : Masjid \n➖ Mandi\n➖ Cari Masjid\n➖ Wudhu \n➖ Sholat Sunnah For NU\n➖ Listen Khutbah \n➖ Sholat Jumat\n➖ Nasi Bungkus ( Optional )\n➖ Done",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/130032",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/130032",
+   "published": "2026-11-27T04:27:58+00:00",
+   "title": "新候補名單 : NAVRA",
+   "summary": "新候補名單 : NAVRA\n🪂 註冊：https://www.navra.com/#waitlist\n➖ 提交郵件\n➖ 完成\n📌Navra，傳統金融到鏈上經濟的橋樑。融資 1900 萬美元。",
+   "original": "New Waitlist : NAVRA\n🪂 Register : https://www.navra.com/#waitlist\n➖ Submit Email\n➖ Done\n📌Navra, The bridge from traditional finance to the onchain economy. Funding $19M.",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/130031",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/130031",
+   "published": "2026-11-27T04:00:24+00:00",
+   "title": "Aura 協議更新 2026 年 10 月 24 日彈出答案：A A：將公共記憶體池中的交易聚合到最佳化的區塊中，並將其拍賣給驗證者以供包含",
+   "summary": "Aura 協議更新 2026 年 10 月 24 日彈出答案：A A：將公共記憶體池中的交易聚合到最佳化的區塊中，並將其拍賣給驗證者以供包含。獲得 2.750 點",
+   "original": "Aura Protocol Update 24 Oct 2026 Pop Up Answare : A A: To aggregate transactions from the public mempool into an optimized block and auction it to validators for inclusion. Get 2.750 Point",
+   "projects": []
+  },
+  {
+   "id": "news:CBMikAFBVV95cUxQbk45aWpqMFJSTkpCSXMtT1FpNl91eHptM3EtUlNnR28yYzI0LXh2RG5rSWkwNlJqSkdZYnBvWUJBMGFHQllmYzZNSXBUT0w4NzBNVTB0STNsZ0M2M0UtMWtNajQzamlXTXl0UGdHaWdCRk5PTWNKNXFFUlhOcVl2c3IyRHFuNlJSbTNBRlQ5ZGU",
+   "source": "news",
+   "channel": "Google News 空投",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbk45aWpqMFJSTkpCSXMtT1FpNl91eHptM3EtUlNnR28yYzI0LXh2RG5rSWkwNlJqSkdZYnBvWUJBMGFHQllmYzZNSXBUT0w4NzBNVTB0STNsZ0M2M0UtMWtNajQzamlXTXl0UGdHaWdCRk5PTWNKNXFFUlhOcVl2c3IyRHFuNlJSbTNBRlQ5ZGU?oc=5",
+   "published": "2026-11-27T04:00:00+00:00",
+   "title": "BNB 今日新聞：新的 L1 Litepaper 已經發布，但測試網上線了嗎？ - 硬幣加巴爾",
+   "summary": "BNB 今日新聞：新的 L1 Litepaper 已經發布，但測試網路上線了嗎？    硬幣加巴爾",
+   "original": "BNB News Today: New L1 Litepaper Is Out, but Is the Testnet Live Yet? - Coin Gabbar\nBNB News Today: New L1 Litepaper Is Out, but Is the Testnet Live Yet?    Coin Gabbar",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/130029",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/130029",
+   "published": "2026-11-27T03:10:28+00:00",
+   "title": "vAPI新任務http://api.vapinetwork.ai/earn/quest",
+   "summary": "vAPI新任務http://api.vapinetwork.ai/earn/quest",
+   "original": "vAPI New Quest http://api.vapinetwork.ai/earn/quest",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/130028",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/130028",
+   "published": "2026-11-27T02:48:23+00:00",
+   "title": "新白名單：UNSEEN ➡️註冊：https://unseen.am/whitelist?ref=J7Q3CP6V ➖連線X帳號➖提交你的B",
+   "summary": "新白名單：UNSEEN ➡️註冊：https://unseen.am/whitelist?ref=J7Q3CP6V ➖連線X帳號➖提交你的BTC（Taproot）地址➖完成所有任務➖完成📖來源：https://x.com/UnseenOrdo/status/2115003343932469461",
+   "original": "New Whitelist: UNSEEN ➡️ Register: https://unseen.am/whitelist?ref=J7Q3CP6V ➖ Connect with X account ➖ Submit your BTC (Taproot) Address ➖ Complete all tasks ➖ Done 📖 Source: https://x.com/UnseenOrdo/status/2115003343932469461",
+   "projects": []
+  },
+  {
+   "id": "telegram:airdropfind/130027",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/130027",
+   "published": "2026-11-27T02:30:47+00:00",
+   "title": "免費 100 美元 Ai Api 積分",
+   "summary": "免費 100 美元 Ai Api 積分\n為 AI 代理獲取 100 美元免費 API 積分，有效期 7 天！\n🪂 註冊：https://lebrel.ai\n如何索賠：\n➖ 註冊帳號\n➖ 索取免費積分\n➖ 驗證你的卡（Jago / Blu）\n➖ 複製你的 API 金鑰\n➖ 開始使用\n📌Base 網址：https://attested.lebrel.ai/v1\n🔥 可用型號：DeepSeek V4.1 Flash Uncensored",
+   "original": "Free $100 Ai Api Credits\nGet $100 free API credits for AI Agents, valid for 7 days!\n🪂 Register : https://lebrel.ai\nHow to Claim:\n➖ Register an account\n➖ Claim free credits\n➖ Verify your card (Jago / Blu)\n➖ Copy your API Key\n➖ Start using\n📌Base URL : https://attested.lebrel.ai/v1\n🔥 Available model: DeepSeek V4.1 Flash Uncensored",
+   "projects": [
+    "base"
+   ]
+  },
+  {
+   "id": "telegram:airdropfind/130026",
+   "source": "telegram",
+   "channel": "airdropfind",
+   "url": "https://t.me/airdropfind/130026",
+   "published": "2026-11-27T02:03:19+00:00",
+   "title": "Sweep Campaign Live on Galxe 🏷 Reward Pool: $100,000 ➡️ Complete Now: ",
+   "summary": "Sweep Campaign Live on Galxe 🏷 Reward Pool: $100,000 ➡️ Complete Now: https://app.galxe.com/quest/Sweep/GCA1RtZ2gS You can still join via: https://t.me/airdropfind/126969 📖Source: https://x.com/GalxeQuest/status/2097735052167684522",
+   "original": "Sweep Campaign Live on Galxe 🏷 Reward Pool: $100,000 ➡️ Complete Now: https://app.galxe.com/quest/Sweep/GCA1RtZ2gS You can still join via: https://t.me/airdropfind/126969 📖Source: https://x.com/GalxeQuest/status/2097735052167684522",
+   "projects": []
+  },
+  {
+   "id": "news:CBMimwFBVV95cUxOaGl3RklqdXdJRGNJNWp4UERkOFF1b2JQVXFCN1hWN2Z1NzZXSVpUWUxwSU51TzRUZnFBZ1N0Q2hxXzNTY0Y3WU5CNjlTdDZJMDE5T0N1eVU5QkdmUnpmdmNpUlE5Um9FdC1LeGVzY1MwclVma1o3NFdGMnNSNkRiSU05ZnU5dWstQ0lxUWtTTW9lcE1QQi1RLXlIaw",
+   "source": "news",
+   "channel": "Google News 空投",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaGl3RklqdXdJRGNJNWp4UERkOFF1b2JQVXFCN1hWN2Z1NzZXSVpUWUxwSU51TzRUZnFBZ1N0Q2hxXzNTY0Y3WU5CNjlTdDZJMDE5T0N1eVU5QkdmUnpmdmNpUlE5Um9FdC1LeGVzY1MwclVma1o3NFdGMnNSNkRiSU05ZnU5dWstQ0lxUWtTTW9lcE1QQi1RLXlIaw?oc=5",
+   "published": "2026-11-27T02:02:17+00:00",
+   "title": "Coinstore 宣佈 Lucky Spin 交易促銷活動，提供實體獎品和保證的加密貨幣空投 - Traders Union",
+   "summary": "Coinstore 宣佈 Lucky Spin 交易促銷活動，提供實體獎品和保證的加密貨幣空投 Traders Union",
+   "original": "Coinstore announces Lucky Spin trading promotion featuring physical prizes and guaranteed crypto airdrops - Traders Union\nCoinstore announces Lucky Spin trading promotion featuring physical prizes and guaranteed crypto airdrops    Traders Union",
+   "projects": []
+  },
+  {
    "id": "telegram:airdropfind/130021",
    "source": "telegram",
    "channel": "airdropfind",
    "url": "https://t.me/airdropfind/130021",
    "published": "2026-11-27T01:44:38+00:00",
-   "title": "DAC Update Discover is now open to everyone on Interstellar! Play shor",
-   "summary": "DAC Update Discover is now open to everyone on Interstellar! Play short games and learn how crypto security works, from hashes to quantum computing. More games coming soon ➡️ discover.dachain.io",
+   "title": "DAC 更新探索現已向《星際效應》中的所有人開放！玩短遊戲並瞭解加密安全的工作原理，從雜湊到量子計算。更多遊戲即將推出➡️discover.",
+   "summary": "DAC 更新探索現已向《星際效應》中的所有人開放！玩短遊戲並瞭解加密安全的工作原理，從雜湊到量子計算。更多遊戲即將推出➡️discover.dachain.io",
    "original": "DAC Update Discover is now open to everyone on Interstellar! Play short games and learn how crypto security works, from hashes to quantum computing. More games coming soon ➡️ discover.dachain.io",
    "projects": []
   },
@@ -15490,7 +15659,7 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOanBQYS1CZmYtUXdtYWpIY2NINksyVHc5OGI2aDloOEc5WjBDbTZMT3E3c2RRb0YwNU5Na1g5Z1pVZWJVZmVhWTRUOTZmXzFNQkluc0E5dzlCYTJ2bjNTaExyR3RMRGVfLXNYeWJReW94TjM1WGxQa2xXTDMyZThQNERpbWRLMlI0STVHV01UQ1BTUQ?oc=5",
    "published": "2026-11-25T12:30:00+00:00",
    "title": "FLOP 測試網更新：網路狀態和即將到來的里程碑 - Coin Gabbar",
-   "summary": "FLOP Testnet Update: Network Status and Upcoming Milestones    Coin Gabbar",
+   "summary": "FLOP 測試網更新：網路狀態與即將到來的里程碑 Coin Gabbar",
    "original": "FLOP Testnet Update: Network Status and Upcoming Milestones - Coin Gabbar\nFLOP Testnet Update: Network Status and Upcoming Milestones    Coin Gabbar",
    "projects": []
   },
@@ -18234,105 +18403,6 @@
    "title": "新空投：Raflux ➡️ 註冊：https://raflux.io/?ref=26944025 ➖ 連線 Solana 錢包 ➖ 輸入程式",
    "summary": "新空投：Raflux ➡️ 註冊：https://raflux.io/?ref=26944025 ➖ 連線 Solana 錢包 ➖ 輸入代碼：26944025（+20 積分） ➖ 前往任務 ➖ 完成所有任務 ➖ 每日簽到來源 ➖ 到來源https://x.com/Raflux_io/status/2114698806420013539",
    "original": "New Airdrops: Raflux ➡️ Register: https://raflux.io/?ref=26944025 ➖ Connect Solana wallet ➖ Enter code: 26944025 (+20 points) ➖ Go to Quests ➖ Complete all tasks ➖ Check-In daily 📖 Source: https://x.com/Raflux_io/status/2114698806420013539",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/129732",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/129732",
-   "published": "2026-11-18T09:19:36+00:00",
-   "title": "新候補名單：編隊",
-   "summary": "新候補名單：編隊\n➡️註冊：https://app.formation.so\n➖ 連線新的 Solana 錢包\n➖ 連結你的 X 帳戶\n➖ 加入候補名單並完成所有任務\n➖ 完成\n📖來源：https://x.com/formation_so/status/2122739067855216821",
-   "original": "New Waitlist: Formation\n➡️ Register: https://app.formation.so\n➖ Connect with NEW Solana wallet\n➖ Connect your X account\n➖ Join waitlist & complete all tasks\n➖ Done\n📖 Source: https://x.com/formation_so/status/2122739067855216821",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/129731",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/129731",
-   "published": "2026-11-18T08:36:27+00:00",
-   "title": "領取 APT http://hub.alphea.ai 當 TGE 先生時",
-   "summary": "領取 APT http://hub.alphea.ai 當 TGE 先生時",
-   "original": "Claim APT http://hub.alphea.ai WHEN TGE sir",
-   "projects": []
-  },
-  {
-   "id": "telegram:binance_announcements/9147",
-   "source": "telegram",
-   "channel": "binance_announcements",
-   "url": "https://t.me/binance_announcements/9147",
-   "published": "2026-11-18T08:03:16+00:00",
-   "title": "Binance Pay：這個黑色星期五消費、存款並分享價值高達 140,000 美元的獎勵！",
-   "summary": "Binance Pay：這個黑色星期五消費、存款並分享價值高達 140,000 美元的獎勵！\n隨著黑色星期五和網路星期一的臨近，Binance Pay 正在為所有符合資格的使用者推出限時促銷活動。\n活動期間，符合資格的使用者透過參與商家進行支付、充值法幣或以當地貨幣購買加密貨幣，將有資格為每項任務單獨分享價值 20,000 美元的獎勵池。 \n完成這兩項任務的使用者還將有資格解鎖價值高達 100,000 美元的額外獎勵池！\n👉🏻在這裡瞭解更多\n免責宣告： 蒂",
-   "original": "Binance Pay: Spend, Deposit, and Share Up to $140,000 worth of Rewards This Black Friday!\nWith Black Friday and Cyber Monday approaching, Binance Pay is launching a limited-time promotion for all eligible users.\nDuring the Promotion Period, eligible users who make payments through participating merchants, deposit fiat, or buy crypto with local currencies will be eligible to share a $20,000 valued rewards pool for each task separately. \nUsers who complete both tasks will also be eligible to unlock an additional rewards pool of up to $100,000 worth of rewards!\n👉🏻 Learn more here \nDisclaimer: Thi",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/129729",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/129729",
-   "published": "2026-11-18T06:55:27+00:00",
-   "title": "AX1已正式上線TGE並發放空投。查詢提現：https://console.ax1.vc/quests?view=wallets 市場：ht",
-   "summary": "AX1已正式上線TGE並發放空投。查詢提現：https://console.ax1.vc/quests?view=wallets 市場：https://clanker.world/clanker/0x0947FB7076BFa307796F8fd533055f6016C6cccC",
-   "original": "AX1 has officially launched its TGE and distributed the airdrop. Check and Withdraw: https://console.ax1.vc/quests?view=wallets Market: https://clanker.world/clanker/0x0947FB7076BFa307796F8fd533055f6016C6cccC",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/129728",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/129728",
-   "published": "2026-11-18T06:51:19+00:00",
-   "title": "新空投：AX1 Public Beta ➡️ 註冊：https://www.ax1.vc/console ➖ 點選開始並連線您的 EVM 錢",
-   "summary": "新空投：AX1 Public Beta ➡️ 註冊：https://www.ax1.vc/console ➖ 點選開始並連線你的 EVM 錢包 ➖ 開啟任務 00 ➖ 啟動你的 AX1 特務資料 ➖ 選擇你的角色 + 使用者名稱 ➖ 啟動你的錢包 ▞ 3 特工 完成特工▞ 103 特工：完成",
-   "original": "New Airdrops: AX1 Public Beta ➡️ Register: https://www.ax1.vc/console ➖ Click Start & connect your EVM wallet ➖ Open Mission 00 ➖ Activate your AX1 Agent Profile ➖ Choose your role + username ➖ Select your wallet ➖ Open Agent Wallet ➖ Complete Q01: Agent…",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/129727",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/129727",
-   "published": "2026-11-18T06:06:08+00:00",
-   "title": "Hooja NFT Metamask 使用者白名單",
-   "summary": "Hooja NFT Metamask 使用者白名單\n➡️ 開啟 MetaMask 移動應用程式\n➖ 前往獎勵 → 福利\n➖ 查詢 Hooja 活動\n➖ 完成所有步驟並領取你的 FCFS 席位\n➖ 完成\n注意：如果 Hooja 活動沒有出現在你的「福利」標籤中，則你的帳戶不符合資格。\n📖來源：https://x.com/hoojafun/status/2122707521240469698",
-   "original": "Hooja NFT Whitelist for Metamask User\n➡️ Open MetaMask Mobile App\n➖ Go to Rewards → Benefits\n➖ Find the Hooja campaign\n➖ Complete all steps and claim your FCFS spot\n➖ Done\nNote: If the Hooja campaign doesn't appear in your Benefits tab, your account isn't eligible.\n📖 Source: https://x.com/hoojafun/status/2122707521240469698",
-   "projects": []
-  },
-  {
-   "id": "telegram:binance_announcements/9146",
-   "source": "telegram",
-   "channel": "binance_announcements",
-   "url": "https://t.me/binance_announcements/9146",
-   "published": "2026-11-18T06:02:53+00:00",
-   "title": "幣安升級現貨流動性提供者計畫 (2026-11-16)",
-   "summary": "幣安升級現貨流動性提供者計畫 (2026-11-16)\n幣安升級現貨流動性提供者計畫並限時促銷，自 2026 年 11 月 16 日 00:00（UTC）起生效。除了現有的總現貨交易量軌道外，現在所有級別都可以使用兩個新的資格軌道。\n👉🏻在這裡瞭解更多\n免責宣告：這不適用於歐洲經濟區的使用者。",
-   "original": "Binance Upgrades Spot Liquidity Provider Program (2026-11-16)\nBinance has upgraded its Spot Liquidity Provider Program with a limited-time promotion, effective from 2026-11-16 00:00 (UTC). In addition to the existing Total Spot Volume track, two new qualification tracks are now available for all tiers.\n👉🏻Learn more here\nDisclaimer: This is not available for users in the EEA.",
-   "projects": []
-  },
-  {
-   "id": "telegram:airdropfind/129726",
-   "source": "telegram",
-   "channel": "airdropfind",
-   "url": "https://t.me/airdropfind/129726",
-   "published": "2026-11-18T05:32:04+00:00",
-   "title": "卡洛斯持有者，門是開著的。 Kismo 快照於 UTC 時間 11 月 11 日 08:30 拍攝。此時每位 Kalos 持有者都已加入 K",
-   "summary": "卡洛斯持有者，門是開著的。 Kismo 快照於 UTC 時間 11 月 11 日 08:30 拍攝。此時每位 Kalos 持有者都已加入 Ki​​smo Seekers 白名單中。 ➡️檢查你的：kismonft.com/seekers/#check 📖來源：https://x.com/Kismonft/status/2120444372605165758",
-   "original": "Kalos holders, the door is open. Kismo snapshot was taken on Nov 11 at 08:30 UTC. Every Kalos holder at that moment has been added to the Kismo Seekers Whitelist. ➡️ Check Yours: kismonft.com/seekers/#check 📖 Source: https://x.com/Kismonft/status/2120444372605165758",
-   "projects": []
-  },
-  {
-   "id": "telegram:binance_announcements/9144",
-   "source": "telegram",
-   "channel": "binance_announcements",
-   "url": "https://t.me/binance_announcements/9144",
-   "published": "2026-11-18T04:32:13+00:00",
-   "title": "幣安股票選擇權交易 API 現已上線",
-   "summary": "幣安股票選擇權交易 API 現已上線\n幣安很高興地宣佈幣安股票期權的 API 交易現已上線。使用者現在可以透過安全且開發人員友好的 REST API 以程式設計方式交易在美國上市的股票期權。\n👉🏻在這裡瞭解更多\n免責宣告：這不適用於歐洲經濟區的使用者。",
-   "original": "Binance Stock Options Trading API Is Now Live\nBinance is pleased to announce that API trading for Binance Stock Options is now live. Users can now trade U.S.-listed stock options programmatically through a secure and developer-friendly REST API.\n👉🏻Learn more here\nDisclaimer: This is not available for users in the EEA.",
    "projects": []
   }
  ]
