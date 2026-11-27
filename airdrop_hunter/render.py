@@ -2,13 +2,15 @@
 from __future__ import annotations
 
 import json
+from datetime import timedelta
 import shutil
 from pathlib import Path
 
 from .enrich.rules import clean_step
+from .enrich.translate import polish
 from .enrich.vc import LEVEL_ZH
 from .store import Store
-from .util import safe_url
+from .util import now_utc, parse_iso, safe_url
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -47,9 +49,62 @@ def _main_link(raw: dict, analysis: dict) -> str | None:
     return next((u for l in analysis.get("official_links", []) if (u := safe_url(l.get("url")))), None)
 
 
+def deadline_info(raw_deadline: str | None, now=None) -> dict:
+    """把 'TBA'、'2026-11-11T00:00:00+00:00' 之類的截止時間轉成中文與剩餘天數。"""
+    now = now or now_utc()
+    s = (raw_deadline or "").strip()
+    if not s or s.upper() in ("TBA", "TBD", "N/A", "NONE", "未公布", "UNKNOWN") or s.startswith("未"):
+        return {"deadline_zh": "未公布", "days_left": None}
+    dt = parse_iso(s)
+    if not dt:
+        return {"deadline_zh": s, "days_left": None}
+    days = (dt - now).total_seconds() / 86400
+    date_zh = f"{dt.year}/{dt.month}/{dt.day}"
+    if days < 0:
+        return {"deadline_zh": f"{date_zh}（已截止）", "days_left": int(days)}
+    left = "今天截止" if days < 1 else f"剩 {int(days)} 天"
+    return {"deadline_zh": f"{date_zh}（{left}）", "days_left": int(days)}
+
+
+def recommend_score(p: dict) -> int:
+    """推薦指數 0–100：值不值得做（有大機構、官方確認、免費、簡單、低風險、新出現的排前面）。"""
+    if p["status"] == "ended":
+        return 0
+    s = {"top": 28, "notable": 18, "some": 6}.get(p["backing_level"], 0)
+    s += {"claimable": 22, "ongoing": 12, "upcoming": 8, "potential": 2}.get(p["status"], 0)
+    s += 12 if p["confirmed"] == "confirmed" else 0
+    s += {"free": 18, "gas_only": 15, "unknown": 6, "deposit": 4, "paid": 0}.get(p["cost_type"], 0)
+    s += (5 - p["difficulty"]) * 3
+    s += {"low": 8, "medium": 3, "high": -40}.get(p["risk_level"], 0)
+    s += min(10, p["score"] / 10)                      # 來源熱度
+    if p["first_seen"] and (parse_iso(p["first_seen"]) or now_utc()) > now_utc() - timedelta(days=7):
+        s += 6                                        # 一週內新出現
+    if p["social_only"]:
+        s -= 10
+    if p["days_left"] is not None and 0 <= p["days_left"] <= 7:
+        s += 4                                        # 快截止了，提醒一下
+    if not p["steps"]:
+        s -= 10
+    return max(1, min(100, round(s)))
+
+
 def public_project(rec: dict) -> dict:
+    out = _public_project(rec)
+    # 詞彙表修正（連線你的錢包 → 連接錢包…），舊資料不用重新翻譯也能立即改善
+    for k in ("summary", "reward", "distribution", "cost_note", "backing_note", "tips", "time_commitment"):
+        out[k] = polish(out[k] or "")
+    for k in ("steps", "notes", "risks"):
+        out[k] = [polish(x) for x in out[k]]
+    out["recommend"] = recommend_score(out)
+    return out
+
+
+def _public_project(rec: dict) -> dict:
     raw, a = rec["raw"], rec.get("analysis") or {}
     status = "ended" if rec.get("stale") else (a.get("status") or raw["status"])
+    dl = deadline_info(a.get("deadline") or raw.get("end"))
+    if dl["days_left"] is not None and dl["days_left"] < -1 and status != "claimable":
+        status = "ended"      # 已過截止日
     diff = a.get("difficulty") or 3
     return {
         "key": rec["key"],
@@ -79,6 +134,7 @@ def public_project(rec: dict) -> dict:
         "distribution": a.get("distribution", ""),
         "requirements": a.get("requirements", []),
         "deadline": a.get("deadline", ""),
+        **deadline_info(a.get("deadline") or raw.get("end")),
         "risk_level": a.get("risk_level", "medium"),
         "risk_zh": RISK_ZH.get(a.get("risk_level", "medium")),
         "risks": a.get("risks", []),
@@ -107,7 +163,7 @@ def public_post(p: dict) -> dict:
         "id": p["id"], "source": p["source"], "channel": p["channel"], "url": safe_url(p["url"]),
         "published": p.get("published") or p.get("first_seen"),
         "title": zh.get("title_zh") or p.get("title") or (zh.get("summary_zh") or p["text"]).split("\n")[0][:70],
-        "summary": zh.get("summary_zh") or p["text"][:300],
+        "summary": polish(zh.get("summary_zh") or p["text"][:300]),
         "original": (p.get("title") + "\n" if p.get("title") else "") + p["text"][:600],
         "projects": p.get("projects", []),
     }
@@ -115,7 +171,7 @@ def public_post(p: dict) -> dict:
 
 def build_public(store: Store) -> dict:
     projects = [public_project(r) for r in store.projects.values() if "raw" in r]
-    projects.sort(key=lambda p: (p["status"] == "ended", -p["score"]))
+    projects.sort(key=lambda p: (p["status"] == "ended", -p["recommend"], -p["score"]))
     posts = [public_post(p) for p in store.posts.values() if p.get("relevant", True)]
     posts.sort(key=lambda p: p["published"] or "", reverse=True)
     return {"updated_at": store.data.get("updated_at"), "last_run": store.data.get("last_run"),

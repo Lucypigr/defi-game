@@ -90,7 +90,7 @@ def project_from_extraction(e: dict, post: dict) -> Project:
     )
 
 
-ANALYSIS_VERSION = 3   # 分析邏輯改版時 +1，所有項目會重新分析
+ANALYSIS_VERSION = 4   # 分析邏輯改版時 +1，所有項目會重新分析
 
 
 def _analysis_input_hash(raw: dict) -> str:

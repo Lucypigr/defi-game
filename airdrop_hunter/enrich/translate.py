@@ -77,40 +77,104 @@ def _request(chunk: str, target: str) -> str | None:
         return None
 
 
-def translate(text: str, target: str = "zh-TW") -> str:
+# 一律不翻譯的專有名詞（錢包、平台、幣種），避免被翻成奇怪的中文
+ALWAYS_KEEP = ["MetaMask", "Rabby", "Phantom", "Keplr", "Backpack", "OKX Wallet", "Trust Wallet", "Discord",
+               "Telegram", "Galxe", "Zealy", "Layer3", "Guild", "Twitter", "USDC", "USDT", "ETH", "SOL", "BNB",
+               "TGE", "Gas", "DeFi", "NFT", "EVM", "Solana", "Ethereum", "Arbitrum", "Base", "Hyperliquid"]
+
+# 機器翻譯常見的怪翻譯 → 加密貨幣圈常用說法（只用於繁體）
+GLOSSARY_TW = [
+    (r"連(?:線|結)(?:你|您)?的?錢包", "連接錢包"),
+    (r"(推薦|邀請|存取|訪問)(?:程式碼|代碼)", r"\1碼"),
+    (r"程式碼", "代碼"),
+    (r"立即播放", "立即開始遊戲"),
+    (r"(?:等候|等待|候補)名單", "候補名單"),
+    (r"點數", "積分"),
+    (r"(?:造訪|訪問)", "前往"),
+    (r"水龍頭(?!\s*[（(]Faucet)", "水龍頭（Faucet，免費領測試幣）"),
+    (r"您", "你"),
+    (r"永續期貨", "永續合約"),
+    (r"空投下降", "空投"),
+]
+_GLOSSARY = [(re.compile(a), b) for a, b in GLOSSARY_TW]
+_TOKEN = re.compile(r"ZQX\s?(\d+)")
+
+
+def polish(text: str, target: str = "zh-TW") -> str:
+    """套用詞彙表，修正常見的機器翻譯用語。"""
+    if target != "zh-TW":
+        return text
+    for rx, rep in _GLOSSARY:
+        text = rx.sub(rep, text)
+    return text
+
+
+def _protect(text: str, keep) -> tuple[str, list[str]]:
+    """把網址、$代幣、專有名詞換成 ZQX0、ZQX1… 佔位符，翻譯後再換回來。"""
+    saved: list[str] = []
+
+    def stash(m: re.Match) -> str:
+        saved.append(m.group(0))
+        return f"ZQX{len(saved) - 1}"
+
+    text = re.sub(r"https?://[^\s)）」，。]+", stash, text)
+    text = re.sub(r"\$[A-Za-z][A-Za-z0-9]{1,11}\b", stash, text)
+    names = sorted({n for n in list(keep) + ALWAYS_KEEP if n and len(n) >= 3}, key=len, reverse=True)
+    if names:
+        rx = re.compile(r"(?<![A-Za-z0-9])(?:" + "|".join(re.escape(n) for n in names) + r")(?![A-Za-z0-9])")
+        text = rx.sub(stash, text)
+    return text, saved
+
+
+def _restore(text: str, saved: list[str]) -> str | None:
+    found = {int(m.group(1)) for m in _TOKEN.finditer(text)}
+    if found != set(range(len(saved))):
+        return None          # Google 弄丟或改壞了佔位符 → 改用不保護的翻譯
+    return _TOKEN.sub(lambda m: saved[int(m.group(1))], text)
+
+
+def translate(text: str, target: str = "zh-TW", keep=()) -> str:
     text = (text or "").strip()
     if not text:
         return text
+    protected, saved = _protect(text, keep)
     cache = _load()
-    key = hashlib.sha1(f"{target}\0{text}".encode()).hexdigest()[:20]
+    key = hashlib.sha1(f"{target}\0{protected}\0{saved}".encode()).hexdigest()[:20]
     if hit := cache.get(key):
         hit["used"] = iso(now_utc())[:10]
-        return hit["t"]
+        return polish(hit["t"], target)
     out, ok = [], True
-    for chunk in _chunks(text, 1800):
+    for chunk in _chunks(protected, 1800):
         res = _request(chunk, target)
         if res is None:
             ok = False
             res = chunk
         out.append(res)
-    result = "\n".join(out)
+    result = _restore("\n".join(out), saved) if ok else None
+    if result is None:
+        if ok and saved:          # 佔位符壞掉：直接翻原文
+            raw = [_request(c, target) for c in _chunks(text, 1800)]
+            ok = all(r is not None for r in raw)
+            result = "\n".join(r if r is not None else c for r, c in zip(raw, _chunks(text, 1800)))
+        else:
+            result = text
     if target in _CONVERTERS:
         result = _CONVERTERS[target].convert(result)
     if ok:
         cache[key] = {"t": result, "used": iso(now_utc())[:10]}
-    return result
+    return polish(result, target)
 
 
-def translate_list(items: list[str], target: str = "zh-TW") -> list[str]:
+def translate_list(items: list[str], target: str = "zh-TW", keep=()) -> list[str]:
     """把多行合併成一次請求翻譯，再拆回來（省請求次數）。"""
     if not items:
         return []
-    joined = translate("\n".join(i.replace("\n", " ") for i in items), target)
+    joined = translate("\n".join(i.replace("\n", " ") for i in items), target, keep)
     parts = joined.split("\n")
     if len(parts) != len(items):
-        return [translate(i, target) for i in items]
-    # Google 偶爾會跳過含網址的英文行（原封不動傳回）→ 單獨再翻一次
-    return [translate(src, target) if out.strip() == src.strip() and _mostly_latin(src) else out
+        return [translate(i, target, keep) for i in items]
+    # Google 偶爾會跳過整行英文（原封不動傳回）→ 單獨再翻一次
+    return [translate(src, target, keep) if out.strip() == src.strip() and _mostly_latin(src) else out
             for src, out in zip(items, parts)]
 
 

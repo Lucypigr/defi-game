@@ -90,6 +90,23 @@ ol.steps li::before{content:counter(s);width:24px;height:24px;border-radius:50%;
 .btn.ghost{flex:1}
 .meta{color:var(--muted);font-size:12.5px}
 .empty{padding:50px 16px;text-align:center;color:var(--muted)}
+.rec{display:inline-flex;align-items:baseline;gap:3px;font-weight:800;border-radius:8px;padding:1px 8px;font-size:13px}
+.rec b{font-size:16px}
+.card-head{display:flex;gap:10px;align-items:flex-start;justify-content:space-between}
+.star{flex:none;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:4px 10px;cursor:pointer;font-size:14px;white-space:nowrap}
+.star[aria-pressed="true"]{background:var(--warn-bg);color:var(--warn);border-color:transparent;font-weight:700}
+.progress{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+.bar{flex:1;height:8px;border-radius:99px;background:var(--gray-bg);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--good)}
+.picks{margin:4px 0 16px}
+.picks h2{font-size:17px;margin:0 0 8px}
+.picks-row{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(230px,1fr);gap:10px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+.pick{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:6px;cursor:pointer;text-align:left;box-shadow:var(--shadow)}
+.pick strong{font-size:16px;overflow-wrap:anywhere}
+.pick span{font-size:13px;color:var(--muted)}
+ol.steps.check li{grid-template-columns:26px 1fr 34px;align-items:start}
+ol.steps li.done span{text-decoration:line-through;opacity:.55}
+.tick{width:26px;height:26px;margin:0;accent-color:var(--good);cursor:pointer}
 
 /* 詳細頁（彈出視窗） */
 dialog{border:0;padding:0;background:transparent;color:var(--ink);max-width:760px;width:100%;max-height:100%}
@@ -140,11 +157,13 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
   <button role="tab" data-tab="all" aria-selected="true">全部</button>
   <button role="tab" data-tab="defi">🪂 DeFi 空投</button>
   <button role="tab" data-tab="p2e">🎮 P2E 遊戲</button>
+  <button role="tab" data-tab="mine" id="mineTab">⭐ 我的追蹤</button>
   <button role="tab" data-tab="posts">📰 最新情報</button>
   <button role="tab" data-tab="guide">🛡️ 新手必看</button>
 </nav>
 
 <section id="projectView">
+  <div class="picks" id="picks"></div>
   <div class="toolbar">
     <input id="q" class="search" type="search" placeholder="🔍 搜尋項目名稱、鏈、投資方…">
     <div class="quick" id="quick">
@@ -160,8 +179,10 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
     <div class="row">
       <label>排序
         <select id="sort">
+          <option value="rec">👍 推薦優先</option>
           <option value="score">🔥 熱門優先</option>
           <option value="new">🆕 最新發現</option>
+          <option value="deadline">⏰ 快截止的優先</option>
           <option value="easy">👶 最簡單</option>
           <option value="backing">🏦 支撐最強</option>
         </select>
@@ -195,7 +216,9 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
       <li><b>⭐ 難度</b>：★ 幾分鐘的簡單任務 → ★★★ 要持續互動或投入資金 → ★★★★★ 要架節點、技術操作或大量資金。</li>
       <li><b>🏦 支撐</b>：<b>頂級機構</b>＝a16z、Paradigm、幣安 (YZi Labs)、Coinbase 等一線機構，或大公司 / 公鏈基金會投資；<b>知名機構</b>＝中型知名基金或募資超過 500 萬美元。</li>
       <li><b>狀態</b>：<b>進行中</b>＝現在就能做；<b>即將開始</b>＝已公布但還沒開放；<b>潛在空投</b>＝官方還沒說要發，但有機會（例如還沒發幣、但很多人在用的協議）；<b>可領取</b>＝已經可以去 Claim。</li>
+      <li><b>👍 推薦指數（0–100）</b>：綜合「背後支撐、官方是否確認、費用、難度、風險、是否剛出現、是否快截止」算出來，越高越值得先做。75 分以上綠色、50 分以上藍色。</li>
       <li>按卡片上的 <b>「📖 完整教學」</b> 可以看全部步驟、獎勵怎麼發、風險和所有官方連結。</li>
+      <li><b>⭐ 追蹤 / 打勾</b>：按卡片右上角「☆ 追蹤」，或在完整教學裡把做完的步驟打勾，項目就會出現在「我的追蹤」分頁並顯示進度。資料只存在你這台手機 / 電腦的瀏覽器裡，換裝置不會同步。</li>
     </ul>
     <h3>🛡️ 防詐騙須知（一定要看）</h3>
     <ul>
@@ -247,6 +270,39 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
   const stars = n => "★".repeat(n) + "☆".repeat(5 - n);
   const isNew = p => p.first_seen && Date.now() - new Date(p.first_seen) < 3 * DAY;
 
+  // ── 我的追蹤 / 步驟進度：存在這台裝置的瀏覽器裡 ──
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+  };
+  const tracked = () => store.get("tracked", []);
+  const isTracked = p => tracked().includes(p.key);
+  function toggleTrack(p) {
+    const t = tracked();
+    store.set("tracked", t.includes(p.key) ? t.filter(k => k !== p.key) : [...t, p.key]);
+    updateMineTab();
+  }
+  const doneSteps = p => store.get("done:" + p.key, []);
+  function setDone(p, i, on) {
+    const d = new Set(doneSteps(p));
+    on ? d.add(i) : d.delete(i);
+    store.set("done:" + p.key, [...d]);
+    if (on && !isTracked(p)) toggleTrack(p);
+  }
+  function updateMineTab() { $("#mineTab").textContent = `⭐ 我的追蹤 (${tracked().length})`; }
+  const recClass = r => r >= 75 ? "good" : r >= 50 ? "info" : r >= 30 ? "warn" : "bad";
+  function reasons(p) {
+    return [p.status === "claimable" && "現在可領取", p.backing_level === "top" && "頂級機構",
+      p.confirmed === "confirmed" && "官方已確認", (p.cost_type === "free" || p.cost_type === "gas_only") && p.cost_zh,
+      p.difficulty <= 2 && DIFF_SHORT[p.difficulty]].filter(Boolean).slice(0, 3).join(" · ");
+  }
+  function progressBar(p) {
+    const n = p.steps.length, d = doneSteps(p).filter(i => i < n).length;
+    if (!n || (!d && !isTracked(p))) return null;
+    return el("div", { class: "progress" }, el("span", { text: d === n ? "✅ 已完成" : `進度 ${d}/${n}` }),
+      el("div", { class: "bar" }, el("i", { style: `width:${Math.round(d / n * 100)}%` })));
+  }
+
   const tone = {
     status: v => ({ ongoing: "good", claimable: "good", upcoming: "info", potential: "warn" })[v] || "",
     cost: v => ({ free: "good", gas_only: "good", deposit: "warn", paid: "bad" })[v] || "",
@@ -262,6 +318,7 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
       el("span", { class: "badge " + tone.status(p.status), text: p.status_zh }),
       p.confirmed === "confirmed" ? el("span", { class: "badge good", text: "✅ 官方已確認" }) : null,
       isNew(p) ? el("span", { class: "badge bad", text: "🆕 新" }) : null,
+      p.days_left != null && p.days_left >= 0 && p.days_left <= 14 ? el("span", { class: "badge warn", text: p.days_left < 1 ? "⏰ 今天截止" : `⏰ 剩 ${p.days_left} 天` }) : null,
     ];
   }
 
@@ -276,9 +333,16 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
 
   function card(p) {
     const steps = p.steps || [];
+    const star = el("button", { class: "star", type: "button", "aria-pressed": String(isTracked(p)),
+      onclick: e => { toggleTrack(p); e.currentTarget.setAttribute("aria-pressed", String(isTracked(p))); e.currentTarget.textContent = isTracked(p) ? "★ 追蹤中" : "☆ 追蹤";
+        if (state.tab === "mine") render(); } }, isTracked(p) ? "★ 追蹤中" : "☆ 追蹤");
     return el("article", { class: "card" },
       el("div", { class: "card-top" }, badges(p)),
-      el("h3", { text: p.name }),
+      el("div", { class: "card-head" },
+        el("div", {}, el("h3", { text: p.name }),
+          p.recommend ? el("span", { class: "rec " + recClass(p.recommend), title: "推薦指數：綜合背後支撐、是否官方確認、費用、難度、風險計算" }, "👍 推薦 ", el("b", { text: p.recommend })) : null),
+        star),
+      progressBar(p),
       p.summary ? el("p", { class: "summary", text: p.summary }) : null,
       tiles(p),
       el("div", { class: "howto" },
@@ -305,18 +369,34 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
         el("div", {}, el("div", { class: "card-top" }, badges(p)), el("h2", { text: p.name })),
         el("button", { class: "iconbtn close", type: "button", "aria-label": "關閉", onclick: () => $("#detail").close() }, "✕")),
       el("div", { class: "sheet-body" },
+        el("div", { class: "card-head" },
+          p.recommend ? el("span", { class: "rec " + recClass(p.recommend) }, "👍 推薦指數 ", el("b", { text: p.recommend }), el("span", { class: "meta", text: reasons(p) ? "　" + reasons(p) : "" })) : el("span"),
+          el("button", { class: "star", id: "detailStar", type: "button", "aria-pressed": String(isTracked(p)), onclick: e => { toggleTrack(p); e.currentTarget.setAttribute("aria-pressed", String(isTracked(p))); e.currentTarget.textContent = isTracked(p) ? "★ 追蹤中" : "☆ 加入追蹤"; render(); } }, isTracked(p) ? "★ 追蹤中" : "☆ 加入追蹤")),
         p.summary ? box("📝 項目介紹", el("p", { text: p.summary })) : null,
         tiles(p),
         p.main_link ? el("div", { class: "actions" }, link(p.main_link, "🚀 前往參與（官方網站）", "btn primary")) : null,
-        box("📋 如何進行（一步一步做）", p.steps.length
-          ? el("ol", { class: "steps" }, p.steps.map(s => el("li", {}, el("span", {}, linkify(s)))))
+        box("📋 如何進行（做完一步就打勾，進度會自動儲存）", p.steps.length
+          ? el("ol", { class: "steps check" }, p.steps.map((s, i) => {
+              const done = doneSteps(p).includes(i);
+              const li = el("li", { class: done ? "done" : "" }, el("span", {}, linkify(s)));
+              const cb = el("input", { type: "checkbox", class: "tick", "aria-label": `第 ${i + 1} 步完成` });
+              cb.checked = done;
+              cb.addEventListener("change", () => {
+                setDone(p, i, cb.checked); li.classList.toggle("done", cb.checked);
+                const st = $("#detailStar");
+                if (st) { st.setAttribute("aria-pressed", String(isTracked(p))); st.textContent = isTracked(p) ? "★ 追蹤中" : "☆ 加入追蹤"; }
+                render();
+              });
+              li.append(cb);
+              return li;
+            }))
           : el("p", { text: "來源沒有提供詳細步驟，請從下方官方連結進入，依官網說明操作。" })),
         box("💡 補充說明", list(p.notes)),
         box("🎁 獎勵與發放方式",
           el("dl", { class: "kv" },
             el("dt", { text: "獎勵內容" }), el("dd", { text: p.reward || "未公布" }),
             el("dt", { text: "完成後如何發放" }), el("dd", { text: p.distribution || "未公布" }),
-            el("dt", { text: "截止時間" }), el("dd", { text: p.deadline || "未公布" }),
+            el("dt", { text: "截止時間" }), el("dd", { text: p.deadline_zh || "未公布" }),
             el("dt", { text: "官方確認" }), el("dd", { text: p.confirmed_zh || "" }))),
         box("💰 費用與時間",
           el("dl", { class: "kv" },
@@ -360,19 +440,33 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
   function renderProjects() {
     const q = $("#q").value.trim().toLowerCase();
     const sort = $("#sort").value, showEnded = $("#showEnded").checked;
+    const mine = state.tab === "mine";
     let rows = state.data.projects.filter(p =>
-      (state.tab === "all" || p.kind === state.tab) && QUICK[state.quick](p) &&
-      (showEnded || p.status !== "ended") &&
+      (mine ? isTracked(p) : (state.tab === "all" || p.kind === state.tab)) && QUICK[state.quick](p) &&
+      (mine || showEnded || p.status !== "ended") &&
       (!q || [p.name, p.summary, p.chains.join(" "), p.backers.join(" "), p.tags.join(" ")].join(" ").toLowerCase().includes(q)));
     const by = {
+      rec: (a, b) => b.recommend - a.recommend || b.score - a.score,
       score: (a, b) => b.score - a.score,
+      deadline: (a, b) => (a.days_left ?? 1e9) - (b.days_left ?? 1e9) || b.recommend - a.recommend,
       new: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || ""),
       easy: (a, b) => a.difficulty - b.difficulty || b.score - a.score,
       backing: (a, b) => BACK_RANK[b.backing_level] - BACK_RANK[a.backing_level] || b.score - a.score,
     }[sort];
     rows = rows.sort((a, b) => (a.status === "ended") - (b.status === "ended") || by(a, b));
     $("#count").textContent = `共 ${rows.length} 個`;
-    $("#grid").replaceChildren(...(rows.length ? rows.slice(0, 300).map(card) : [el("div", { class: "empty", text: "沒有符合條件的項目，試試其他篩選 🙂" })]));
+    $("#grid").replaceChildren(...(rows.length ? rows.slice(0, 300).map(card) : [el("div", { class: "empty",
+      text: mine ? "還沒有追蹤任何項目。在卡片右上角按「☆ 追蹤」，或在完整教學裡打勾步驟，就會出現在這裡。" : "沒有符合條件的項目，試試其他篩選 🙂" })]));
+    // 今日精選：只在「全部」分頁、沒有搜尋和篩選時顯示
+    const showPicks = state.tab === "all" && !q && !state.quick;
+    const picks = showPicks ? state.data.projects.filter(p => p.status !== "ended" && p.steps.length >= 2 && !isTracked(p))
+      .sort((a, b) => b.recommend - a.recommend).slice(0, 6) : [];
+    $("#picks").replaceChildren(...(picks.length ? [el("h2", { text: "🔥 今日精選：最值得先做的項目" }),
+      el("div", { class: "picks-row" }, picks.map(p => el("button", { class: "pick", type: "button", onclick: () => openDetail(p) },
+        el("div", { class: "card-top" }, el("span", { class: "rec " + recClass(p.recommend) }, "👍 ", el("b", { text: p.recommend })),
+          el("span", { class: "badge " + tone.status(p.status), text: p.status_zh })),
+        el("strong", { text: (p.kind === "p2e" ? "🎮 " : "🪂 ") + p.name }),
+        el("span", { text: reasons(p) || p.cost_zh }))))] : []));
   }
 
   function renderPosts() {
@@ -392,7 +486,7 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
 
   function render() {
     if (!state.data) return;
-    $("#projectView").hidden = !["all", "defi", "p2e"].includes(state.tab);
+    $("#projectView").hidden = !["all", "defi", "p2e", "mine"].includes(state.tab);
     $("#postView").hidden = state.tab !== "posts";
     $("#guideView").hidden = state.tab !== "guide";
     if (!$("#projectView").hidden) renderProjects();
@@ -443,6 +537,7 @@ footer{color:var(--muted);font-size:12.5px;padding:30px 0 40px}
     state.postIndex = Object.fromEntries(d.posts.map(p => [p.id, p]));
     state.projIndex = Object.fromEntries(d.projects.map(p => [p.key, p]));
     renderHeader(d);
+    updateMineTab();
     render();
     const key = decodeURIComponent(location.hash.slice(1));     // 分享連結 #項目 可直接打開詳細頁
     if (key && state.projIndex[key]) openDetail(state.projIndex[key]);

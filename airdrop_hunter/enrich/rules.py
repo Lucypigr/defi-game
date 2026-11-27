@@ -25,7 +25,16 @@ _SCAM = re.compile(r"(seed phrase|private key|recovery phrase|send (?:eth|usdt|b
 _GAME = re.compile(r"\b(game|gaming|gamefi|play-to-earn|play to earn|p2e|quest game|rpg|nft game|metaverse)\b", re.I)
 
 
+def keep_terms(p: Project) -> list[str]:
+    """這個項目不該被翻譯的名稱：項目名、去掉括號的名稱、名稱裡的大寫單字、鏈名稱。"""
+    base = re.sub(r"\s*\(.*?\)", "", p.name).strip()
+    words = [w for w in re.findall(r"[A-Z][A-Za-z0-9.]{3,}", p.name)]
+    return list(dict.fromkeys([p.name, base, *words, *p.chains]))
+
+
 def analyze(p: Project, related_posts: list[dict], lang: str = "zh-TW") -> dict:
+    fails_before = _tr.fail_count()
+    keep = keep_terms(p)
     # 難度 / 費用只看「要做的事」，避免被產品介紹裡的 trading、stake 等字眼誤判
     text = " ".join([p.actions, " ".join(p.steps) if p.steps else p.description, p.cost_hint, " ".join(p.tags)])
     backers = [b["name"] for b in p.backers]
@@ -89,12 +98,11 @@ def analyze(p: Project, related_posts: list[dict], lang: str = "zh-TW") -> dict:
         else "medium" if risks else "low"
 
     summary_src = "\n".join((p.description or p.actions or "").split("\n")[:2])[:700]
-    template = generic_steps(p, translate(p.actions, lang) if p.actions else "") if len(p.steps) < 2 else []
+    template = generic_steps(p, translate(p.actions, lang, keep) if p.actions else "") if len(p.steps) < 2 else []
     steps_src = p.steps if len(p.steps) >= 2 else []
     notes_src = [n for n in p.extra.get("notes", []) if n][:6]
-    fails_before = _tr.fail_count()
     result = {
-        "summary": translate(summary_src, lang) if summary_src else "",
+        "summary": translate(summary_src, lang, keep) if summary_src else "",
         "kind": "p2e" if p.kind == "p2e" or _GAME.search(text) else "defi",
         "status": p.status,
         "confirmed": "confirmed" if p.confirmed else ("unconfirmed" if p.confirmed is False else "speculative"),
@@ -108,9 +116,9 @@ def analyze(p: Project, related_posts: list[dict], lang: str = "zh-TW") -> dict:
         "cost_note": {"free": "只需錢包或社群帳號，不用花錢。", "gas_only": "只需少量鏈上手續費 (Gas)。",
                       "deposit": "需要存入 / 交易資金才能累積資格。", "paid": "需要購買代幣或 NFT 才能遊玩。",
                       "unknown": "資訊不足，請以官方說明為準。"}[cost_type],
-        "steps": template or [clean_step(s) for s in translate_list([s[:400] for s in steps_src[:12]], lang)],
-        "notes": translate_list([n[:300] for n in notes_src], lang) if notes_src else [],
-        "reward": translate(p.reward_hint, lang) if p.reward_hint else "未公布",
+        "steps": template or [clean_step(s) for s in translate_list([s[:400] for s in steps_src[:12]], lang, keep)],
+        "notes": translate_list([n[:300] for n in notes_src], lang, keep) if notes_src else [],
+        "reward": translate(p.reward_hint, lang, keep) if p.reward_hint else "未公布",
         "distribution": distribution,
         "requirements": sorted(set(p.requirements + ["錢包 (Wallet)"])),
         "deadline": p.end or "未公布",

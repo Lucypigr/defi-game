@@ -11,9 +11,9 @@ from airdrop_hunter.store import Store
 
 @pytest.fixture(autouse=True)
 def no_network_translate(monkeypatch):
-    fake = lambda text, lang="zh-TW": f"譯:{text}" if text else ""   # noqa: E731
+    fake = lambda text, lang="zh-TW", keep=(): f"譯:{text}" if text else ""   # noqa: E731
     monkeypatch.setattr(rules, "translate", fake)
-    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW": [fake(i) for i in items])
+    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW", keep=(): [fake(i) for i in items])
 
 
 def _projects():
@@ -143,19 +143,19 @@ def test_failed_translation_is_retried_next_run(tmp_path, monkeypatch):
     fails = {"n": 0}
     monkeypatch.setattr(tr, "fail_count", lambda: fails["n"])
 
-    def flaky(text, lang="zh-TW"):
+    def flaky(text, lang="zh-TW", keep=()):
         fails["n"] += 1          # 模擬 Google 限流：每次翻譯都失敗
         return text
     monkeypatch.setattr(rules, "translate", flaky)
-    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW": [flaky(i) for i in items])
+    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW", keep=(): [flaky(i) for i in items])
 
     store = Store(tmp_path / "db.json")
     pipeline.run({}, store, use_ai=False, collect_fn=lambda cfg: (_projects()[:1], []))
     rec = store.projects["foo"]
     assert rec["analysis"] and rec["analysis_hash"] is None      # 先顯示原文，但標記下次重試
 
-    monkeypatch.setattr(rules, "translate", lambda text, lang="zh-TW": f"譯:{text}" if text else "")
-    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW": [f"譯:{i}" for i in items])
+    monkeypatch.setattr(rules, "translate", lambda text, lang="zh-TW", keep=(): f"譯:{text}" if text else "")
+    monkeypatch.setattr(rules, "translate_list", lambda items, lang="zh-TW", keep=(): [f"譯:{i}" for i in items])
     pipeline.run({}, store, use_ai=False, collect_fn=lambda cfg: (_projects()[:1], []))
     rec = store.projects["foo"]
     assert rec["analysis_hash"] and rec["analysis"]["steps"][0].startswith("譯:")
@@ -186,3 +186,40 @@ def test_translate_list_retries_untranslated_lines(monkeypatch):
     monkeypatch.setattr(tr, "_request", fake_request)
     out = tr.translate_list(["Open the deposit page (https://a.b/x).", "Connect wallet."])
     assert out == ["譯Open the deposit page (https://a.b/x).", "譯Connect wallet."]
+
+
+def test_translation_protects_names_and_polishes(monkeypatch):
+    from airdrop_hunter.enrich import translate as tr
+    seen = []
+
+    def fake_request(chunk, target):
+        seen.append(chunk)
+        # 模擬 Google：把英文翻成中文，但佔位符原樣保留
+        return (chunk.replace("Go to the", "前往").replace("page", "頁面")
+                .replace("connect your wallet", "連線您的錢包").replace("enter the referral code", "輸入推薦程式碼"))
+    monkeypatch.setattr(tr, "_request", fake_request)
+    out = tr.translate("Go to the Base Guild page (https://era.guild.xyz/base), connect your wallet, "
+                       "enter the referral code and claim $BP", keep=["Base"])
+    assert "Base" not in seen[0] and "https://" not in seen[0] and "$BP" not in seen[0]   # 送出前已替換
+    assert out == "前往 Base Guild 頁面 (https://era.guild.xyz/base), 連接錢包, 輸入推薦碼 and claim $BP"
+
+
+def test_translation_falls_back_when_placeholders_break(monkeypatch):
+    from airdrop_hunter.enrich import translate as tr
+    monkeypatch.setattr(tr, "_request", lambda chunk, target: "壞掉了" if "ZQX" in chunk else "前往 Base")
+    assert tr.translate("Go to Base", keep=["Base"]) == "前往 Base"
+
+
+def test_deadline_info_and_recommend():
+    from datetime import datetime, timezone
+    now = datetime(2026, 11, 27, tzinfo=timezone.utc)
+    assert render.deadline_info("TBA", now) == {"deadline_zh": "未公布", "days_left": None}
+    assert render.deadline_info("2026-12-02T00:00:00+00:00", now)["deadline_zh"] == "2026/12/2（剩 5 天）"
+    assert "已截止" in render.deadline_info("2026-11-11T00:00:00+00:00", now)["deadline_zh"]
+
+    base = dict(status="ongoing", backing_level="top", confirmed="confirmed", cost_type="free", difficulty=1,
+                risk_level="low", score=50, first_seen=None, social_only=False, days_left=None, steps=["a", "b"])
+    good = render.recommend_score(base)
+    bad = render.recommend_score({**base, "backing_level": "none_known", "confirmed": "speculative", "cost_type": "deposit",
+                                  "difficulty": 5, "risk_level": "high"})
+    assert good > 70 and bad < 10 and render.recommend_score({**base, "status": "ended"}) == 0
