@@ -1,6 +1,6 @@
 # 空投 / P2E 項目清單
 
-最後更新：2026-11-27T23:30:17+00:00（自動產生，請勿手動修改）
+最後更新：2026-11-28T07:52:04+00:00（自動產生，請勿手動修改）
 
 > ⚠️ 本清單由程式自動整理，不構成投資建議。任何要求你提供助記詞 / 私鑰的都是詐騙。
 
@@ -57,8 +57,8 @@
 | [USDD](https://usdd.io/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 去中心化美元（USDD）是一種完全去中心化的穩定幣，透過加密貨幣儲備與美元掛鉤 |
 | [Saturn](https://app.saturn.credit/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Saturn 是一種由比特幣支援的雙代幣信用協議，其中 USDat 是由代幣化國庫券支援的穩定幣，sUSDat 是由數位信用敞口支援的收益版本。 |
 | [K3 Capital](https://k3.capital) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 去中心化金融領域領先的機構資產與風險管理 |
-| [Clearstar](https://clearstar.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 建構鏈上基礎設施和策略。 |
 | [Project X](https://www.prjx.com) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Project X 建立在這樣的信念之上：科技正變得越來越商品化，而 DeFi 的下一個時代將透過在分發、激勵設計和使用者體驗方面的創新來贏得。 |
+| [Clearstar](https://clearstar.xyz) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 建構鏈上基礎設施和策略。 |
 | [Doppler Finance](https://x.com/doppler_fi) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | XRPL 上的第一個 XRPfi 協議 |
 | [Shift DeFi](https://shiftdefi.com/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | 非託管 DeFi 平臺為投資組合建構、風險管理和鏈上收益提供製度方法 |
 | [Gami Labs](https://gamilabs.io/) | 潛在空投（未確認） | 未知 / 無公開投資方 | ★★ | 未知 | 中 | Gami提供具有主動管理和動態風險管理的鏈上資產管理基礎架構。 |
@@ -106,7 +106,8 @@
 | [Illuvium](https://illuvium.io/) | 進行中 | 頂級機構支持 | ★★★ | 需付費 / 購買 | 中 | Illuvium 是建立在 Ethereum 網路上的去中心化的互聯優質遊戲系列。其主要價值主張是將高產值遊戲與可驗證的數位資產所有權結合，即「邊玩邊賺錢」模式。該專案是一款開放世 |
 | [Pixie Chess](https://www.pixiechess.xyz/) | 進行中 | 頂級機構支持 | ★★★ | 需投入資金 | 中 | Pixie Chess 是由 Paradigm 支援的新版本國際象棋。收集獨特的棋子並參加錦標賽來賺取真錢。 |
 | [Yield Guild Games](https://yieldguild.io/) | 進行中 | 知名機構支持 | ★ | 需付費 / 購買 | 中 | Yield Guild Games (YGG) 是世界上第一個也是最大的 web3 遊戲公會，玩家可以在這裡找到自己的社群、發現遊戲並一起升級。其使命是成為 web3 遊戲領域領先 |
-| [Portal](https://www.portalgaming.com/) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 讓第一批 10 億玩家進入 Web3。 |
+| [WAX](https://wax.io/) | 進行中 | 知名機構支持 | ★★★ | 需付費 / 購買 | 中 | WAX 是一種專門構建的區塊鏈和協議代幣，旨在讓所有參與者更快、更輕鬆、更安全地進行電子商務交易。 WAX區塊鏈採用委託權益證明（DPoS）作為共識機制，並完全向後相容EOS。 W |
+| [Portal](https://x.com/Portalcoin) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 讓第一批 10 億玩家進入 Web3。 |
 | [Notcoin](https://t.me/notcoin_bot) | 進行中 | 未知 / 無公開投資方 | ★ | 需付費 / 購買 | 中 | Notcoin（$NOT）是一種社群驅動的代幣，旨在透過點選賺錢遊戲讓使用者進入 Web3 生態系統。 |
 | [Unipoly](https://www.unipolycoin.com/) | 進行中 | 未知 / 無公開投資方 | ★ | 需付費 / 購買 | 中 | Unipoly Coin (UNP) 是 GameFi 和去中心化娛樂領域的開創性專案，於 2023 年 10 月推出，其使命是為遊戲玩家和全球社群建立一個安全、可擴充套件和透明的 |
 | [Catizen](https://linktr.ee/catizen) | 進行中 | 未知 / 無公開投資方 | ★ | 需付費 / 購買 | 中 | Catizen 是 Telegram 上獨特的、以貓為主題的社交娛樂體驗，將有趣的互動與 TON 區塊鏈的力量融為一體。作為一款革命性的遊戲機器人，Catizen 不僅簡化了 We |
@@ -130,19 +131,18 @@
 | [SuperVerse](https://superverse.co/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | SuperVerse 是一個統一的 Web3 生態系統，在單一可互通協議下連線遊戲、DeFi 和人工智慧。其原生代幣 $SUPER 為交易、治理以及沉浸式遊戲、人工智慧驅動的工具和 |
 | [Jackpotter](https://www.coingecko.com/en/coins/jackpotter) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Fren Pet](https://www.coingecko.com/en/coins/frenpet) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [WAX](https://www.coingecko.com/en/coins/wax) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [Gama Token](https://www.coingecko.com/en/coins/gama-token) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
 | [GMT](https://www.coingecko.com/en/coins/stepn) | 進行中 | 未知 / 無公開投資方 | ★★ | 需付費 / 購買 | 中 | 遊戲已上線，代幣已在交易所流通（玩遊戲賺取代幣 / NFT） |
-| [ApeCoin](https://apechain.com/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | APE 推動文化。它得到了世界上最好的俱樂部和全球數十萬持有者的支援，是數位和現實生活社群、建造者、創造者、收藏家、遊戲玩家等的代幣。 APE 是 ApeChain 的原生 Gas |
 | [ONEchain](https://www.ogfcorp.com/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | ONEchain (ONE)，以前稱為 CROSS，是遊戲的第 1 層區塊鏈，協議治理由 Opengame 基金會負責，開發由 NEXUS Co., Ltd. 領導。它使遊戲工作室 |
+| [ApeCoin](https://apechain.com/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | APE 推動文化。它得到了世界上最好的俱樂部和全球數十萬持有者的支援，是數位和現實生活社群、建造者、創造者、收藏家、遊戲玩家等的代幣。 APE 是 ApeChain 的原生 Gas |
 | [Baby Doge Coin](https://babydoge.com) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Baby Doge Coin 是一種迷因加密貨幣，其設計目的是通貨緊縮，並且隨著時間的推移變得更加稀缺。所有 Baby Doge 的持有者只需在錢包中持有 Baby Doge 代幣 |
 | [Pentagon Chain](https://pentagon.games/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Pentagon Chain 是下一代第 2 層區塊鏈，針對遊戲、去中心化社交世界和人工智慧驅動的體驗進行了最佳化。 PC代幣是Pentagon Chain的原生gas代幣，首先在 |
 | [Enjin Coin](https://enjin.io/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Enjin Enjin是領先的區塊鏈生態系統，致力於透過將區塊鏈技術整合到遊戲、應用程式和業務中來徹底改變遊戲產業。 |
-| [Metaplex](https://www.metaplex.com/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Metaplex是Solana上領先的代幣化平臺，提供啟動和交易鏈上資產所需的一切。 Metaplex 為 Solana 上的絕大多數資產建立提供了支援，提供用於啟動和交易的第一方 |
 | [OVERTAKE](https://overtake.world/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | 遊戲資產交易規模龐大但破碎。它的主導因素是分散的平臺、高額費用和不安全的點對點交易。 創造價值的玩家應該擁有它。所有權必須可驗證、可轉讓且安全。 |
-| [Audiera](https://audiera.fi/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Audiera（BEAT）開創了代理原生參與經濟，其中人類和自主人工智慧代理充當平等的經濟參與者。 Audiera首次引入結構化的代理角色和參與規則－使代理人能夠執行任務、與使用者 |
+| [Metaplex](https://www.metaplex.com/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Metaplex是Solana上領先的代幣化平臺，提供啟動和交易鏈上資產所需的一切。 Metaplex 為 Solana 上的絕大多數資產建立提供了支援，提供用於啟動和交易的第一方 |
 | [GoMining Token](https://gomining.com/) | 進行中 | 未知 / 無公開投資方 | ★★★★ | 需付費 / 購買 | 中 | GoMining 幫助世界各地的人們釋放比特幣的全部潛力。它建立在現實世界的挖礦基礎設施之上，並由 GOMINING 實用代幣提供支援，將數位挖礦、錢包和金融產品整合到一個簡單、安 |
+| [Audiera](https://audiera.fi/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Audiera（BEAT）開創了代理原生參與經濟，其中人類和自主人工智慧代理充當平等的經濟參與者。 Audiera首次引入結構化的代理角色和參與規則－使代理人能夠執行任務、與使用者 |
 | [Zylo Ecosystem](https://zylo.io/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Zylo不是一個單一的產品，也不僅僅是一個代幣。它是一個經濟層，旨在將多種數位體驗連線到一個持續進步的系統中。 大多數平臺將使用者視為不同的角色：這裡是遊戲玩家，那裡是交易者。每個 |
-| [SKALE](https://skale.space/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | SKALE是一條針對代理時代全面最佳化的區塊鏈。透過可程式隱私，SKALE 解鎖私人 DeFi、代理交易和合規支付。 SKALE 是基於 x402、AP2、MPP 和 ERC-80 |
 | [Big Time](https://discord.com/invite/bigtime) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | Big Time 是一款免費多人動作角色扮演遊戲，結合了快速動作戰鬥和穿越時空的冒險。 當你在歷史中奮戰時，探索古老的奧秘和未來文明。與敵人戰鬥並擊敗敵人時，拾取稀有收藏品戰利品、 |
+| [SKALE](https://skale.space/) | 進行中 | 未知 / 無公開投資方 | ★★★ | 需付費 / 購買 | 中 | SKALE是一條針對代理時代全面最佳化的區塊鏈。透過可程式隱私，SKALE 解鎖私人 DeFi、代理交易和合規支付。 SKALE 是基於 x402、AP2、MPP 和 ERC-80 |
 | [CARV](https://carv.io) | 進行中 | 未知 / 無公開投資方 | ★★★★★ | 需付費 / 購買 | 中 | CARV是主權人工智慧生命生活、學習和進化的地方。 什麼是人工智慧存在？他們是天生鏈上的主權智慧。人工智慧生命體的設計具有目的性、自主性和成長能力。他們擁有記憶、身分認同以及感知環 |
